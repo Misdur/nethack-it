@@ -74,7 +74,7 @@ Hai la strana sensazione che questa sara` l'ultima volta che verrai qui.
 "Hey amico, hai qualche pozione allucinogena da vendere?"
 %E
 %Cp Arc 00007
-"Did you see the artifact %l brought back from the last dig?"
+"Hai visto l'artefatto %l ritrovato nell'ultima tomba?"
 %E
 %Cp Arc 00008
 "So what species do *you* think we evolved from?"
