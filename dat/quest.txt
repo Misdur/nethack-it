@@ -342,16 +342,16 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Hai conferito grande onore al tuo cla sconfiggendo %n."
 %E
 %Cp Bar 00014
-"You will be a worthy successor to %l."
+"Sarai il degno successore di %l"
 %E
 %Cc Bar 00015
-"Ah, %p.  You have returned at last.  The world is in dire
-need of your help.  There is a great quest you must undertake.
+Ah, %p. Alla fine sei ritornato. Il mondo è nei guai e necessita del
+tuo aiuto. C'è una grande missione che devi intraprendere."
 
-"But first, I must see if you are ready to take on such a challenge."
+"Ma prima, devo capire se sei pronto ad accettare questa sfida."
 %E
 %Cp Bar 00016
-"%p, you are back.  Are you ready now for the challenge?"
+"%p, sei ritornato. Ora sei pronto per la sfida?"
 %E
 %Cp Bar 00017
 "Again, you stand before me, %p.  Surely you have prepared yourself."
