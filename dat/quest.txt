@@ -315,31 +315,31 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 %H.
 %E
 %Cp Bar 00005
-"La battaglia è andata bene -- il sangue dei nostri nemici bagna il terreno!"
+"Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna il terreno!"
 %E
 %Cp Bar 00006
-"Remember that glory is crushing your enemies beneath your feet!"
+"Ricorda che la gloria devasta i nemici sotto i tuoi piedi"
 %E
 %Cp Bar 00007
-"There has been little treasure to loot, since the horde arrived."
+"Qui c'era un piccolo bottino da depredare, poichè l'orda è arrivata"
 %E
 %Cp Bar 00008
-"The horde is mighty in numbers, but they have little courage."
+"La tribù è numerosa, ma hanno scarso coraggio"
 %E
 %Cp Bar 00009
-"%lC is a strange one, but he has helped defend us."
+"%lC è un tipo strano, ma ci ha aiutato a difenderci."
 %E
 %Cp Bar 00010
-"The battles here have been good -- our enemies' blood soaks the soil!"
+"Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna la terra!"
 %E
 %Cp Bar 00011
-"Remember that glory is crushing your enemies beneath your feet!"
+"Ricorda che la gloria devasta i nemici sotto i tuoi piedi!"
 %E
 %Cp Bar 00012
-"Times will be good again, now that the horde is vanquished."
+"I tempi saranno di nuovo buoni, ora l'orda è sconfitta."
 %E
 %Cp Bar 00013
-"You have brought our clan much honor in defeating %n."
+"Hai conferito grande onore al tuo cla sconfiggendo %n."
 %E
 %Cp Bar 00014
 "You will be a worthy successor to %l."
