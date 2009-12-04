@@ -307,15 +307,15 @@ Without thought, you ready your weapon, and mutter under your breath:
     "By %d, there will be blood spilt today."
 %E
 %Cp Bar 00002
-Once again, you near %H.  You know that %l
+Ancora una vola, vicino a %H. Conosci %l
 will be waiting.
 %E
 %Cp Bar 00003
-Again, and you think possibly for the last time, you approach
+Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 %H.
 %E
 %Cp Bar 00005
-"The battles here have been good -- our enemies' blood soaks the soil!"
+"La battaglia è andata bene -- il sangue dei nostri nemici bagna il terreno!"
 %E
 %Cp Bar 00006
 "Remember that glory is crushing your enemies beneath your feet!"
