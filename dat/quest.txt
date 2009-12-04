@@ -3064,6 +3064,7 @@ Amulet interferes with mine.  I hope for your success."
 #	Wizard
 #
 %Cc Wiz 00001
+Ti trovi improvvisamente in un ambiente familiare.
 You are suddenly in familiar surroundings.  You notice what appears to
 be a large, squat stone structure nearby.  Wait!  That looks like the
 tower of your former teacher, %l.
