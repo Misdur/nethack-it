@@ -61,17 +61,17 @@ the entrance.
 Strange forbidding shapes seem to be moving in the distance.
 %E
 %Cp Arc 00002
-Once again, you are back at %H.
+Ancora una volta, sei tornato a %H.
 %E
 %Cp Arc 00003
-You are back at %H.
-You have an odd feeling this may be the last time you ever come here.
+Sei di nuovo a %H.
+Hai la strana sensazione che questa sara` l'ultima volta che verrai qui.
 %E
 %Cp Arc 00005
-"Did you see Lash LaRue in 'Song of Old Wyoming' the other night?"
+"Hai visto Lash LaRue in 'Song of Old Wyoming' l'altra notte?"
 %E
 %Cp Arc 00006
-"Hey man, got any potions of hallucination for sale?"
+"Hey amico, hai qualche pozione allucinogena da vendere?"
 %E
 %Cp Arc 00007
 "Did you see the artifact %l brought back from the last dig?"
