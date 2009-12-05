@@ -290,25 +290,26 @@ Amulet on that altar to fulfill your destiny.
 "Remember, your path now should always be upwards."
 %E
 #
-#	Barbarian
+#	Barbaro
 #
 %Cc Bar 00001
-Warily you scan your surroundings, all of your senses alert for signs
-of possible danger.  Off in the distance, you can %x the familiar shapes
-of %H.
+Cautamente esamini i dintorni, tutti i tuoi sensi sono in allerta per
+captare ogni possibile segnale di pericolo.In lontananza, conosci %x
+ombre familiari di %H 
 
-But why, you think, should %l be there?
+Ma perchè, pensi, %l dovrebbe stare lì?
 
-Suddenly, the hairs on your neck stand on end as you detect the aura of
-evil magic in the air.
+Improvvisamente, i capelli sul tuo collo si rizzano mentre senti
+nell'aria l'aura di un mago malvagio.
 
-Without thought, you ready your weapon, and mutter under your breath:
+Senza pensarci, sguaini la tua arma, lamentandoti sottovoce:
 
-    "By %d, there will be blood spilt today."
+    "%d, oggi verserò sangue."
+
 %E
 %Cp Bar 00002
-Ancora una vola, vicino a %H. Conosci %l
-will be waiting.
+Ancora una volta, vicino a %H. Conosci %l
+Aspetterà.
 %E
 %Cp Bar 00003
 Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
@@ -357,26 +358,25 @@ tuo aiuto. C'è una grande missione che devi intraprendere."
 "Again, you stand before me, %p.  Surely you have prepared yourself."
 %E
 %Cc Bar 00018
-"Pah!  You have betrayed the gods, %p.  You will never attain
-the glory which you aspire to.  Your failure to follow the true path has
-closed this future to you.
+"Pah! Hai tradito gli dei, %p. Non raggiungerai mai la gloria a cui
+aspiri. Il tuo fallimento nel seguire la retta via ti ha precluso
+questo futuro.
 
-"I will protect these people as best I can, but soon %n will overcome
-me and destroy all who once called you %s.  Now begone!"
+"Proteggerò queste persone al meglio delle mie capacità, ma presto %n
+mi sconfiggerà e distruggerà tutti coloro che ti chiamano %s. Ora va!"
 %E
 %Cc Bar 00019
-"%p, I fear that you are as yet too inexperienced to face
-%n.  Only %Ra with the help of %d could ever hope to
-defeat him."
+"%p, temo che tu sia ancora troppo inesperto per affrontare %n. Solo
+%Ra con l'aiuto di %d potremmo avere qualche speranza di batterlo."
 %E
 %Cc Bar 00020
-"%pC!  You have wandered from the path of the %a!
-If you attempt to overcome %n in this state, he will surely
-enslave your soul.  Your only hope, and ours, lies in your purification.
-Go forth, and return when you feel ready."
+"%pC! Hai tradito il patto di %a!
+Se tenti di sconfiggere %n in questo stato, sicuramente renderà schiava
+la tua anima. La tua, e la nostra, unica speranza giace nella tua
+purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 %E
 %Cc Bar 00021
-"The world is in great need of your assistance, %p.
+"Il mondo ha una gran necessità del tuo aiuto, %p."
 
 "About six months ago, I learned that a mysterious sorcerer, known
 as %n, had begun to gather a large group of cutthroats and brigands
