@@ -378,9 +378,9 @@ purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 %Cc Bar 00021
 "Il mondo ha una gran necessità del tuo aiuto, %p."
 
-"About six months ago, I learned that a mysterious sorcerer, known
-as %n, had begun to gather a large group of cutthroats and brigands
-about him.
+"Circa sei mesi fa, venni a conoscenza che un misterioso stregone,
+conosciuto come %n, ha cominciato a radunare intorno a se un gran gruppo di
+briganti e assassini." 
 
 "At about the same time, these people you once rode with `liberated' a
 potent magical talisman, %o, from a Turanian caravan.
