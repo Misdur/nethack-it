@@ -538,7 +538,7 @@ touch_artifact(obj,mon)
 	char buf[BUFSZ];
 
 	if (!yours) return 0;
-	pline("maledetto dal potere %s!", s_suffix(the(xname(obj))));
+	pline("Sei stato maledetto dal potere %s!", s_suffix(the(xname(obj))));
 	dmg = d((Antimagic ? 2 : 4), (self_willed ? 10 : 4));
 	Sprintf(buf, "tocca %s", oart->name);
 	losehp(dmg, buf, KILLED_BY);
@@ -547,7 +547,7 @@ touch_artifact(obj,mon)
 
     /* can pick it up unless you're totally non-synch'd with the artifact */
     if (badclass && badalign && self_willed) {
-	if (yours) pline("%s tua presa!", Tobjnam(obj, "evadi"));
+	if (yours) pline("%s la tua presa!", Tobjnam(obj, "evadi"));
 	return 0;
     }
 
@@ -809,7 +809,7 @@ char *hittee;			/* target's name: "you" or mon_nam(mdef) */
     verb = mb_verb[!!Hallucination][attack_indx];
     if (youattack || youdefend || vis) {
 	result = TRUE;
-	pline_The("magic-absorbing blade %s %s!",
+	pline("La lama assorbi-magia %s %s!",
 		  vtense((const char *)0, verb), hittee);
 	/* assume probing has some sort of noticeable feedback
 	   even if it is being done by one monster to another */
@@ -860,7 +860,7 @@ char *hittee;			/* target's name: "you" or mon_nam(mdef) */
 		nomovemsg = "";
 		if (magr && magr == u.ustuck && sticks(youmonst.data)) {
 		    u.ustuck = (struct monst *)0;
-		    pline("rilasci %s!", mon_nam(magr));
+		    pline("Rilasci %s!", mon_nam(magr));
 		}
 	    }
 	} else {
@@ -990,7 +990,7 @@ int dieroll; /* needed for Magicbane and vorpal blades */
 	}
 	if (attacks(AD_ELEC, otmp)) {
 	    if (realizes_damage)
-		pline_The("massive hammer hits%s %s%c",
+		pline("Il potente martello colpisce%s %s%c",
 			  !spec_dbon_applies ? "" : "!  Lightning strikes",
 			  hittee, !spec_dbon_applies ? '.' : '!');
 	    if (!rn2(5)) (void) destroy_mitem(mdef, RING_CLASS, AD_ELEC);
@@ -999,9 +999,9 @@ int dieroll; /* needed for Magicbane and vorpal blades */
 	}
 	if (attacks(AD_MAGM, otmp)) {
 	    if (realizes_damage)
-		pline_The("widget immaginaria colpisce%s %s%c",
+		pline("La widget immaginaria colpisce%s %s%c",
 			  !spec_dbon_applies ? "" :
-				"!  Una grandine di missili magici colpisce",
+				"!  Una grandine di proiettili magici colpisce",
 			  hittee, !spec_dbon_applies ? '.' : '!');
 	    return realizes_damage;
 	}
@@ -1024,7 +1024,7 @@ int dieroll; /* needed for Magicbane and vorpal blades */
 		wepdesc = "La lama affilata come un rasoio";
 		/* not really beheading, but so close, why add another SPFX */
 		if (youattack && u.uswallow && mdef == u.ustuck) {
-		    You("squarcia %s!", mon_nam(mdef));
+		    ("Squarci %s!", mon_nam(mdef));
 		    *dmgptr = 2 * mdef->mhp + FATAL_DAMAGE_MODIFIER;
 		    return TRUE;
 		}
@@ -1146,11 +1146,11 @@ int dieroll; /* needed for Magicbane and vorpal blades */
 			int oldhpmax = u.uhpmax;
 
 			if (Blind)
-				Senti("un %s prosciuga la tua vita!",
+				Senti("un %s prosciuga che la tua vita!",
 				    otmp->oartifact == ART_STORMBRINGER ?
 				    "lama empia" : "oggetto");
 			else if (otmp->oartifact == ART_STORMBRINGER)
-				pline_The("%s lama prosciuga la tua vita!",
+				pline("La lama %s prosciuga la tua vita!",
 				      hcolor(NH_BLACK));
 			else
 				pline("%s prosciuga la tua vita!",
@@ -1199,8 +1199,8 @@ arti_invoke(obj)
 	/* It's a special power, not "just" a property */
 	if(obj->age > monstermoves) {
 	    /* the artifact is tired :-) */
-	    Senti("che %s %s ti ignori.",
-		     the(xname(obj)), otense(obj, "are"));
+	    Senti("che %s %s ti sta ignorando.",
+		     the(xname(obj)), otense(obj, "sono"));
 	    /* and just got more so; patience is essential... */
 	    obj->age += (long) d(3,10);
 	    return 1;
@@ -1222,7 +1222,7 @@ arti_invoke(obj)
 
 	    if (Upolyd) healamt = (u.mhmax + 1 - u.mh) / 2;
 	    if (healamt || Sick || Slimed || Blinded > creamed)
-		Senti("better.");
+		Ti_senti("meglio.");
 	    else
 		goto nothing_special;
 	    if (healamt > 0) {
@@ -1240,7 +1240,7 @@ arti_invoke(obj)
 	    if (epboost > 120) epboost = 120;		/* arbitrary */
 	    else if (epboost < 12) epboost = u.uenmax - u.uen;
 	    if(epboost) {
-		Senti("re-energized.");
+		Ti_senti("nuovamente pieno di energie.");
 		u.uen += epboost;
 		flags.botl = 1;
 	    } else
@@ -1255,7 +1255,7 @@ arti_invoke(obj)
 	    break;
 	  }
 	case CHARGE_OBJ: {
-	    struct obj *otmp = getobj(recharge_type, "charge");
+	    struct obj *otmp = getobj(recharge_type, "carica");
 	    boolean b_effect;
 
 	    if (!otmp) {
@@ -1289,7 +1289,7 @@ arti_invoke(obj)
 		num_ok_dungeons++;
 		last_ok_dungeon = i;
 	    }
-	    end_menu(tmpwin, "Open a portal to which dungeon?");
+	    end_menu(tmpwin, "Apri un portale verso quale prigione?");
 	    if (num_ok_dungeons > 1) {
 		/* more than one entry; display menu for choices */
 		menu_item *selected;
@@ -1319,10 +1319,10 @@ arti_invoke(obj)
 		newlev.dlevel = dungeons[i].dunlev_ureached;
 	    if(u.uhave.amulet || In_endgame(&u.uz) || In_endgame(&newlev) ||
 	       newlev.dnum == u.uz.dnum) {
-		Senti("very disoriented for a moment.");
+		Ti_senti("molto disorientato per un istante.");
 	    } else {
-		if(!Blind) You("are surrounded by a shimmering sphere!");
-		else Senti("weightless for a moment.");
+		if(!Blind) pline("Sei circondato da sfere scintillanti!");
+		else Ti_senti("senza peso per un istante.");
 		goto_level(&newlev, FALSE, FALSE, FALSE);
 	    }
 	    break;
@@ -1345,8 +1345,8 @@ arti_invoke(obj)
 	    } else
 		otmp->quan += rnd(5);
 	    otmp->owt = weight(otmp);
-	    otmp = hold_another_object(otmp, "Suddenly %s out.",
-				       aobjnam(otmp, "fall"), (const char *)0);
+	    otmp = hold_another_object(otmp, "Improvvisamente %s fuori.",
+				       aobjnam(otmp, "cadi"), (const char *)0);
 	    break;
 	  }
 	}
@@ -1358,7 +1358,7 @@ arti_invoke(obj)
 	if(on && obj->age > monstermoves) {
 	    /* the artifact is tired :-) */
 	    u.uprops[oart->inv_prop].extrinsic ^= W_ARTI;
-	    Senti("that %s %s ignoring you.",
+	    Senti("che that %s %s ti sta ingnorando.",
 		     the(xname(obj)), otense(obj, "are"));
 	    /* can't just keep repeatedly trying */
 	    obj->age += (long) d(3,10);
@@ -1373,13 +1373,13 @@ arti_invoke(obj)
 nothing_special:
 	    /* you had the property from some other source too */
 	    if (carried(obj))
-		Senti("a surge of power, but nothing seems to happen.");
+		Senti("un impeto di potere, ma sembra che non succeda niente.");
 	    return 1;
 	}
 	switch(oart->inv_prop) {
 	case CONFLICT:
-	    if(on) Senti("like a rabble-rouser.");
-	    else Senti("the tension decrease around you.");
+	    if(on) Ti_senti("come un fomentatore di masse.");
+	    else Senti("la tensione diminuire intorno a te.");
 	    break;
 	case LEVITATION:
 	    if(on) {
@@ -1391,10 +1391,10 @@ nothing_special:
 	    if (BInvis || Blind) goto nothing_special;
 	    newsym(u.ux, u.uy);
 	    if (on)
-		Your("body takes on a %s transparency...",
-		     Hallucination ? "normal" : "strange");
+		pline("Il tuo corpo assume una $s trasparenza...",
+		     Hallucination ? "normale" : "strano");
 	    else
-		Your("body seems to unfade...");
+		pline("Il tuo corpo sembra riapparire...");
 	    break;
 	}
     }
@@ -1427,8 +1427,8 @@ arti_speak(obj)
 
 	line = getrumor(bcsign(obj), buf, TRUE);
 	if (!*line)
-		line = "NetHack rumors file closed for renovation.";
-	pline("%s:", Tobjnam(obj, "whisper"));
+		line = "I file delle vode di NetHack sono chiusi per rinnovamento.";
+	pline("%s:", Tobjnam(obj, "sussurro"));
 	verbalize("%s", line);
 	return;
 }
