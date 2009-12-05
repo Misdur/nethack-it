@@ -1510,6 +1510,12 @@ E void VDECL(You_cant, (const char *,...)) PRINTF_F(1,2);
 E void VDECL(You_hear, (const char *,...)) PRINTF_F(1,2);
 E void VDECL(pline_The, (const char *,...)) PRINTF_F(1,2);
 E void VDECL(There, (const char *,...)) PRINTF_F(1,2);
+/* Italian version */
+E void VDECL(Senti, (const char *,...)) PRINTF_F(1,2);
+E void VDECL(Ti_senti, (const char *,...)) PRINTF_F(1,2);
+E void VDECL(Non_puoi, (const char *,...)) PRINTF_F(1,2);
+E void VDECL(Odi, (const char *,...)) PRINTF_F(1,2);
+/* Italian version ends */
 E void VDECL(verbalize, (const char *,...)) PRINTF_F(1,2);
 E void VDECL(raw_printf, (const char *,...)) PRINTF_F(1,2);
 E void VDECL(impossible, (const char *,...)) PRINTF_F(1,2);

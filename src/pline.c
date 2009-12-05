@@ -140,6 +140,23 @@ You_feel VA_DECL(const char *,line)
 	VA_END();
 }
 
+void
+Senti VA_DECL(const char *,line)
+	char *tmp;
+	VA_START(line);
+	VA_INIT(line, const char *);
+	vpline(YouMessage(tmp, "Senti ", line), VA_ARGS);
+	VA_END();
+}
+
+void
+Ti_senti VA_DECL(const char *,line)
+	char *tmp;
+	VA_START(line);
+	VA_INIT(line, const char *);
+	vpline(YouMessage(tmp, "Ti senti ", line), VA_ARGS);
+	VA_END();
+}
 
 /*VARARGS1*/
 void

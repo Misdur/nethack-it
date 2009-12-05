@@ -28,14 +28,14 @@ moveloop()
 
     flags.moonphase = phase_of_the_moon();
     if(flags.moonphase == FULL_MOON) {
-	You("are lucky!  Full moon tonight.");
+	pline("Sei fortunato!  C'e` luna piena stasera.");
 	change_luck(1);
     } else if(flags.moonphase == NEW_MOON) {
-	pline("Be careful!  New moon tonight.");
+	pline("Attento!  Luna nuova stasera.");
     }
     flags.friday13 = friday_13th();
     if (flags.friday13) {
-	pline("Watch out!  Bad things can happen on Friday the 13th.");
+	pline("Attento! Possono succedere brutte cose Venerdi` 17.");
 	change_luck(-1);
     }
 
@@ -199,7 +199,7 @@ moveloop()
 			    } else if (!Upolyd && u.uhp > 1) {
 				u.uhp--;
 			    } else {
-				You("pass out from exertion!");
+				pline("Svieni dallo sforzo!");
 				exercise(A_CON, FALSE);
 				fall_asleep(-10, FALSE);
 			    }
@@ -364,10 +364,10 @@ moveloop()
 		if(u.utrap < 1<<8) {
 		    killer_format = KILLED_BY;
 		    killer = "molten lava";
-		    You("sink below the surface and die.");
+		    pline("Affondi sotto la superfice e muori.");
 		    done(DISSOLVED);
 		} else if(didmove && !u.umoved) {
-		    Norep("You sink deeper into the lava.");
+		    Norep("Affondi sempre piu` nella lava.");
 		    u.utrap += rnd(4);
 		}
 	    }
@@ -431,7 +431,7 @@ stop_occupation()
 {
 	if(occupation) {
 		if (!maybe_finished_meal(TRUE))
-		    You("stop %s.", occtxt);
+		    pline("Fermi %s.", occtxt);
 		occupation = 0;
 		flags.botl = 1; /* in case u.uhs changed */
 /* fainting stops your occupation, there's no reason to sync.
@@ -566,8 +566,8 @@ boolean new_game;	/* false => restoring an old game */
 	     currentgend != flags.initgend))
 	Sprintf(eos(buf), " %s", genders[currentgend].adj);
 
-    pline(new_game ? "%s %s, welcome to NetHack!  You are a%s %s %s."
-		   : "%s %s, the%s %s %s, welcome back to NetHack!",
+    pline(new_game ? "%s %s, Benvenuto a NetHack!  Sei un%s %s %s."
+		   : "%s %s, %s %s %s, bentornato a NetHack!",
 	  Hello((struct monst *) 0), plname, buf, urace.adj,
 	  (currentgend && urole.name.f) ? urole.name.f : urole.name.m);
 }
