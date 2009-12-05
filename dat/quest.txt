@@ -50,15 +50,14 @@
 #	Archeologist
 #
 %Cc Arc 00001
-You are suddenly in familiar surroundings.  The buildings in the distance
-appear to be those of your old alma mater, but something is wrong.  It looks
-as if there has been a riot recently, or %H has
-been under siege.
+Ti trovi improvvisamente in un ambiente familiare. Le abitazioni in lontananza
+sembrano quelle della tua "alma mater" (universita`), ma qualcosa e` strano.
+Sembra che ci sia stata una rivolta di recente, o che %H sia stata sotto assedio.
 
-All of the windows are boarded up, and there are objects scattered around
-the entrance.
+Tutte le finestre sono sbarrate con tavole di legno e ci sono oggetti sparsi
+all'entrata.
 
-Strange forbidding shapes seem to be moving in the distance.
+Strane figure si muovono in lontananza.
 %E
 %Cp Arc 00002
 Ancora una volta, sei tornato a %H.
@@ -77,16 +76,16 @@ Hai la strana sensazione che questa sara` l'ultima volta che verrai qui.
 "Hai visto l'artefatto %l ritrovato nell'ultima tomba?"
 %E
 %Cp Arc 00008
-"So what species do *you* think we evolved from?"
+"Quindi da quale specie *pensi* proveniamo?
 %E
 %Cp Arc 00009
-"So you're %ls prize pupil!  I don't know what he sees in you."
+"Quindi sei il pupillo di %1! Non so cosa veda in te."
 %E
 %Cp Arc 00010
-"Did you see Lash LaRue in 'Song of Old Wyoming' the other night?"
+"Hai visto Lash LaRue in 'Song of Old Wyoming' l'altra notte?"
 %E
 %Cp Arc 00011
-"Hey man, got any potions of hallucination for sale?"
+"Hey amico, hai qualche pozione allucinogena da vendere?"
 %E
 %Cp Arc 00012
 "I guess you are guaranteed to make full professor now."
