@@ -290,97 +290,97 @@ Amulet on that altar to fulfill your destiny.
 "Remember, your path now should always be upwards."
 %E
 #
-#	Barbarian
+#	Barbaro
 #
 %Cc Bar 00001
-Warily you scan your surroundings, all of your senses alert for signs
-of possible danger.  Off in the distance, you can %x the familiar shapes
-of %H.
+Cautamente esamini i dintorni, tutti i tuoi sensi sono in allerta per
+captare ogni possibile segnale di pericolo.In lontananza, conosci %x
+ombre familiari di %H 
 
-But why, you think, should %l be there?
+Ma perchè, pensi, %l dovrebbe stare lì?
 
-Suddenly, the hairs on your neck stand on end as you detect the aura of
-evil magic in the air.
+Improvvisamente, i capelli sul tuo collo si rizzano mentre senti
+nell'aria l'aura di un mago malvagio.
 
-Without thought, you ready your weapon, and mutter under your breath:
+Senza pensarci, sguaini la tua arma, lamentandoti sottovoce:
 
-    "By %d, there will be blood spilt today."
+    "%d, oggi verserò sangue."
+
 %E
 %Cp Bar 00002
-Once again, you near %H.  You know that %l
-will be waiting.
+Ancora una volta, vicino a %H. Conosci %l
+Aspetterà.
 %E
 %Cp Bar 00003
-Again, and you think possibly for the last time, you approach
+Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 %H.
 %E
 %Cp Bar 00005
-"The battles here have been good -- our enemies' blood soaks the soil!"
+"Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna il terreno!"
 %E
 %Cp Bar 00006
-"Remember that glory is crushing your enemies beneath your feet!"
+"Ricorda che la gloria devasta i nemici sotto i tuoi piedi"
 %E
 %Cp Bar 00007
-"There has been little treasure to loot, since the horde arrived."
+"Qui c'era un piccolo bottino da depredare, poichè l'orda è arrivata"
 %E
 %Cp Bar 00008
-"The horde is mighty in numbers, but they have little courage."
+"La tribù è numerosa, ma hanno scarso coraggio"
 %E
 %Cp Bar 00009
-"%lC is a strange one, but he has helped defend us."
+"%lC è un tipo strano, ma ci ha aiutato a difenderci."
 %E
 %Cp Bar 00010
-"The battles here have been good -- our enemies' blood soaks the soil!"
+"Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna la terra!"
 %E
 %Cp Bar 00011
-"Remember that glory is crushing your enemies beneath your feet!"
+"Ricorda che la gloria devasta i nemici sotto i tuoi piedi!"
 %E
 %Cp Bar 00012
-"Times will be good again, now that the horde is vanquished."
+"I tempi saranno di nuovo buoni, ora l'orda è sconfitta."
 %E
 %Cp Bar 00013
-"You have brought our clan much honor in defeating %n."
+"Hai conferito grande onore al tuo cla sconfiggendo %n."
 %E
 %Cp Bar 00014
-"You will be a worthy successor to %l."
+"Sarai il degno successore di %l"
 %E
 %Cc Bar 00015
-"Ah, %p.  You have returned at last.  The world is in dire
-need of your help.  There is a great quest you must undertake.
+Ah, %p. Alla fine sei ritornato. Il mondo è nei guai e necessita del
+tuo aiuto. C'è una grande missione che devi intraprendere."
 
-"But first, I must see if you are ready to take on such a challenge."
+"Ma prima, devo capire se sei pronto ad accettare questa sfida."
 %E
 %Cp Bar 00016
-"%p, you are back.  Are you ready now for the challenge?"
+"%p, sei ritornato. Ora sei pronto per la sfida?"
 %E
 %Cp Bar 00017
 "Again, you stand before me, %p.  Surely you have prepared yourself."
 %E
 %Cc Bar 00018
-"Pah!  You have betrayed the gods, %p.  You will never attain
-the glory which you aspire to.  Your failure to follow the true path has
-closed this future to you.
+"Pah! Hai tradito gli dei, %p. Non raggiungerai mai la gloria a cui
+aspiri. Il tuo fallimento nel seguire la retta via ti ha precluso
+questo futuro.
 
-"I will protect these people as best I can, but soon %n will overcome
-me and destroy all who once called you %s.  Now begone!"
+"Proteggerò queste persone al meglio delle mie capacità, ma presto %n
+mi sconfiggerà e distruggerà tutti coloro che ti chiamano %s. Ora va!"
 %E
 %Cc Bar 00019
-"%p, I fear that you are as yet too inexperienced to face
-%n.  Only %Ra with the help of %d could ever hope to
-defeat him."
+"%p, temo che tu sia ancora troppo inesperto per affrontare %n. Solo
+%Ra con l'aiuto di %d potremmo avere qualche speranza di batterlo."
 %E
 %Cc Bar 00020
-"%pC!  You have wandered from the path of the %a!
-If you attempt to overcome %n in this state, he will surely
-enslave your soul.  Your only hope, and ours, lies in your purification.
-Go forth, and return when you feel ready."
+"%pC! Hai tradito il patto di %a!
+Se tenti di sconfiggere %n in questo stato, sicuramente renderà schiava
+la tua anima. La tua, e la nostra, unica speranza giace nella tua
+purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 %E
 %Cc Bar 00021
-"The world is in great need of your assistance, %p.
+"Il mondo ha una gran necessità del tuo aiuto, %p."
 
-"About six months ago, I learned that a mysterious sorcerer, known
-as %n, had begun to gather a large group of cutthroats and brigands
-about him.
+"Circa sei mesi fa, venni a conoscenza che un misterioso stregone,
+conosciuto come %n, ha cominciato a radunare intorno a se un gran gruppo di
+briganti e assassini." 
 
 "At about the same time, these people you once rode with `liberated' a
 potent magical talisman, %o, from a Turanian caravan.
