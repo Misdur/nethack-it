@@ -25,18 +25,16 @@
  * God names use a leading underscore to flag goddesses.
  */
 const struct Role roles[] = {
-{	{"Archeologist", 0}, {
-	{"Digger",      0},
-	{"Field Worker",0},
-	{"Investigator",0},
+{	{"Archeologo", "Archeologa"}, {
+	{"Scavatore",      "Scavatrice"},
+	{"Agricoltore",0},
+	{"Investigatore", "Investigatrice"},
 	{"Exhumer",     0},
-	{"Excavator",   0},
-	{"Spelunker",   0},
-	{"Speleologist",0},
-	{"Collector",   0},
-	{"Curator",     0} },
+	{"Speleologo",   "Speleologa"},
+	{"Collezionista",   0},
+	{"Conservatore",     "Conservatrice"} },
 	"Quetzalcoatl", "Camaxtli", "Huhetotl", /* Central American */
-	"Arc", "the College of Archeology", "the Tomb of the Toltec Kings",
+	"Arco", "l'Universita` di Archeologia", "la Tomba dei re Toltec",
 	PM_ARCHEOLOGIST, NON_PM, NON_PM,
 	PM_LORD_CARNARVON, PM_STUDENT, PM_MINION_OF_HUHETOTL,
 	NON_PM, PM_HUMAN_MUMMY, S_SNAKE, S_MUMMY,
@@ -51,18 +49,16 @@ const struct Role roles[] = {
 	{  1, 0,  0, 1,  0, 1 },14,	/* Energy */
 	10, 5, 0, 2, 10, A_INT, SPE_MAGIC_MAPPING,   -4
 },
-{	{"Barbarian", 0}, {
-	{"Plunderer",   "Plunderess"},
-	{"Pillager",    0},
-	{"Bandit",      0},
-	{"Brigand",     0},
-	{"Raider",      0},
+{	{"Barbaro", "Barbara"}, {
+	{"Saccheggiatore",   "Saccheggiatrice"},
+	{"Bandito",      "Bandita"},
+	{"Brigante",     0},
 	{"Reaver",      0},
-	{"Slayer",      0},
-	{"Chieftain",   "Chieftainess"},
-	{"Conqueror",   "Conqueress"} },
+	{"Assassino",      "Assassina"},
+	{"Capo",   0},
+	{"Conquistatore",   "Conquistatrice"} },
 	"Mitra", "Crom", "Set", /* Hyborian */
-	"Bar", "the Camp of the Duali Tribe", "the Duali Oasis",
+	"Bar", "il campo della tribu` Duali", "l'Oasi Duali",
 	PM_BARBARIAN, NON_PM, NON_PM,
 	PM_PELIAS, PM_CHIEFTAIN, PM_THOTH_AMON,
 	PM_OGRE, PM_TROLL, S_OGRE, S_TROLL,
@@ -77,18 +73,17 @@ const struct Role roles[] = {
 	{  1, 0,  0, 1,  0, 1 },10,	/* Energy */
 	10, 14, 0, 0,  8, A_INT, SPE_HASTE_SELF,      -4
 },
-{	{"Caveman", "Cavewoman"}, {
-	{"Troglodyte",  0},
-	{"Aborigine",   0},
-	{"Wanderer",    0},
-	{"Vagrant",     0},
-	{"Wayfarer",    0},
+{	{"Cavernicolo", "Cavernicola"}, {
+	{"Troglodita",  0},
+	{"Aborigeno",   "Aborigena"},
+	{"Vagabondo",    "Vagabondo"},
+	{"Girovago",     "Girovaga"},
+	{"Viandante",    0},
 	{"Roamer",      0},
-	{"Nomad",       0},
-	{"Rover",       0},
-	{"Pioneer",     0} },
+	{"Nomade",       0},
+	{"Pioniere",     0} },
 	"Anu", "_Ishtar", "Anshar", /* Babylonian */
-	"Cav", "the Caves of the Ancestors", "the Dragon's Lair",
+	"Cav", "le Grotte degli Avi", "la Tana del Drago",
 	PM_CAVEMAN, PM_CAVEWOMAN, PM_LITTLE_DOG,
 	PM_SHAMAN_KARNOV, PM_NEANDERTHAL, PM_CHROMATIC_DRAGON,
 	PM_BUGBEAR, PM_HILL_GIANT, S_HUMANOID, S_GIANT,
@@ -103,7 +98,7 @@ const struct Role roles[] = {
 	{  1, 0,  0, 1,  0, 1 },10,	/* Energy */
 	0, 12, 0, 1,  8, A_INT, SPE_DIG,             -4
 },
-{	{"Healer", 0}, {
+{	{"Guaritore", "Guaritrice"}, {
 	{"Rhizotomist",    0},
 	{"Empiric",        0},
 	{"Embalmer",       0},
@@ -1057,7 +1052,7 @@ promptsep(buf, num_post_attribs)
 char *buf;
 int num_post_attribs;
 {
-	const char *conj = "and ";
+	const char *conj = "e ";
 	if (num_post_attribs > 1
 	    && post_attribs < num_post_attribs && post_attribs > 1)
 	 	Strcat(buf, ","); 
@@ -1215,7 +1210,7 @@ int buflen, rolenum, racenum, gendnum, alignnum;
 	
 	if ((racenum == ROLE_NONE || racenum == ROLE_RANDOM) && !validrole(rolenum)) {
 		if (donefirst) Strcat(buf, " ");
-		Strcat(buf, "character");
+		Strcat(buf, "personaggio");
 		donefirst = TRUE;
 	}
 	/* <your lawful female gnomish cavewoman> || <your lawful female gnome>
@@ -1228,60 +1223,104 @@ int buflen, rolenum, racenum, gendnum, alignnum;
 		return err_ret;
 }
 
+/* char * */
+/* build_plselection_prompt(buf, buflen, rolenum, racenum, gendnum, alignnum) */
+/* char *buf; */
+/* int buflen, rolenum, racenum, gendnum, alignnum; */
+/* { */
+/* 	const char *defprompt = "Preferisci che scelga io il tipo di personaggio? (Si`, No, Esci) [ynq] "; */
+/* 	int num_post_attribs = 0; */
+/* 	char tmpbuf[BUFSZ]; */
+	
+/* 	if (buflen < QBUFSZ) */
+/* 		return (char *)defprompt; */
+
+/* 	Strcpy(tmpbuf, "Preferisci che scelga io "); */
+/* 	if (racenum != ROLE_NONE || validrole(rolenum)) */
+/* 		Strcat(tmpbuf, "your "); */
+/* 	else { */
+/* 		Strcat(tmpbuf, "un "); */
+/* 	} */
+/* 	/\* <your> *\/ */
+
+/* 	(void)  root_plselection_prompt(eos(tmpbuf), buflen - strlen(tmpbuf), */
+/* 					rolenum, racenum, gendnum, alignnum); */
+/* 	Sprintf(buf, "%s", s_suffix(tmpbuf)); */
+
+/* 	/\* buf should now be: */
+/* 	 * < your lawful female gnomish cavewoman's> || <your lawful female gnome's> */
+/* 	 *    || <your lawful female character's> */
+/* 	 * */
+/*          * Now append the post attributes to it */
+/* 	 *\/ */
+
+/* 	num_post_attribs = post_attribs; */
+/* 	if (post_attribs) { */
+/* 		if (pa[BP_RACE]) { */
+/* 			(void) promptsep(eos(buf), num_post_attribs); */
+/* 			Strcat(buf, "razza"); */
+/* 		} */
+/* 		if (pa[BP_ROLE]) { */
+/* 			(void) promptsep(eos(buf), num_post_attribs); */
+/* 			Strcat(buf, "ruolo"); */
+/* 		} */
+/* 		if (pa[BP_GEND]) { */
+/* 			(void) promptsep(eos(buf), num_post_attribs); */
+/* 			Strcat(buf, "genere"); */
+/* 		} */
+/* 		if (pa[BP_ALIGN]) { */
+/* 			(void) promptsep(eos(buf), num_post_attribs); */
+/* 			Strcat(buf, "allineamento"); */
+/* 		} */
+/* 	} */
+/* 	Strcat(buf, " al tuo posto? (Si`, No, Esci) [ynq] "); */
+/* 	return buf; */
+/* } */
+/* LINGUA: rearranged for Italian word order (no possessive nouns) */
 char *
 build_plselection_prompt(buf, buflen, rolenum, racenum, gendnum, alignnum)
 char *buf;
 int buflen, rolenum, racenum, gendnum, alignnum;
 {
-	const char *defprompt = "Shall I pick a character for you? [ynq] ";
+	const char *defprompt = "Preferisci che scelga io il tipo di personaggio? (Si`, No, Esci) [ynq] ";
 	int num_post_attribs = 0;
 	char tmpbuf[BUFSZ];
-	
+
 	if (buflen < QBUFSZ)
 		return (char *)defprompt;
 
-	Strcpy(tmpbuf, "Shall I pick ");
-	if (racenum != ROLE_NONE || validrole(rolenum))
-		Strcat(tmpbuf, "your ");
-	else {
-		Strcat(tmpbuf, "a ");
-	}
-	/* <your> */
-
-	(void)  root_plselection_prompt(eos(tmpbuf), buflen - strlen(tmpbuf),
+	/* Get a description of the character */
+	(void)  root_plselection_prompt(tmpbuf, buflen,
 					rolenum, racenum, gendnum, alignnum);
-	Sprintf(buf, "%s", s_suffix(tmpbuf));
 
-	/* buf should now be:
-	 * < your lawful female gnomish cavewoman's> || <your lawful female gnome's>
-	 *    || <your lawful female character's>
-	 *
-         * Now append the post attributes to it
-	 */
+	/* Begin the prompt */
+	Strcpy(buf, "Preferisci che scelga ");
 
+	/* Append the post attributes */
 	num_post_attribs = post_attribs;
 	if (post_attribs) {
 		if (pa[BP_RACE]) {
 			(void) promptsep(eos(buf), num_post_attribs);
-			Strcat(buf, "race");
+			Strcat(buf, "una razza");
 		}
 		if (pa[BP_ROLE]) {
 			(void) promptsep(eos(buf), num_post_attribs);
-			Strcat(buf, "role");
+			Strcat(buf, "un ruolo");
 		}
 		if (pa[BP_GEND]) {
 			(void) promptsep(eos(buf), num_post_attribs);
-			Strcat(buf, "gender");
+			Strcat(buf, "un genere");
 		}
 		if (pa[BP_ALIGN]) {
 			(void) promptsep(eos(buf), num_post_attribs);
-			Strcat(buf, "alignment");
+			Strcat(buf, "un allineamento");
 		}
 	}
-	Strcat(buf, " for you? [ynq] ");
+
+	/* Complete the prompt */
+	Sprintf(eos(buf), " per il tuo %s? (Si`, No, Esci) [ynq]", tmpbuf);
 	return buf;
 }
-
 #undef BP_ALIGN
 #undef BP_GEND
 #undef BP_RACE
@@ -1468,7 +1507,30 @@ struct monst *mtmp;
 	    return ("Hello");
 	}
 }
-
+const char *
+Ciao(mtmp)
+struct monst *mtmp;
+{
+	switch (Role_switch) {
+	case PM_KNIGHT:
+	    return ("Salutations"); /* Olde English */
+	case PM_SAMURAI:
+	    return (mtmp && mtmp->data == &mons[PM_SHOPKEEPER] ?
+	    		"Irasshaimase" : "Konnichi wa"); /* Japanese */
+#ifdef TOURIST
+	case PM_TOURIST:
+	    return ("Aloha");       /* Hawaiian */
+#endif
+	case PM_VALKYRIE:
+	    return (
+#ifdef MAIL
+	    		mtmp && mtmp->data == &mons[PM_MAIL_DAEMON] ? "Hallo" :
+#endif
+	    		"Velkommen");   /* Norse */
+	default:
+	    return ("Ciao");
+	}
+}
 const char *
 Goodbye()
 {
