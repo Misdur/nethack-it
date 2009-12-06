@@ -28,10 +28,10 @@ moveloop()
 
     flags.moonphase = phase_of_the_moon();
     if(flags.moonphase == FULL_MOON) {
-	pline("Sei fortunato!  C'e` luna piena stasera.");
+	pline("Sei fortunato! C'e` luna piena stasera.");
 	change_luck(1);
     } else if(flags.moonphase == NEW_MOON) {
-	pline("Attento!  Luna nuova stasera.");
+	pline("Attento! Luna nuova stasera.");
     }
     flags.friday13 = friday_13th();
     if (flags.friday13) {
@@ -363,7 +363,7 @@ moveloop()
 		u.utrap -= 1<<8;
 		if(u.utrap < 1<<8) {
 		    killer_format = KILLED_BY;
-		    killer = "molten lava";
+		    killer = "lava fusa";
 		    pline("Affondi sotto la superfice e muori.");
 		    done(DISSOLVED);
 		} else if(didmove && !u.umoved) {
@@ -568,7 +568,7 @@ boolean new_game;	/* false => restoring an old game */
 
     pline(new_game ? "%s %s, Benvenuto a NetHack!  Sei un%s %s %s."
 		   : "%s %s, %s %s %s, bentornato a NetHack!",
-	  Hello((struct monst *) 0), plname, buf, urace.adj,
+	  Ciao((struct monst *) 0), plname, buf, urace.adj,
 	  (currentgend && urole.name.f) ? urole.name.f : urole.name.m);
 }
 
