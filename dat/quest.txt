@@ -384,16 +384,15 @@ purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 
 "Circa sei mesi fa, venni a conoscenza che un misterioso stregone,
 conosciuto come %n, ha cominciato a radunare intorno a se un gran gruppo di
-briganti e assassini." 
+briganti e assassini."
 
 "At about the same time, these people you once rode with `liberated' a
 potent magical talisman, %o, from a Turanian caravan.
 
-"%nC and his Black Horde swept down upon %i and defeated
-the people there, driving them out into the desert.  He has taken
-%o, and seeks to bend it to his will.  I detected the
-subtle changes in the currents of fate, and joined these people.
-Then I sent forth a summons for you.
+"%nC e la sua orda oscura travolse %i e sconfisse le persone,
+conducendoli nel deserto. Prese %o, e cercò di piegarlo al suo
+volere. Percepii sottili cambiamenti nello scorrere del fato, e lo
+collegai a queste persone. Mandai avanti delle evocazioni per te."
 
 "If %n can bend %o to his will, he will become
 almost indestructible.  He will then be able to enslave the minds of
