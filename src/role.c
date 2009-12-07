@@ -44,7 +44,7 @@ const struct Role roles[] = {
 	/* Str Int Wis Dex Con Cha */
 	{   7, 10, 10,  7,  7,  7 },
 	{  20, 20, 20, 10, 20, 10 },
-	/* Init   Lower  Higher */
+/* Init   Lower  Higher */
 	{ 11, 0,  0, 8,  1, 0 },	/* Hit points */
 	{  1, 0,  0, 1,  0, 1 },14,	/* Energy */
 	10, 5, 0, 2, 10, A_INT, SPE_MAGIC_MAPPING,   -4
@@ -100,16 +100,16 @@ const struct Role roles[] = {
 },
 {	{"Guaritore", "Guaritrice"}, {
 	{"Rhizotomist",    0},
-	{"Empiric",        0},
-	{"Embalmer",       0},
-	{"Dresser",        0},
+	{"Empirico",        "Empirica"},
+	{"Imbalsamatrice",       "Imbalsamatrice"},
+	{"Costumista",        0},
 	{"Medicus ossium", "Medica ossium"},
 	{"Herbalist",      0},
 	{"Magister",       "Magistra"},
-	{"Physician",      0},
-	{"Chirurgeon",     0} },
+	{"Medico",      0},
+	{"Chirurgo",     "Chirurga"} },
 	"_Athena", "Hermes", "Poseidon", /* Greek */
-	"Hea", "the Temple of Epidaurus", "the Temple of Coeus",
+	"Hea", "il Tempio di Epidauro", "il Tempio di Ceo",
 	PM_HEALER, NON_PM, NON_PM,
 	PM_HIPPOCRATES, PM_ATTENDANT, PM_CYCLOPS,
 	PM_GIANT_RAT, PM_SNAKE, S_RODENT, S_YETI,
@@ -123,18 +123,18 @@ const struct Role roles[] = {
 	{  1, 4,  0, 1,  0, 2 },20,	/* Energy */
 	10, 3,-3, 2, 10, A_WIS, SPE_CURE_SICKNESS,   -4
 },
-{	{"Knight", 0}, {
-	{"Gallant",     0},
-	{"Esquire",     0},
-	{"Bachelor",    0},
-	{"Sergeant",    0},
-	{"Knight",      0},
+{	{"Cavaliere", 0}, {
+	{"Valoroso",     "Valorosa"},
+	{"Scudiero",     "Scudiera"},
+	{"Scapolo",    "Nubile"},
+	{"Sergente",    0},
+	{"Cavaliere",      0},
 	{"Banneret",    0},
 	{"Chevalier",   "Chevaliere"},
 	{"Seignieur",   "Dame"},
-	{"Paladin",     0} },
+	{"Paladino",     "Paladina"} },
 	"Lugh", "_Brigit", "Manannan Mac Lir", /* Celtic */
-	"Kni", "Camelot Castle", "the Isle of Glass",
+	"Kni", "Castello di Camelot", "l'Isola di Glass",
 	PM_KNIGHT, NON_PM, PM_PONY,
 	PM_KING_ARTHUR, PM_PAGE, PM_IXOTH,
 	PM_QUASIT, PM_OCHRE_JELLY, S_IMP, S_JELLY,
@@ -148,19 +148,19 @@ const struct Role roles[] = {
 	{  1, 4,  0, 1,  0, 2 },10,	/* Energy */
 	10, 8,-2, 0,  9, A_WIS, SPE_TURN_UNDEAD,     -4
 },
-{	{"Monk", 0}, {
-	{"Candidate",         0},
-	{"Novice",            0},
-	{"Initiate",          0},
-	{"Student of Stones", 0},
-	{"Student of Waters", 0},
-	{"Student of Metals", 0},
-	{"Student of Winds",  0},
-	{"Student of Fire",   0},
-	{"Master",            0} },
+{	{"Monaco", "Monaca"}, {
+	{"Aspirante",         0},
+	{"Novizio",            "Novizia"},
+	{"Adepto",          "Adepta"},
+	{"Studente delle Rocce", 0},
+	{"Studente delle Acque", 0},
+	{"Studente dei Metalli", 0},
+	{"Studente dei Venti",  0},
+	{"Studente del Fuoco",   0},
+	{"Maestro",            0} },
 	"Shan Lai Ching", "Chih Sung-tzu", "Huan Ti", /* Chinese */
-	"Mon", "the Monastery of Chan-Sune",
-	  "the Monastery of the Earth-Lord",
+	"Mon", "il Monastero di Chan-Sune",
+	  "il Monastero di Earth-Lord",
 	PM_MONK, NON_PM, NON_PM,
 	PM_GRAND_MASTER, PM_ABBOT, PM_MASTER_KAEN,
 	PM_EARTH_ELEMENTAL, PM_XORN, S_ELEMENTAL, S_XORN,
@@ -175,18 +175,18 @@ const struct Role roles[] = {
 	{  2, 2,  0, 2,  0, 2 },10,	/* Energy */
 	10, 8,-2, 2, 20, A_WIS, SPE_RESTORE_ABILITY, -4
 },
-{	{"Priest", "Priestess"}, {
-	{"Aspirant",    0},
-	{"Acolyte",     0},
-	{"Adept",       0},
-	{"Priest",      "Priestess"},
-	{"Curate",      0},
-	{"Canon",       "Canoness"},
+{	{"Sacerdote", "Sacerdotessa"}, {
+	{"Aspirante",    0},
+	{"Chierico",     "Chierica"},
+	{"Adepto",       "Adepta"},
+	{"Sacerdote",      "Sacerdotessa"},
+	{"Curato",      0},
+	{"Canonico",       "Canonica"},
 	{"Lama",        0},
-	{"Patriarch",   "Matriarch"},
-	{"High Priest", "High Priestess"} },
+	{"Patriarca",   "Matriarca"},
+	{"Gran Sacerdote", "Gran Sacerdotessa"} },
 	0, 0, 0,	/* chosen randomly from among the other roles */
-	"Pri", "the Great Temple", "the Temple of Nalzok",
+	"Pri", "il Grande Tempio", "il Tempio di Nalzok",
 	PM_PRIEST, PM_PRIESTESS, NON_PM,
 	PM_ARCH_PRIEST, PM_ACOLYTE, PM_NALZOK,
 	PM_HUMAN_ZOMBIE, PM_WRAITH, S_ZOMBIE, S_WRAITH,
@@ -204,17 +204,17 @@ const struct Role roles[] = {
   /* Note:  Rogue precedes Ranger so that use of `-R' on the command line
      retains its traditional meaning. */
 {	{"Rogue", 0}, {
-	{"Footpad",     0},
-	{"Cutpurse",    0},
+	{"Zampa",     0},
+	{"Borsaiolo",    0},
 	{"Rogue",       0},
-	{"Pilferer",    0},
-	{"Robber",      0},
-	{"Burglar",     0},
+	{"Ladruncolo",    "Ladruncola"},
+	{"Ladro",      "Ladra"},
+	{"Scassinatore",     "Scassinatrice"},
 	{"Filcher",     0},
 	{"Magsman",     "Magswoman"},
-	{"Thief",       0} },
+	{"Ladro",       "Ladra"} },
 	"Issek", "Mog", "Kos", /* Nehwon */
-	"Rog", "the Thieves' Guild Hall", "the Assassins' Guild Hall",
+	"Rog", "il Palazzo della Gilda dei Ladri", "il Palazzo della Gilda degli Assassini",
 	PM_ROGUE, NON_PM, NON_PM,
 	PM_MASTER_OF_THIEVES, PM_THUG, PM_MASTER_ASSASSIN,
 	PM_LEPRECHAUN, PM_GUARDIAN_NAGA, S_NYMPH, S_NAGA,
@@ -250,11 +250,11 @@ const struct Role roles[] = {
 	{"Reconnoiterer", "Reconnoiteress"},
 	{"Scout",         0},
 	{"Arbalester",    0},	/* One skilled at crossbows */
-	{"Archer",        0},
-	{"Sharpshooter",  0},
-	{"Marksman",      "Markswoman"} },
-	"Mercury", "_Venus", "Mars", /* Roman/planets */
-	"Ran", "Orion's camp", "the cave of the wumpus",
+	{"Arciere",        "Arciera"},
+	{"Cecchino",  "Cecchina"},
+	{"Tiratore scelto",      "Tiratrice scelta"} },
+	"Mercurio", "_Venere", "Marte", /* Roman/planets */
+	"Ran", "campo di Orione", "la grotta dei wumpus",
 	PM_RANGER, NON_PM, PM_LITTLE_DOG /* Orion & canis major */,
 	PM_ORION, PM_HUNTER, PM_SCORPIUS,
 	PM_FOREST_CENTAUR, PM_SCORPION, S_CENTAUR, S_SPIDER,
@@ -295,18 +295,18 @@ const struct Role roles[] = {
 	10, 10, 0, 0,  8, A_INT, SPE_CLAIRVOYANCE,    -4
 },
 #ifdef TOURIST
-{	{"Tourist", 0}, {
-	{"Rambler",     0},
-	{"Sightseer",   0},
-	{"Excursionist",0},
-	{"Peregrinator","Peregrinatrix"},
-	{"Traveler",    0},
-	{"Journeyer",   0},
-	{"Voyager",     0},
-	{"Explorer",    0},
-	{"Adventurer",  0} },
+{	{"Turista", 0}, {
+	{"Vagabondo",     0},
+	{"Turista",   0},
+	{"Escursionista",0},
+	{"Peregrinatore","Peregrinatrice"},
+	{"Viaggiatore",    "Viaggiatrice"},
+	{"Viaggiatore",   "Viaggiatrice"},
+	{"Passeggero",     "Passeggera"},
+	{"Esploratore",    "Esploratrice"},
+	{"Avventuriero",  "Avventuriera"} },
 	"Blind Io", "_The Lady", "Offler", /* Discworld */
-	"Tou", "Ankh-Morpork", "the Thieves' Guild Hall",
+	"Tou", "Ankh-Morpork", "il Palazzo della Gilda dei Ladri",
 	PM_TOURIST, NON_PM, NON_PM,
 	PM_TWOFLOWER, PM_GUIDE, PM_MASTER_OF_THIEVES,
 	PM_GIANT_SPIDER, PM_FOREST_CENTAUR, S_SPIDER, S_CENTAUR,
@@ -321,18 +321,18 @@ const struct Role roles[] = {
 	0, 5, 1, 2, 10, A_INT, SPE_CHARM_MONSTER,   -4
 },
 #endif
-{	{"Valkyrie", 0}, {
-	{"Stripling",   0},
+{	{"Valchiria", 0}, {
+	{"Giovanotto",   0},
 	{"Skirmisher",  0},
-	{"Fighter",     0},
-	{"Man-at-arms", "Woman-at-arms"},
-	{"Warrior",     0},
+	{"Combattente",     0},
+	{"Uomo d'arme", "Donna d'arme"},
+	{"Guerriero",     "Guerriera"},
 	{"Swashbuckler",0},
-	{"Hero",        "Heroine"},
-	{"Champion",    0},
-	{"Lord",        "Lady"} },
+	{"Eroe",        "Eroina"},
+	{"Campione",    "Campionessa"},
+	{"Signore",        "Lady"} },
 	"Tyr", "Odin", "Loki", /* Norse */
-	"Val", "the Shrine of Destiny", "the cave of Surtur",
+	"Val", "il Santuario del Destino", "la grotta di Surtur",
 	PM_VALKYRIE, NON_PM, NON_PM /*PM_WINTER_WOLF_CUB*/,
 	PM_NORN, PM_WARRIOR, PM_LORD_SURTUR,
 	PM_FIRE_ANT, PM_FIRE_GIANT, S_ANT, S_GIANT,
@@ -346,18 +346,18 @@ const struct Role roles[] = {
 	{  1, 0,  0, 1,  0, 1 },10,	/* Energy */
 	0, 10,-2, 0,  9, A_WIS, SPE_CONE_OF_COLD,    -4
 },
-{	{"Wizard", 0}, {
-	{"Evoker",      0},
-	{"Conjurer",    0},
-	{"Thaumaturge", 0},
-	{"Magician",    0},
-	{"Enchanter",   "Enchantress"},
-	{"Sorcerer",    "Sorceress"},
-	{"Necromancer", 0},
-	{"Wizard",      0},
+{	{"Stregone", "Strega"}, {
+	{"Evocatore",      "Evocatrice"},
+	{"Prestigiatore",    "Prestigiatrice"},
+	{"Taumaturgo", 0},
+	{"Mago",    "Maga"},
+	{"Incantatore",   "Incantatrice"},
+	{"Stregona",    "Strega"},
+	{"Negromante", 0},
+	{"Stregone",      "Stregone"},
 	{"Mage",        0} },
 	"Ptah", "Thoth", "Anhur", /* Egyptian */
-	"Wiz", "the Lonely Tower", "the Tower of Darkness",
+	"Wiz", "la Torre Solitaria", "la Torre dell'Oscurita`",
 	PM_WIZARD, NON_PM, PM_KITTEN,
 	PM_NEFERET_THE_GREEN, PM_APPRENTICE, PM_DARK_ONE,
 	PM_VAMPIRE_BAT, PM_XORN, S_BAT, S_WRAITH,
