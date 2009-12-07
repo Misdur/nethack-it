@@ -1330,9 +1330,8 @@ the planes of the elements, to achieve this goal.
 # to be treated as plural by messages which use %o.
 #
 %Cc Mon 00001
-You find yourself standing in sight of %H.  Something
-is obviously wrong here. Strange shapes lumber around
-outside %H!
+Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
+si aggirano all'esterno di %H!
 
 You realize that the %l needs your assistance!
 %E
