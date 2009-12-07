@@ -3127,13 +3127,10 @@ per l'incarico che voglio assegnarti. Ho bisogno di te."
 "Bene, %p, sei ritornato. Forse ora sei pronto..."
 %E
 %Cp Wiz 00017
-"Diventa noioso, %p, ma la perseveranza è la firma di un vero mago.
-Certamente spero che tu sia veramente pronto questa volta!"
-"This is getting tedious, %p, but perseverance is a sign of a true mage.
-I certainly hope that you are truly ready this time!"
+"A lungo andare diventa noioso, %p, ma la perseveranza è la firma di un vero mago.
+Spero sinceramente che questa volta tu sia realmente pronto!"
 %E
 %Cc Wiz 00018
-
 "You fool, %p!  Why did I waste all of those years teaching you
 the esoteric arts?  Get out of here!  I shall find another."
 %E
