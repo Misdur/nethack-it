@@ -399,8 +399,8 @@ struct Role urole =
 
 /* Table of all races */
 const struct Race races[] = {
-{	"human", "human", "humanity", "Hum",
-	{"man", "woman"},
+{	"umano", "umano", "umanita`", "Um",
+	{"uomo", "donna"},
 	PM_HUMAN, NON_PM, PM_HUMAN_MUMMY, PM_HUMAN_ZOMBIE,
 	MH_HUMAN | ROLE_MALE|ROLE_FEMALE |
 	  ROLE_LAWFUL|ROLE_NEUTRAL|ROLE_CHAOTIC,
@@ -412,8 +412,8 @@ const struct Race races[] = {
 	{  2, 0,  0, 2,  1, 0 },	/* Hit points */
 	{  1, 0,  2, 0,  2, 0 }		/* Energy */
 },
-{	"elf", "elven", "elvenkind", "Elf",
-	{0, 0},
+{	"elfo", "elfico", "elfi", "Elf",
+	{"elfo", "elfa"},
 	PM_ELF, NON_PM, PM_ELF_MUMMY, PM_ELF_ZOMBIE,
 	MH_ELF | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC,
 	MH_ELF, MH_ELF, MH_ORC,
@@ -424,8 +424,8 @@ const struct Race races[] = {
 	{  1, 0,  0, 1,  1, 0 },	/* Hit points */
 	{  2, 0,  3, 0,  3, 0 }		/* Energy */
 },
-{	"dwarf", "dwarven", "dwarvenkind", "Dwa",
-	{0, 0},
+{	"nano", "nano", "nani", "Nan",
+	{"nano", "nana"},
 	PM_DWARF, NON_PM, PM_DWARF_MUMMY, PM_DWARF_ZOMBIE,
 	MH_DWARF | ROLE_MALE|ROLE_FEMALE | ROLE_LAWFUL,
 	MH_DWARF, MH_DWARF|MH_GNOME, MH_ORC,
@@ -436,8 +436,8 @@ const struct Race races[] = {
 	{  4, 0,  0, 3,  2, 0 },	/* Hit points */
 	{  0, 0,  0, 0,  0, 0 }		/* Energy */
 },
-{	"gnome", "gnomish", "gnomehood", "Gno",
-	{0, 0},
+{	"gnomo", "gnomico", "gnomi", "Gno",
+	{"gnomo", "gnoma"},
 	PM_GNOME, NON_PM, PM_GNOME_MUMMY, PM_GNOME_ZOMBIE,
 	MH_GNOME | ROLE_MALE|ROLE_FEMALE | ROLE_NEUTRAL,
 	MH_GNOME, MH_DWARF|MH_GNOME, MH_HUMAN,
@@ -448,8 +448,8 @@ const struct Race races[] = {
 	{  1, 0,  0, 1,  0, 0 },	/* Hit points */
 	{  2, 0,  2, 0,  2, 0 }		/* Energy */
 },
-{	"orc", "orcish", "orcdom", "Orc",
-	{0, 0},
+{	"orco", "orchi", "orchi", "Orc",
+	{"orco", "orca"},
 	PM_ORC, NON_PM, PM_ORC_MUMMY, PM_ORC_ZOMBIE,
 	MH_ORC | ROLE_MALE|ROLE_FEMALE | ROLE_CHAOTIC,
 	MH_ORC, 0, MH_HUMAN|MH_ELF|MH_DWARF,
