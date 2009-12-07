@@ -3067,16 +3067,13 @@ Amulet interferes with mine.  I hope for your success."
 Ti trovi improvvisamente in un ambiente familiare. Noti quella che
 sembra una grossa, tozza pietra nelle vicinanze. Apetta! Quella è la
 torre del tuo ex insegante, %1.
-You are suddenly in familiar surroundings.  You notice what appears to
-be a large, squat stone structure nearby.  Wait!  That looks like the
-tower of your former teacher, %l.
 
-However, things are not the same as when you were last here.  Mists and
-areas of unexplained darkness surround the tower.  There is movement in
-the shadows.
+Tuttavia, le cose non sono più le stesse di quando eri stato qui
+l'ultima volta. Nebbie e zone di inspiegabile oscurità circondano la
+torre. Qualcosa si muove nelle ombre. 
 
-Your teacher would never allow such unaesthetic forms to surround the
-tower...  unless something were dreadfully wrong!
+Il tuo insegnante non avrebbe mai permesso che delle forme così
+tetre circondassero la torre... a meno che qualcosa sia andato terribilmente male.
 %E
 %Cp Wiz 00002
 Once again, you are back at %H.
