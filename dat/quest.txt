@@ -3076,60 +3076,64 @@ Il tuo insegnante non avrebbe mai permesso che delle forme così
 tetre circondassero la torre... a meno che qualcosa sia andato terribilmente male.
 %E
 %Cp Wiz 00002
-Once again, you are back at %H.
+Ancora una volta, sei tornato a %H.
 %E
 %Cp Wiz 00003
-You are back at %H.
-You have an odd feeling this may be the last time you ever come here.
+Sei tornato a %H.
+Hai una strana senzanzione questa potrebbe essere l'ultima volta che
+che vieni qui.
 %E
 %Cp Wiz 00005
-"Would you happen to have some eye of newt in that overstuffed pack, %s?"
+"Hai per caso un occhio di newt nel tuo zaino imbottito, %s?"
 %E
 %Cp Wiz 00006
-"Ah, the spell to create the magic portal worked.  Outstanding!"
+"Ah, l'incantesimo per creare il portale magico funziona. Eccezionale!"
 %E
 %Cp Wiz 00007
-"Hurry!  %lC may not survive that casting of the
-portal spell!!"
+"Presto!  %1C  non può sopravvivere al lancio dell'incantesimo del portale!!"
 %E
 %Cp Wiz 00008
-"The spells of %n were just too powerful for us to withstand."
+"Gli incantesimi di %n erano troppo potenti per noi per resistere. "
 %E
 %Cp Wiz 00009
-"I, too, will venture into the world, because %n is but one of
-many evils to be vanquished."
+"Io, inoltre, voglio avventurarmi nel mondo, perché %n è uno dei tanti mali
+che devono essere debellati."
 %E
 %Cp Wiz 00010
-"I have some eye of newt to trade, do you have a spare blind-worm's sting?"
+"Ho un occhio di newt da commerciare, hai un pungiglione di
+blind-worm's di scorta?"
 %E
 %Cp Wiz 00011
-"The magic portal now seems like it will remain stable for quite some time."
+"Il portale magico ora sembra andare bene e rimarrà stabile per un pò
+di tempo."
 %E
 %Cp Wiz 00012
-"Have you noticed how much stronger %l is since %o was recovered?"
+"Hai notato quanto %l sia piu` forte da quando %o e` stato recuperato?"
 %E
 %Cp Wiz 00013
-"Thank %d!  We weren't positive you would defeat %n."
+"Grazie %d! Noi avremmo perso se tu non avessi sconfitto %n."
 %E
 %Cp Wiz 00014
-"I, too, will venture into the world, because %n was but one of
-many evils to be vanquished."
+"Io, inoltre, voglio avventurarmi nel mondo, perché %n è uno dei tanti mali
+che devono essere debellati."
 %E
 %Cc Wiz 00015
-"Come closer, %p, for my voice falters in my old age.
-Yes, I see that you have come a long way since you went out into the
-world, leaving the safe confines of this tower.  However, I must first
-determine if you have all of the skills required to take on the task
-I require of you."
+"Avvicinati, %p, la mia vecchia voce fatica ormai. Si,  hai fatto molta
+strada da quando andasti per il mondo, lasciando i confini sicuri di
+questa torre. Tuttavia, devo sapere se possiedi le abilita` necessarie
+per l'incarico che voglio assegnarti. Ho bisogno di te."
 %E
 %Cp Wiz 00016
-"Well, %p, you have returned.  Perhaps you are now ready..."
+"Bene, %p, sei ritornato. Forse ora sei pronto..."
 %E
 %Cp Wiz 00017
+"Diventa noioso, %p, ma la perseveranza è la firma di un vero mago.
+Certamente spero che tu sia veramente pronto questa volta!"
 "This is getting tedious, %p, but perseverance is a sign of a true mage.
 I certainly hope that you are truly ready this time!"
 %E
 %Cc Wiz 00018
+
 "You fool, %p!  Why did I waste all of those years teaching you
 the esoteric arts?  Get out of here!  I shall find another."
 %E
