@@ -394,21 +394,19 @@ conducendoli nel deserto. Prese %o, e cercò di piegarlo al suo
 volere. Percepii sottili cambiamenti nello scorrere del fato, e lo
 collegai a queste persone. Mandai avanti delle evocazioni per te."
 
-"If %n can bend %o to his will, he will become
-almost indestructible.  He will then be able to enslave the minds of
-men across the world.  You are the only hope.  The gods smile upon you,
-and with %d behind you, you alone can defeat %n.
+"Se %n potesse piegare %o al suo volere, diventerebbe quasi
+indistruttibile. Allora sarà in grado di assoggettare le menti degli
+uomini di tutto il mondo. Sei l'unica speranza. Gli dei ti sorridono,
+e con %d con te, da solo potrai sconfiggere %n."
 
-"You must go to %i.  From there, you can track down
-%n, defeat him, and return %o to us.  Only
-then will the world be safe."
+"Devi andare %i. Da lì, puoi rintracciare %n, sconfiggilo, e riportaci
+%o. Solo allora il mondo sarà sicuro."
 %E
 %Cp Bar 00025
-"%nC is strong in the dark arts, but not immune to cold steel."
+"%nC è forte nelle arti oscure, ma non è immune al freddo acciaio."
 %E
 %Cp Bar 00026
-"Remember that %n is a great sorcerer.  He lived in the time
-of Atlantis."
+"Ricordo che %n è un grande stregone. E' vissuto al tempo di atlantide."
 %E
 %Cp Bar 00027
 "If you fail, %p, I will not be able to protect these people long."
