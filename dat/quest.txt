@@ -1333,10 +1333,10 @@ the planes of the elements, to achieve this goal.
 Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
 si aggirano all'esterno di %H!
 
-You realize that the %l needs your assistance!
+Realizzi che il %l necessita della tua assistenza!
 %E
 %Cp Mon 00002
-Once again, you stand before %H.
+Ancora una volta, ti trovi davanti %H.
 %E
 %Cp Mon 00003
 Again you face %H.  Your intuition hints that this may be
