@@ -468,7 +468,7 @@ const struct Race races[] = {
  * choices.  This may be munged in role_init().
  */
 struct Race urace =
-{	"something", "undefined", "something", "Xxx",
+{	"qualcosa", "indefinito", "qualcosa", "Xxx",
 	{0, 0},
 	NON_PM, NON_PM, NON_PM, NON_PM,
 	0, 0, 0, 0,
@@ -502,7 +502,7 @@ STATIC_DCL int FDECL(role_gendercount, (int));
 STATIC_DCL int FDECL(race_alignmentcount, (int));
 
 /* used by str2XXX() */
-static char NEARDATA randomstr[] = "random";
+static char NEARDATA randomstr[] = "casuale";
 
 
 boolean
@@ -1095,7 +1095,7 @@ int buflen, rolenum, racenum, gendnum, alignnum;
 {
 	int k, gendercount = 0, aligncount = 0;
 	char buf[BUFSZ];
-	static char err_ret[] = " character's";
+	static char err_ret[] = " del personaggio";
 	boolean donefirst = FALSE;
 
 	if (!suppliedbuf || buflen < 1) return err_ret;
@@ -1513,7 +1513,7 @@ struct monst *mtmp;
 {
 	switch (Role_switch) {
 	case PM_KNIGHT:
-	    return ("Salutations"); /* Olde English */
+	    return ("Saluti");
 	case PM_SAMURAI:
 	    return (mtmp && mtmp->data == &mons[PM_SHOPKEEPER] ?
 	    		"Irasshaimase" : "Konnichi wa"); /* Japanese */
@@ -1536,7 +1536,7 @@ Goodbye()
 {
 	switch (Role_switch) {
 	case PM_KNIGHT:
-	    return ("Fare thee well");  /* Olde English */
+	    return ("A presto");
 	case PM_SAMURAI:
 	    return ("Sayonara");        /* Japanese */
 #ifdef TOURIST
@@ -1546,7 +1546,7 @@ Goodbye()
 	case PM_VALKYRIE:
 	    return ("Farvel");          /* Norse */
 	default:
-	    return ("Goodbye");
+	    return ("A presto");
 	}
 }
 
