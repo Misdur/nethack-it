@@ -344,7 +344,7 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "I tempi saranno di nuovo buoni, ora l'orda è sconfitta."
 %E
 %Cp Bar 00013
-"Hai conferito grande onore al tuo cla sconfiggendo %n."
+"Hai conferito grande onore al tuo clan sconfiggendo %n."
 %E
 %Cp Bar 00014
 "Sarai il degno successore di %l"
@@ -359,7 +359,7 @@ tuo aiuto. C'è una grande missione che devi intraprendere."
 "%p, sei ritornato. Ora sei pronto per la sfida?"
 %E
 %Cp Bar 00017
-"Again, you stand before me, %p.  Surely you have prepared yourself."
+"Ancora una volta, sei davanti a me, %p. Sicuramente ti sarai preparato."
 %E
 %Cc Bar 00018
 "Pah! Hai tradito gli dei, %p. Non raggiungerai mai la gloria a cui
@@ -409,26 +409,25 @@ e con %d con te, da solo potrai sconfiggere %n."
 "Ricordo che %n è un grande stregone. E' vissuto al tempo di atlantide."
 %E
 %Cp Bar 00027
-"If you fail, %p, I will not be able to protect these people long."
+"Se fallisci, %p, non sarò in grado di proteggere queste persone a lungo."
 %E
 %Cp Bar 00028
-"To enter %i, you must be very stealthy.  The horde will be on
-guard."
+"%i per entrare, devi essere molto furtivo. L'orda sarà in guardia."
 %E
 %Cp Bar 00029
-"Call upon %d in your time of need."
+"Appellati a %d nel momento del bisogno."
 %E
 %Cp Bar 00030
-"May %d protect you, and guide your steps."
+"Che %d ti protegga, e guidi i tuoi passi."
 %E
 %Cp Bar 00031
-"If you can lay hands upon %o, carry it for good fortune."
+"Se puoi mettere le mani su %o, per portare fortuna."
 %E
 %Cp Bar 00032
 "I cannot stand against %ns sorcery.  But %d will help you."
 %E
 %Cp Bar 00033
-"Do not fear %n.  I know you can defeat him."
+"Non temere %n, So che puoi sconfiggerlo."
 %E
 %Cp Bar 00034
 "You have a great road to travel, %p, but only after you defeat
