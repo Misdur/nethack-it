@@ -46,7 +46,7 @@ STATIC_DCL void FDECL(add_class, (char *, CHAR_P));
 void FDECL( amii_speaker, ( struct obj *, char *, int ) );
 #endif
 
-static const char no_elbow_room[] = "don't have enough elbow-room to maneuver.";
+static const char no_elbow_room[] = "non c'e` abbastanza spazio di manovra.";
 
 #ifdef TOURIST
 STATIC_OVL int
@@ -56,7 +56,7 @@ use_camera(obj)
 	register struct monst *mtmp;
 
 	if(Underwater) {
-		pline("Using your camera underwater would void the warranty.");
+		pline("Usando la tua fotocamera sott'acqua invaliderai la garanzia.");
 		return(0);
 	}
 	if(!getdir((char *)0)) return(0);
@@ -70,10 +70,10 @@ use_camera(obj)
 	if (obj->cursed && !rn2(2)) {
 		(void) zapyourself(obj, TRUE);
 	} else if (u.uswallow) {
-		You("take a picture of %s %s.", s_suffix(mon_nam(u.ustuck)),
+		pline("Fai una foto a %s %s.", s_suffix(mon_nam(u.ustuck)),
 		    mbodypart(u.ustuck, STOMACH));
 	} else if (u.dz) {
-		You("take a picture of the %s.",
+		pline("Fai una foto a %s.",
 			(u.dz > 0) ? surface(u.ux,u.uy) : ceiling(u.ux,u.uy));
 	} else if (!u.dx && !u.dy) {
 		(void) zapyourself(obj, TRUE);
@@ -93,10 +93,10 @@ use_towel(obj)
 	struct obj *obj;
 {
 	if(!freehand()) {
-		You("have no free %s!", body_part(HAND));
+		pline("Non hai %s gratis!", body_part(HAND));
 		return 0;
 	} else if (obj->owornmask) {
-		You("cannot use it while you're wearing it!");
+		pline("Non puoi usarlo mentro lo indossi!");
 		return 0;
 	} else if (obj->cursed) {
 		long old;
@@ -104,8 +104,8 @@ use_towel(obj)
 		case 2:
 		    old = Glib;
 		    Glib += rn1(10, 3);
-		    Your("%s %s!", makeplural(body_part(HAND)),
-			(old ? "are filthier than ever" : "get slimy"));
+		    pline("I tuoi %s %s!", makeplural(body_part(HAND)),
+			(old ? "sono piu` sporchi che mai" : "diventano viscidi"));
 		    return 1;
 		case 1:
 		    if (!ublindf) {
@@ -135,7 +135,7 @@ use_towel(obj)
 
 	if (Glib) {
 		Glib = 0;
-		You("wipe off your %s.", makeplural(body_part(HAND)));
+		pline("Asciughi il tuo %s.", makeplural(body_part(HAND)));
 		return 1;
 	} else if(u.ucreamed) {
 		Blinded -= u.ucreamed;
@@ -146,12 +146,12 @@ use_towel(obj)
 			Blinded = 1;
 			make_blinded(0L,TRUE);
 		} else {
-			Your("%s feels clean now.", body_part(FACE));
+			pline("Il tuo %s e` pulito adesso.", body_part(FACE));
 		}
 		return 1;
 	}
 
-	Your("%s and %s are already clean.",
+	pline("Il tuo %s e il tuo  %s sono gia` puliti.",
 		body_part(FACE), makeplural(body_part(HAND)));
 
 	return 0;
@@ -171,7 +171,7 @@ int rx, ry, *resp;
 	if (Hallucination && sobj_at(CORPSE, rx, ry)) {
 	    /* (a corpse doesn't retain the monster's sex,
 	       so we're forced to use generic pronoun here) */
-	    You_hear("a voice say, \"It's dead, Jim.\"");
+	    Odi("una voce dire, \"E` morto, Jim.\"");
 	    *resp = 1;
 	    return TRUE;
 	} else if (Role_if(PM_HEALER) && ((otmp = sobj_at(CORPSE, rx, ry)) != 0 ||
@@ -180,21 +180,21 @@ int rx, ry, *resp;
 	       if both types are present, but it's not worth the effort */
 	    if (vobj_at(rx, ry)->otyp == STATUE) otmp = vobj_at(rx, ry);
 	    if (otmp->otyp == CORPSE) {
-		You("determine that %s unfortunate being is dead.",
+		pline("Capisci che la disgraziata %s e` morta.",
 		    (rx == u.ux && ry == u.uy) ? "this" : "that");
 	    } else {
 		ttmp = t_at(rx, ry);
-		pline("%s appears to be in %s health for a statue.",
+		pline("%s sembra in %s salute, per essere una statua.",
 		      The(mons[otmp->corpsenm].mname),
 		      (ttmp && ttmp->ttyp == STATUE_TRAP) ?
-			"extraordinary" : "excellent");
+			"straordinaria" : "eccellente");
 	    }
 	    return TRUE;
 	}
 	return FALSE;
 }
 
-static const char hollow_str[] = "a hollow sound.  This must be a secret %s!";
+static const char hollow_str[] = "un suono cupo.  Deve essere una %s segreta!";
 
 /* Strictly speaking it makes no sense for usage of a stethoscope to
    not take any time; however, unless it did, the stethoscope would be
@@ -213,10 +213,10 @@ use_stethoscope(obj)
 				!rn2(Role_if(PM_HEALER) ? 10 : 3));
 
 	if (nohands(youmonst.data)) {	/* should also check for no ears and/or deaf */
-		You("have no hands!");	/* not `body_part(HAND)' */
+		pline("Non hai le mani!");	/* not `body_part(HAND)' */
 		return 0;
 	} else if (!freehand()) {
-		You("have no free %s.", body_part(HAND));
+		pline("Non hai una %s libera.", body_part(HAND));
 		return 0;
 	}
 	if (!getdir((char *)0)) return 0;
@@ -229,7 +229,7 @@ use_stethoscope(obj)
 #ifdef STEED
 	if (u.usteed && u.dz > 0) {
 		if (interference) {
-			pline("%s interferes.", Monnam(u.ustuck));
+			pline("%s interferisce.", Monnam(u.ustuck));
 			mstatusline(u.ustuck);
 		} else
 			mstatusline(u.usteed);
@@ -240,24 +240,24 @@ use_stethoscope(obj)
 		mstatusline(u.ustuck);
 		return res;
 	} else if (u.uswallow && interference) {
-		pline("%s interferes.", Monnam(u.ustuck));
+		pline("%s interferisce.", Monnam(u.ustuck));
 		mstatusline(u.ustuck);
 		return res;
 	} else if (u.dz) {
 		if (Underwater)
-		    You_hear("faint splashing.");
+		    Odi("deboli sruzzi.");
 		else if (u.dz < 0 || !can_reach_floor())
-		    You_cant("reach the %s.",
+		    Non_puoi("raggiungere il %s.",
 			(u.dz > 0) ? surface(u.ux,u.uy) : ceiling(u.ux,u.uy));
 		else if (its_dead(u.ux, u.uy, &res))
 		    ;	/* message already given */
 		else if (Is_stronghold(&u.uz))
-		    You_hear("the crackling of hellfire.");
+		    Odi("lo scoppiettare del fuoco dell'Inferno.");
 		else
-		    pline_The("%s seems healthy enough.", surface(u.ux,u.uy));
+		    pline("La %s sembra abbastanza sana.", surface(u.ux,u.uy));
 		return res;
 	} else if (obj->cursed && !rn2(2)) {
-		You_hear("your heart beat.");
+		Odi("il battito del tuo cuore.");
 		return res;
 	}
 	if (Stunned || (Confusion && !rn2(5))) confdir();
@@ -267,7 +267,7 @@ use_stethoscope(obj)
 	}
 	rx = u.ux + u.dx; ry = u.uy + u.dy;
 	if (!isok(rx,ry)) {
-		You_hear("a faint typing noise.");
+		Odi("un debole rumore.");
 		return 0;
 	}
 	if ((mtmp = m_at(rx,ry)) != 0) {
@@ -283,18 +283,18 @@ use_stethoscope(obj)
 	if (glyph_is_invisible(levl[rx][ry].glyph)) {
 		unmap_object(rx, ry);
 		newsym(rx, ry);
-		pline_The("invisible monster must have moved.");
+		pline("Il mostro invisibile deve essersi spostato.");
 	}
 	lev = &levl[rx][ry];
 	switch(lev->typ) {
 	case SDOOR:
-		You_hear(hollow_str, "door");
+		Odi(hollow_str, "porta");
 		cvt_sdoor_to_door(lev);		/* ->typ = DOOR */
 		if (Blind) feel_location(rx,ry);
 		else newsym(rx,ry);
 		return res;
 	case SCORR:
-		You_hear(hollow_str, "passage");
+		Odi(hollow_str, "passaggio");
 		lev->typ = CORR;
 		unblock_point(rx,ry);
 		if (Blind) feel_location(rx,ry);
@@ -303,17 +303,17 @@ use_stethoscope(obj)
 	}
 
 	if (!its_dead(rx, ry, &res))
-	    You("hear nothing special.");	/* not You_hear()  */
+	    pline("Non odi niente di particolare.");	/* not You_hear()  */
 	return res;
 }
 
-static const char whistle_str[] = "produce a %s whistling sound.";
+static const char whistle_str[] = "Produci un sibilo %s.";
 
 STATIC_OVL void
 use_whistle(obj)
 struct obj *obj;
 {
-	You(whistle_str, obj->cursed ? "shrill" : "high");
+	pline(whistle_str, obj->cursed ? "stridulo" : "alto");
 	wake_nearby();
 }
 
@@ -324,11 +324,11 @@ struct obj *obj;
 	register struct monst *mtmp, *nextmon;
 
 	if(obj->cursed && !rn2(2)) {
-		You("produce a high-pitched humming noise.");
+		pline("Produci un ronzio acuto.");
 		wake_nearby();
 	} else {
 		int pet_cnt = 0;
-		You(whistle_str, Hallucination ? "normal" : "strange");
+		You(whistle_str, Hallucination ? "normale" : "strano");
 		for(mtmp = fmon; mtmp; mtmp = nextmon) {
 		    nextmon = mtmp->nmon; /* trap might kill mon */
 		    if (DEADMONSTER(mtmp)) continue;
@@ -386,9 +386,9 @@ boolean feedback;
 
 	if (feedback) {
 	    if (canseemon(mtmp))
-		pline("%s pulls free of %s leash!", Monnam(mtmp), mhis(mtmp));
+		pline("%s si libera del suo guinsaglio!", Monnam(mtmp), mhis(mtmp));
 	    else
-		Your("leash falls slack.");
+		pline("Il tuo guinsaglio cade al suolo.");
 	}
 	for(otmp = invent; otmp; otmp = otmp->nobj)
 		if(otmp->otyp == LEASH &&
@@ -421,7 +421,7 @@ struct obj *obj;
 	int spotmon;
 
 	if(!obj->leashmon && number_leashed() >= MAXLEASHED) {
-		You("cannot leash any more pets.");
+		pline("Non puoi legare al guinsaglio altri animali.");
 		return;
 	}
 
