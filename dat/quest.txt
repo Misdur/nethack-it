@@ -88,45 +88,45 @@ Hai la strana sensazione che questa sara` l'ultima volta che verrai qui.
 "Hey amico, hai qualche pozione allucinogena da vendere?"
 %E
 %Cp Arc 00012
-"I guess you are guaranteed to make full professor now."
+"Suppongo che tu sia un professore completo adesso."
 %E
 %Cp Arc 00013
-"So, what was worse, %n or your entrance exams?"
+"Allora, cosa era peggiore, %n o i tuoi esami di ammissione?"
 %E
 %Cp Arc 00014
-"%oC is impressive, but nothing like the bones I dug up!"
+"%oC e` impressionante, ma niente a paragone delle ossa che ho rissotterato!"
 %E
 %Cc Arc 00015
-"Finally you have returned, %p.  You were always
-my most promising student.  Allow me to see if you are ready for the
-most difficult task of your career."
+"Alla fine sei tornato, $p. Sei sempre stato il mio studente piu`
+promettente. Lascia che mi renda conto se sei pronto per
+il compito piu` difficile della tua carriera."
 %E
 %Cp Arc 00016
-"Again, %p, you stand before me.
-Let me see if you have gained experience in the interim."
+"Di nuovo qui, %p.
+Vediamo se hai fatto esperienza nel frattempo."
 %E
 %Cp Arc 00017
-"Once more, %p, you have returned from the field.
-Are you finally ready for the task that must be accomplished?"
+"Ancora una volta, sei tornato dal campo, %p.
+Sei pronto per il compito da compiere?"
 %E
 %Cc Arc 00018
-"%p, you have failed us.  All of my careful training has been in
-vain.  Begone!  Your tenure at this college has been revoked!
+"%p, ci hai deluso. Tutti i miei insegnamenti sono
+stati vani. Vattene! Il tuo diritto di accesso a questa
+universita` e` stato revocato!
 
-"You are a disgrace to the profession!"
+Sei un disonore per la nostra professione!"
 %E
 %Cc Arc 00019
-"%p, you are yet too inexperienced to undertake such a demanding
-quest.  A mere %r could not possibly face the rigors demanded and
-survive.  Go forth, and come here again when your adventures have further
-taught you."
+"%p, sei ancora troppo inesperto per una quest cosi` impegnativa.
+Un semplice %r non puo` affrontare i rigori richiesti e sopravvivere.
+Vai avanti e torna quando avrai imparato dalle tue avventure."
 %E
 %Cc Arc 00020
-"%pC!  I've heard that you've been using sloppy techniques.  Your
-results lately can hardly be called suitable for %ra!
+"%pC! Ho sentito che hai usate metodi sciatti. I tuoi ultimi risultati
+difficilmente possono essere definiti adatti al %ra!
 
-"How could you have strayed from the %a path?  Go from here, and come
-back only when you have purified yourself."
+Come hai potuto smarrire la strada di %a? Vattene e torna
+quando ti sarai purificato."
 %E
 %Cc Arc 00021
 "Grave times have befallen the college, for %na has
