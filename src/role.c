@@ -491,10 +491,10 @@ const struct Gender genders[] = {
 
 /* Table of all alignments */
 const struct Align aligns[] = {
-  {"legge", "giusto", "giusta", "lawful", "Leg", ROLE_LAWFUL, A_LAWFUL},
-  {"equilibrio", "neutrale", "neutrale", "neutral", "Neu", ROLE_NEUTRAL, A_NEUTRAL},
-  {"caos", "caotico", "caotica", "chaotic", "Cao", ROLE_CHAOTIC, A_CHAOTIC},
-  {"male", "nonallineato", "nonallineata", "unaligned", "Noa", 0, A_NONE}
+  {"legge", "giusto", "Leg", ROLE_LAWFUL, A_LAWFUL},
+  {"equilibrio", "neutrale", "Neu", ROLE_NEUTRAL, A_NEUTRAL},
+  {"caos", "caotico", "Cao", ROLE_CHAOTIC, A_CHAOTIC},
+  {"male", "nonallineato", "Noa", 0, A_NONE}
 };
 
 STATIC_DCL char * FDECL(promptsep, (char *, int));
