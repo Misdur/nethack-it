@@ -167,7 +167,14 @@ You_cant VA_DECL(const char *,line)
 	vpline(YouMessage(tmp, "You can't ", line), VA_ARGS);
 	VA_END();
 }
-
+void
+Non_puoi VA_DECL(const char *,line)
+	char *tmp;
+	VA_START(line);
+	VA_INIT(line, const char *);
+	vpline(YouMessage(tmp, "Non puoi ", line), VA_ARGS);
+	VA_END();
+}
 /*VARARGS1*/
 void
 pline_The VA_DECL(const char *,line)
@@ -203,7 +210,20 @@ You_hear VA_DECL(const char *,line)
 	vpline(strcat(tmp, line), VA_ARGS);
 	VA_END();
 }
-
+void
+Odi VA_DECL(const char *,line)
+	char *tmp;
+	VA_START(line);
+	VA_INIT(line, const char *);
+	if (Underwater)
+		YouPrefix(tmp, "Odi a malapena ", line);
+	else if (u.usleep)
+		YouPrefix(tmp, "Sogni di udire  ", line);
+	else
+		YouPrefix(tmp, "Odi ", line);
+	vpline(strcat(tmp, line), VA_ARGS);
+	VA_END();
+}
 /*VARARGS1*/
 void
 verbalize VA_DECL(const char *,line)
