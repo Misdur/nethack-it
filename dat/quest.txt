@@ -3131,14 +3131,14 @@ per l'incarico che voglio assegnarti. Ho bisogno di te."
 Spero sinceramente che questa volta tu sia realmente pronto!"
 %E
 %Cc Wiz 00018
-"You fool, %p!  Why did I waste all of those years teaching you
-the esoteric arts?  Get out of here!  I shall find another."
+"Sei stupido, %p! Perchè ho sprecato tutti questi anni ad insegnarti le
+arti oscure? Esci! Troverò un altro!" 
 %E
 %Cc Wiz 00019
-"Alas, %p, you have not yet shown your proficiency as a worthy
-spellcaster.  As %ra, you would surely be overcome in the challenge
-ahead.  Go, now, expand your horizons, and return when you have attained
-renown as %Ra."
+"Ahimé, %p, non hai ancora dimostrato di essere un degno
+incantatore. Così come %ra, sarai sicuramente sconfitto nella prossima
+sfida. Ora, vai, espandi i tuoi orizzzonti, e ritorna quando avrai
+raggiunto tanta fama quanto %Ra."
 %E
 %Cc Wiz 00020
 "You amaze me, %p!  How many times did I tell you that the way of a mage
