@@ -3141,36 +3141,37 @@ sfida. Ora, vai, espandi i tuoi orizzzonti, e ritorna quando avrai
 raggiunto tanta fama quanto %Ra."
 %E
 %Cc Wiz 00020
-"You amaze me, %p!  How many times did I tell you that the way of a mage
-is an exacting one.  One must use the world with care, lest one leave it
-in ruins and simplify the task of %n.
+"Mi stupisci, %p! Quante volte ti ho detto che la strada per
+diventare un mago è impegantiva. Devi avere cura del mondo,
+per non permettere che vada in rovina e semplificare il compito
+di %n.
 
-"You must go back and show your worthiness.  Do not return until you are
-truly ready for this quest.  May %d guide you in this task."
+"Devi tornare indietro e mostrare il tuo valore. Non ritornare fin
+quando non sarai veramente pronto per questa missione. Possa %d
+guidarti in questo compito."
 %E
 %Cc Wiz 00021
-"Yes, %p, you truly are ready for this dire task.  Listen,
-carefully, for what I tell you now will be of vital importance.
+"Si, %p, sei veramente pronto per questo terribile compito. Ascolta
+con attenzione, quello che ti sto per dire ora sarà di vitale importanza."
 
-"Since you left us to hone your skills in the world, we unexpectedly came
-under attack by the forces of %n.  As you know, we thought
-%n had perished at the end of the last age, but, alas, this was
-not the case.
+"Da quando ci hai lasciato per affinare le tue abilità in
+giro per il mondo, abbiamo subito inattesi attacchi a sorpresa dalle
+truppe di %n. Come ben sai, pensavamo che %n fosse morto alla fine
+del secolo scorso, ma, ahimè, non è così.
 
-"%nC sent an army of abominations against us.  Among them was a
-minion, mindless and ensorcelled, and thus, in the confusion, it was able
-to penetrate our defenses.  Alas, this creature has stolen
-%o and I fear it has delivered %o
-to %n.
+"%nC inviò un esercito di creature abominevoli contro di noi. Tra di
+loro c'era un tirapiedi, stupido e stregato, e così, nella
+confusione, riuscì a penetrare nelle nostre difese. Purtroppo, questa
+creatura rubò %o e ho paura che abbia consegnato %o ad %n.
 
-"Over the years, I had woven most of my power into this amulet, and thus,
-without it, I have but a shadow of my former power, and I fear that I
-shall soon perish.
+"Nel corso degli anni ho riposto il mio potere in questo amuleto,
+così, senza di esso, non ho altro che l'ombra del mio antico potere, e
+temo che presto morirò.
 
-"You must travel to %i, and within its dungeons,
-find and overcome %n, and return %o to me.
+"Recati a %i, e nelle sue prigioni, trova e sconfiggi %n, e riportami
+%o.
 
-"Go now, with %d, and complete this quest before it is too late."
+"Vai ora, con %d, e completa questa missione prima che sia troppo tardi."
 %E
 %Cp Wiz 00025
 "Beware, for %n is immune to most magical attacks."
