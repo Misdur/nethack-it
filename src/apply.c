@@ -435,12 +435,12 @@ struct obj *obj;
 		    goto got_target;
 		}
 #endif
-		pline("Leash yourself?  Very funny...");
+		pline("Usare il guinsaglio su te stesso? Molto divertente...");
 		return;
 	}
 
 	if(!(mtmp = m_at(cc.x, cc.y))) {
-		There("is no creature there.");
+		pline("Non c'e` alcuna creatura li`.");
 		return;
 	}
 
@@ -451,38 +451,38 @@ struct obj *obj;
 
 	if(!mtmp->mtame) {
 	    if(!spotmon)
-		There("is no creature there.");
+	      pline("Non c'e` alcuna creatura li`.");
 	    else
-		pline("%s %s leashed!", Monnam(mtmp), (!obj->leashmon) ?
-				"cannot be" : "is not");
+		pline("%s %s al guinsaglio!", Monnam(mtmp), (!obj->leashmon) ?
+				"non puo` essere" : "non e`");
 	    return;
 	}
 	if(!obj->leashmon) {
 		if(mtmp->mleashed) {
-			pline("This %s is already leashed.",
-			      spotmon ? l_monnam(mtmp) : "monster");
+			pline("Questo %s e` gia` al guinsaglio.",
+			      spotmon ? l_monnam(mtmp) : "mostro");
 			return;
 		}
-		You("slip the leash around %s%s.",
-		    spotmon ? "your " : "", l_monnam(mtmp));
+		pline("Infili il guinsaglio a %s%s.",
+		    spotmon ? "tuo " : "", l_monnam(mtmp));
 		mtmp->mleashed = 1;
 		obj->leashmon = (int)mtmp->m_id;
 		mtmp->msleeping = 0;
 		return;
 	}
 	if(obj->leashmon != (int)mtmp->m_id) {
-		pline("This leash is not attached to that creature.");
+		pline("Questo guinsaglio non e` attaccato a quella creatura.");
 		return;
 	} else {
 		if(obj->cursed) {
-			pline_The("leash would not come off!");
+			pline("Il guinsaglio non si staccherebbe!");
 			obj->bknown = TRUE;
 			return;
 		}
 		mtmp->mleashed = 0;
 		obj->leashmon = 0;
-		You("remove the leash from %s%s.",
-		    spotmon ? "your " : "", l_monnam(mtmp));
+		pline("Toglio il guinsaglio a %s%s.",
+		    spotmon ? "tuo " : "", l_monnam(mtmp));
 	}
 	return;
 }
@@ -520,8 +520,8 @@ next_to_u()
 				if(otmp->otyp == LEASH &&
 					otmp->leashmon == (int)mtmp->m_id) {
 				    if(otmp->cursed) return(FALSE);
-				    You_feel("%s leash go slack.",
-					(number_leashed() > 1) ? "a" : "the");
+				    Senti("che %s si allenta.",
+					(number_leashed() > 1) ? "una" : "la");
 				    mtmp->mleashed = 0;
 				    otmp->leashmon = 0;
 				}
@@ -552,7 +552,7 @@ register xchar x, y;
 		if ((int)mtmp->m_id == otmp->leashmon) break; 
 	    }
 	    if (!mtmp) {
-		impossible("leash in use isn't attached to anything?");
+		impossible("Il guinsaglio non e` attaccato a niente?");
 		otmp->leashmon = 0;
 		continue;
 	    }
@@ -565,7 +565,7 @@ register xchar x, y;
 			    (mtmp->mhp -= rnd(2)) <= 0) {
 			long save_pacifism = u.uconduct.killer;
 
-			Your("leash chokes %s to death!", mon_nam(mtmp));
+			pline("Il tuo guinsaglio soffoca %s a morte!", mon_nam(mtmp));
 			/* hero might not have intended to kill pet, but
 			   that's the result of his actions; gain experience,
 			   lose pacifism, take alignment and luck hit, make
@@ -574,16 +574,16 @@ register xchar x, y;
 			/* life-saving doesn't ordinarily reset this */
 			if (mtmp->mhp > 0) u.uconduct.killer = save_pacifism;
 		    } else {
-			pline("%s chokes on the leash!", Monnam(mtmp));
+			pline("%s soffoca a causa del guinsaglio!", Monnam(mtmp));
 			/* tameness eventually drops to 1 here (never 0) */
 			if (mtmp->mtame && rn2(mtmp->mtame)) mtmp->mtame--;
 		    }
 		} else {
 		    if (um_dist(mtmp->mx, mtmp->my, 5)) {
-			pline("%s leash snaps loose!", s_suffix(Monnam(mtmp)));
+			pline("Il guinsaglio %s si sciglio!", s_suffix(Monnam(mtmp)));
 			m_unleash(mtmp, FALSE);
 		    } else {
-			You("pull on the leash.");
+			pline("Tiri il guinsaglio.");
 			if (mtmp->data->msound != MS_SILENT)
 			    switch (rn2(3)) {
 			    case 0:  growl(mtmp);   break;
@@ -601,7 +601,7 @@ register xchar x, y;
 
 #define WEAK	3	/* from eat.c */
 
-static const char look_str[] = "look %s.";
+static const char look_str[] = "guardi %s.";
 
 STATIC_OVL int
 use_mirror(obj)
@@ -614,7 +614,7 @@ struct obj *obj;
 	if(!getdir((char *)0)) return 0;
 	if(obj->cursed && !rn2(2)) {
 		if (!Blind)
-			pline_The("mirror fogs up and doesn't reflect!");
+			pline("Lo specchio si appanna e non riflette piu`!");
 		return 1;
 	}
 	if(!u.dx && !u.dy && !u.dz) {
@@ -622,14 +622,14 @@ struct obj *obj;
 		    if (u.umonnum == PM_FLOATING_EYE) {
 			if (!Free_action) {
 			pline(Hallucination ?
-			      "Yow!  The mirror stares back!" :
-			      "Yikes!  You've frozen yourself!");
+			      "Yow!  Lo specchio riproduce la tua immagine!" :
+			      "Yikes!  Sei paralizzato!");
 			nomul(-rnd((MAXULEV+6) - u.ulevel));
-			} else You("stiffen momentarily under your gaze.");
+			} else pline("Per un momento ti fermi a fissare il tuo riflesso.");
 		    } else if (youmonst.data->mlet == S_VAMPIRE)
-			You("don't have a reflection.");
+			pline("Non c'e` il tuo riflesso.");
 		    else if (u.umonnum == PM_UMBER_HULK) {
-			pline("Huh?  That doesn't look like you!");
+			pline("Huh?  Non ti assomiglia!!");
 			make_confused(HConfusion + d(3,4),FALSE);
 		    } else if (Hallucination)
 			You(look_str, hcolor((char *)0));
