@@ -129,70 +129,73 @@ Come hai potuto smarrire la strada di %a? Vattene e torna
 quando ti sarai purificato."
 %E
 %Cc Arc 00021
-"Grave times have befallen the college, for %na has
-stolen %o.  Without it, the board of directors of
-the university will soon have no choice but to revoke our research grants.
+"Tempi bui per l'universita`, quando %na ha rubato %o.
+Senza di esso, il consiglio direttivo dell'universita`
+sara` presto costretto a revocare le sovvenzioni
+alla nostra ricerca."
 
-"You must locate the entrance to %i.  Within it,
-you will find %n.
+"Devi individuare l'entrata a %i. All'interno,
+troverai $n."
 
-"You must then defeat %n and return %o
-to me.
+"Devi sconfiggere %n e riportarmi $o."
 
-"Only in this way will we be able to prevent the budget cuts that could
-close this college.
+"Solo in questo modo potremo evitare i tagli ai fondi
+che farebbero chiudere l'universita`."
 
-"May the wisdom of %d be your guide."
+"Che la saggezza di %d ti guidi."
 %E
 %Cp Arc 00025
-"Beware, for %n is powerful and cunning."
+"Attento, per %n e` potente ed astuto."
 %E
 %Cp Arc 00026
-"To locate the entrance to %i, you must pass
-many traps."
+"Per individuare l'ingresso a %i, devi superare
+molte trappole."
 %E
 %Cp Arc 00027
-"A %nt may be vulnerable to attacks by magical cold."
+"Un %nt puo` essere vulnerabile agli attacchi
+di magia del freddo."
 %E
 %Cp Arc 00028
-"Call upon %d when you encounter %n."
+"Invoca %d quando incontri $n."
 %E
 %Cp Arc 00029
-"You must destroy %n.  It will pursue you otherwise."
+"Devi distruggere $n, altrimenti ti inseguira`. "
 %E
 %Cp Arc 00030
-"%oC is a mighty talisman.  With it you
-can destroy %n."
+"%oC e` un potente talisman. Con esso potrai
+distruggere %n."
 %E
 %Cp Arc 00031
-"Go forth with the blessings of %d."
+"Prosegui con la benedizione di %d."
 %E
 %Cp Arc 00032
-"I will have my %gP watch for your return."
+"Avro` la mia guardia %gP per il tuo ritorno."
 %E
 %Cp Arc 00033
-"Remember not to stray from the true %a path."
+"Ricorda di non smarrire il vero cammino %a."
 %E
 %Cp Arc 00034
-"You may be able to sense %o when you are near."
+"Dovresti poter sentire %o quando sarai vicino."
 %E
 %Cc Arc 00035
-A plain opens before you.  Beyond the plain lies a foreboding edifice.
+Dinanzi a te si stende una radura. Oltre la radura
+giace un edificio minaccioso.
 
-You have the feeling that you will soon find the entrance to
-%i.
+Hai la sensazione che presto troverai l'entrata
+di %i.
 %E
 %Cp Arc 00036
-Once again, you are near the entrance to %i.
+Ancora una volta, sei vicino l'entrata di %i.
 %E
 %Cc Arc 00040
-A strange feeling washes over you, and you think back to things you
-learned during the many lectures of %l.
+Una strana sensazione ti assale e ripensi alle cose
+apprese durante le tue lezioni di %l.
 
-You realize the feeling must be the presence of %o.
+Capisci che la sensanzione e` causata dalla
+presenza di %o.
 %E
 %Cp Arc 00041
-The familiar presence of %o is in the ether.
+La consueta presenza di %o e` nell'etere.
 %E
 %Cc Arc 00050
 "So, %p, you think that you can succeed in recovering
