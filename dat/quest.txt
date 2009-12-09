@@ -3174,35 +3174,36 @@ temo che presto morirò.
 "Vai ora, con %d, e completa questa missione prima che sia troppo tardi."
 %E
 %Cp Wiz 00025
-"Beware, for %n is immune to most magical attacks."
+"Stai in guardia, poichè %n è immmune alla maggior parte degli
+attacchi magici."
 %E
 %Cp Wiz 00026
-"To enter %i you must pass many traps."
+"Per entrare a %i devi superare molte trappole."
 %E
 %Cp Wiz 00027
-"%nC may be vulnerable to physical attacks."
+"%nC potrebbe essere vulnerabile agli attacchi fisici."
 %E
 %Cp Wiz 00028
-"%d will come to your aid when you call."
+"%d verrà in tuo aiuto quanto lo chiamerai."
 %E
 %Cp Wiz 00029
-"You must utterly destroy %n.  He will pursue you otherwise."
+"Devi assolutamente distruggere %n. Altrimenti ti perseguiterà"
 %E
 %Cp Wiz 00030
-"%oC is a mighty artifact.  With it you can
-destroy %n."
+"%oC è un potente artefatto. Con esso potrai distruggere %n."
 %E
 %Cp Wiz 00031
-"Go forth with the blessings of %d."
+"Prosegui con la benedizione di %d."
 %E
 %Cp Wiz 00032
-"I will have my %gP watch for your return."
+"Avrò i miei %gP vigilando per il tuo ritorno."
 %E
 %Cp Wiz 00033
+"Sentiti libero di prendere tutti gli oggetti nella cassa che potrebbero aiutari."
 "Feel free to take any items in that chest that might aid you."
 %E
 %Cp Wiz 00034
-"You will know when %o is near.  Proceed with care!"
+"Te ne renderai conto quando %o è vicino. Procedi con cura!"
 %E
 %Cc Wiz 00035
 Wisps of fog swirl nearby.  You feel that %ns lair is close.
