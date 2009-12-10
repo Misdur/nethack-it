@@ -1329,24 +1329,23 @@ the planes of the elements, to achieve this goal.
 # The quest artifact is "The Eyes of the Overworld", hence needs
 # to be treated as plural by messages which use %o.
 #
-%Cc Mon 00001
-Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
+%Cc Mon 000012
+"Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
 si aggirano all'esterno di %H!
 
-Realizzi che il %l necessita della tua assistenza!
+Realizzi che il %l necessita della tua assistenza!"
 %E
 %Cp Mon 00002
-Ancora una volta, ti trovi davanti %H.
+"Ancora una volta, ti trovi davanti %H."
 %E
 %Cp Mon 00003
-Again you face %H.  Your intuition hints that this may be
-the final time you come here.
+"Dinuovo %H. Intuisci che potrebbe essere l'ultima volta che vieni qui."
 %E
 %Cp Mon 00005
-"Greetings, honorable %r.  It is good to see you."
+"Congratulazioni , onorabile %r. E' bello vederti."
 %E
 %Cp Mon 00006
-"Ah, %p!  Surely you can help us in our hour of need."
+"Ah, %p!  Sicuramente puoi aiutarci nel momento del bisogno."
 %E
 %Cp Mon 00007
 "Greetings, %s.  %lC has great need of your help."
