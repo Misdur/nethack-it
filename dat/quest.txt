@@ -436,8 +436,8 @@ sconfitto %n."
 %n."
 %E
 %Cc Bar 00035
-The scent of water comes to you in the desert breeze.  You know that
-you have located %i.
+La brezza del deserto ti porta il profumo dell'acqua. Sai che hai
+localizzato %i.
 %E
 %Cp Bar 00036
 Yet again you have a chance to infiltrate %i.
