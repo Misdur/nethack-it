@@ -3206,31 +3206,32 @@ attacchi magici."
 "Te ne renderai conto quando %o è vicino. Procedi con cura!"
 %E
 %Cc Wiz 00035
-Wisps of fog swirl nearby.  You feel that %ns lair is close.
+Banchi di nebbia turbolenti nelle vicinanze. Si percepisce che il
+nascondiglio di %ns è vicino.
 %E
 %Cp Wiz 00036
-You believe that you may once again invade %i.
+Credi che si possa invadere %i un'altra volta.
 %E
 %Cc Wiz 00040
-You feel your mentor's presence; perhaps %o is nearby.
+Si perpepisce la presenza della tua guida; forse %o è vicino.
 %E
 %Cp Wiz 00041
+L'aura di %o pizzica l'estremità della tua percezione.
 The aura of %o tingles at the edge of your perception.
 %E
 %Cc Wiz 00050
-"Ah, I recognize you, %p.  So, %l has sent you to steal
-%o from me, hmmm?  Well, %l is a
-fool to send such a mental weakling against me.
+"Ah, ti ho riconosciuto, %p. Così, %l t ha inviato per rubarmi %o,
+hmmm? Bene, %l è un pazzo ad invarmi contro un debole con capacità mentali
+basse.
 
-"Your destruction, however, should make for good sport.  In the end, you
-shall beg me to kill you!"
+"Distruggerti, comunque,  potrebbe essere un ottimo sport. Alla fine,
+mi implorerai di ucciderti!"
 %E
 %Cc Wiz 00051
-"How nice of you to return, %p!  I enjoyed our last meeting.  Are you
-still hungry for more pain?
+"Sono contento che tu sia ritornato, %p! Mi è piaciuto il nostro
+ultimo incontro. Desideri ancora altra sofferenza?
 
-"Come!  Your soul, like %o, shall soon be mine to
-command."
+"Vieni! La tua anima, come %o, presto sarà sotto il mio controllo."
 %E
 %Cp Wiz 00052
 "I'm sure that your perseverance shall be the subject of innumerable
