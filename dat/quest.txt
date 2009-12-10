@@ -436,6 +436,7 @@ La brezza del deserto ti porta il profumo dell'acqua. Sai che hai
 localizzato %i.
 %E
 %Cp Bar 00036
+
 Yet again you have a chance to infiltrate %i.
 %E
 %Cc Bar 00040
