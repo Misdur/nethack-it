@@ -169,7 +169,7 @@ distruggere %n."
 "Prosegui con la benedizione di %d."
 %E
 %Cp Arc 00032
-"Avro` la mia guardia %gP per il tuo ritorno."
+"Avro` i miei %gP vegliando per il tuo ritorno"
 %E
 %Cp Arc 00033
 "Ricorda di non smarrire il vero cammino %a."
@@ -198,98 +198,100 @@ presenza di %o.
 La consueta presenza di %o e` nell'etere.
 %E
 %Cc Arc 00050
-"So, %p, you think that you can succeed in recovering
-%o, when your teacher, %l, has already failed.
+"Quindi, %p, pensi di riuscire a recuperare %o, nonostante
+il tuo maestro, %l, abbia gia` fallito."
 
-"Come, try your best!  I shall destroy you, and gnaw on your bones."
+"Vieni, fai del tuo meglio! Ti distruggero` e tritero` le tue ossa."
 %E
 %Cc Arc 00051
-"Again you try to best me, eh %p?  Well, you shall fail again.
+"Provi nuovamente a misurarti con me, eh %p? Bene, fallirai di nuovo."
 
-"You shall never recover %o.
+"Non riuscirai mai a recuperare %o."
 
-"I shall bear your soul to the Plane of Origins for my master's pleasure."
+"Portero` la tua anima al Plane of Origins solo per
+il piacere del mio maestro."
 %E
 %Cp Arc 00052
-"You persist yet %p!  Good.  Now, you shall die!"
+"Ti ostini ancora %p! Bene. Adesso morirai!"
 %E
 %Cp Arc 00053
-"I shall have %o from you, %p, then feast
-upon your entrails!"
+"Avro` %o, %p, poi festeggero` sulle tu viscere!"
 %E
 %Cp Arc 00060
-"Try your best, %p.  You cannot defeat me."
+"Fai del tuo meglio, %p. Non puoi sconfiggemi."
 %E
 %Cp Arc 00061
-"I shall rend the flesh from your body whilst you still breathe!"
+"Strappero` via la carne dal tuo corpo mentre ancora respiri!"
 %E
 %Cp Arc 00062
-"First you, %p, then I shall destroy your mentor, %l."
+"Prima tocchera` a te, %p, poi distruggero` il tuo mentore, %l."
 %E
 %Cp Arc 00063
-"Tiring yet, %p?  I draw my power from my master and cannot
-falter!"
+"Gia` sei stanco, %p? Ho acquisito il mio potere dal mio maestro
+e non posso esitare!"
 %E
 %Cp Arc 00064
-"I shall rend thy soul from thy body and consume it!"
+"Strappero` la tua anima dal tuo corpo e la consumero`!"
 %E
 %Cp Arc 00065
-"You are far too %a -- it weakens you.  You shall die in this place."
+"Sei troppo %a -- cio` ti indebilisce. Morirai qui."
 %E
 %Cp Arc 00066
-"%d has forsaken you!  You are lost now!"
+"%d ti ha abbandonato! Sei perduto!"
 %E
 %Cp Arc 00067
-"A mere %r cannot hope to defeat me!"
+"Un semplice %r non puo` sperare di sconfiggermi!"
 %E
 %Cp Arc 00068
-"If you are the best %l can send, I have nothing to fear."
+"Se sei il migliore che %l possa inviare, non ho nulla da tenere."
 %E
 %Cp Arc 00069
-"Die %c!  I shall exhibit your carcass as a trophy."
+"Muori %c! Esporro` il tuo cadavere come trofeo."
 %E
 %Cc Arc 00070
-The power of %o flows through your body!  You feel
-as if you could now take on the Wizard of Yendor himself and win, but
-you know you must return %o to %l.
+Il potere di $o scorre in te! Hai la sensazione
+di poter battere il Wizard of Yendor, ma
+sai che dovrai restituire %o a %l.
 %E
 %Cp Arc 00080
-The body of %n dissipates in a cloud of noxious fumes.
+Il corpo di %n scompare in una nuvola mortale.
 %E
 %Cc Arc 00081
-%lC touches %o briefly, gazes into it,
-then smiles at you and says:
+%lC tocca %o brevemente, lo fissa,
+poi ti sorride e dice:
 
-"Well done, %p.  You have defeated %n and
-recovered %o.  But I fear that it shall never be safe
-here.
+"Ben fatto, %p. Hai sconfitto %n e
+recuperato %o. Tempo, pero`, che non sara` mai
+al sicuro qui.
 
-Please take %o with you.  You, %p, can
-guard it now far better than I.
+Ti prego, porta %o con te. Tu, %p, puoi custodirlo
+meglio di quanto possa fare io.
 
-May the blessings of %d follow you and guard you."
+Possa la benedizione di $d accompagnarti e
+vegliare su di te."
 %E
 # assumes Orb of Detection (glass object)
 %Cc Arc 00082
-"Careful, %p!  %oC might break, and that would be
-a tragic loss.  You are its keeper now, and the time has come to
-resume your search for the Amulet.  %Z await your
-return through the magic portal that brought you here."
+Attento, $p! %oC puo` rompersi e sarebbe una
+grave perdita. Sei il suo custode adesso e ora
+e` tempo di riprendere la tua ricerca dell'Amuleto.
+%Z attendi il tuo ritorno attraverso il portale magico
+che ti ha portato io."
 %E
 %Cc Arc 00090
-"Welcome back, %p.  Have you progressed with your quest to
-regain the Amulet of Yendor for %d?"
+"Bentornato, $p. Hai fatto progressi con la tua quest
+alla ricerca dell'Amuleto di Yendor per $d?"
 %E
 %Cc Arc 00091
-"Congratulations, %p.  I wondered if anyone could prevail against
-the Wizard and the minions of Moloch.  Now, you must embark on one
-final adventure.
+"Congratulazioni, $p. Mi chiedevo se qualcuno potesse battere
+il Wizard e servitori di Moloch. Adesso, devi lancarti nella
+tua avventura conclusiva.
 
-"Take the Amulet, and find your way onto the astral plane.
-There you must find the altar of %d and sacrifice the
-Amulet on that altar to fulfill your destiny.
+"Prendi l'Amuleto e trova il tuo cammino nel disegno astrale.
+Li` dovrai trovare l'altare di $d e sacrificare l'Amuleto
+su quell'altere per compiere il tuo destino.
 
-"Remember, your path now should always be upwards."
+Ricorda, il tuo camino sara` sempre in salita d'ora in avanti."
 %E
 #
 #	Barbarian
