@@ -420,12 +420,14 @@ e con %d con te, da solo potrai sconfiggere %n."
 "Se puoi mettere le mani su %o, per portare fortuna."
 %E
 %Cp Bar 00032
-"I cannot stand against %ns sorcery.  But %d will help you."
+"Non posso resistere alla stregoneria %ns. %d ti aiuterà."
 %E
 %Cp Bar 00033
 "Non temere %n, So che puoi sconfiggerlo."
 %E
 %Cp Bar 00034
+"Hai una grande strada da percorrere, %p, ma solo dopo che sarai
+sconfitto %n."
 "You have a great road to travel, %p, but only after you defeat
 %n."
 %E
