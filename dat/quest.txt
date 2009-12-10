@@ -810,65 +810,65 @@ casts its influence throughout our world.
 "Sacrifice the Amulet on the altar.  Thus shall %d become supreme!"
 %E
 #
-#	Healer
+#	Guaritore
 #
 %Cc Hea 00001
-What sorcery has brought you back to %H?  The smell
-of fresh funeral pyres tells you that something is amiss with the healing
-powers that used to practice here.
+Quale stregoneria ti ha riportato indietro a %H?La puzza di una fresca
+pira funebre ti dice che qualcosa è andato storto con i poteri
+curativi che praticavi.
 
-No rhizotomists are tending the materia medica gardens, and where are the
-common folk who used to come for the cures?
+Nessun rizotomista si sta prendendo cura dei giardini di piante
+medicamentose, e dov'è finita tutta quella gente comune che veniva per curarsi?
 
-You know that you must quickly make your way to the collegium, and
-%ls iatreion, and find out what has happened in your
-absence.
+Sai che devi prendere velocemente la strada per il collegio, e
+l'ospedale %ls, e scopri cosa è accaduto durante la tua assenza.
 %E
 %Cp Hea 00002
-After your last experience you expected to be here, but you certainly
-did not expect to see things so much worse.  This time you must
-succeed.
+Dopo la tua ultima esperienza ti aspettavi di essere qui, ma
+sicuramente non ti aspettavi di vedere le cose peggiorate così
+tanto. Questa volta devi avere successo.
 %E
 %Cp Hea 00003
-Again, you %x %H in the distance.
+Di nuovo, tu %x %H in lontananza.
 
-The smell of death and disease permeates the air.  You do not have
-to be %Ra to know that %n is on the verge of victory.
+La puzza di morte e malattia permea l'aria. Non è necessario che tu
+sia %Ra per sapere che %n è sul punto di vincere.
 %E
 %Cp Hea 00005
-"Did you read that new treatise on the therapeutic use of leeches?"
+"Hai letto dei nuovi trattamenti sull'uso terapeutico delle sanguisughe?"
 %E
 %Cp Hea 00006
-"Paint a red caduceus on your shield and monsters won't hit you."
+"Dipingi un caduceo rosso sul tuo scudo e i mostri non ti colpiranno."
 %E
 %Cp Hea 00007
+"Copiai un manoscritto e così loro mi degradarono."
 "I passed handwriting so they are demoting me a rank."
 %E
 %Cp Hea 00008
-"I've heard that even %l has not been able to cure Chiron."
+"Ho sentito che nemmeno %l è stato in grado di curare Chiron."
 %E
 %Cp Hea 00009
-"We think %n has used his alchemists, and %o,
-to unleash a new disease we call 'the cold' on Gehennom."
+"Pensiamo che  %n ha usato i suoi alchimisti, e %o, per debellare una
+nuova malattia chiamata 'Il freddo' di cui soffriva Gehennom."
 %E
 %Cp Hea 00010
-"Did you read that new treatise on the therapeutic use of leeches?"
+"Hai letto dei nuovi trattamenti sull'uso terapeutico delle sanguisughe?"
 %E
 %Cp Hea 00011
-"Paint a red caduceus on your shield and monsters won't hit you."
+"Dipingi un caduceo rosso sul tuo scudo così i mostri non ti attaccheranno."
 %E
 %Cp Hea 00012
-"How are you feeling?  Perhaps a good bleeding will improve your sprits."
+"Come ti senti? Forse una buona sanguinata migliorerà il tuo spirito."
 %E
 %Cp Hea 00013
-"Have you heard the absurd new theory that diseases are caused by
-microscopic organisms, and not ill humors?"
+"Hai sentito di qualla nuova assurda teoria per la quale le malattie
+sono causate da microscopici organismi e non da cattivo umore?"
 %E
 %Cp Hea 00014
-"I see that you bring %o, now you can cure this plague!"
+"Vedo che porti %o, adesso puoi curare questa piaga!"
 %E
 %Cc Hea 00015
-Feebly, %l raises his head to look at you.
+Debolmente, %l alza la testa su di te.
 
 "It is good to see you again, %p.  I see the concern in your
 eyes, but do not worry for me.  I am not ready for Hades yet.  We have
