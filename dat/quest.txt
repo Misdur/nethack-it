@@ -3234,24 +3234,25 @@ ultimo incontro. Desideri ancora altra sofferenza?
 "Vieni! La tua anima, come %o, presto sarà sotto il mio controllo."
 %E
 %Cp Wiz 00052
+"Sono sicuro che la tua persevaranza sarà il soggetto di innumerevoli
+storie, ma , ho paura, che non sarai li a sentirle!"
 "I'm sure that your perseverance shall be the subject of innumerable
 ballads, but you shall not be around to hear them, I fear!"
 %E
 %Cp Wiz 00053
-"Thief!  %o belongs to me, now.  I shall feed
-your living flesh to my minions."
+"Ladro! %o ora appartiene a me. Darò in pasto ai miei servitori la tua carne viva."
 %E
 %Cp Wiz 00060
-"Your puny powers are no match for me, fool!"
+"I tuoi deboli poteri non sono nulla per me, imbecille!"
 %E
 %Cp Wiz 00061
-"When you are defeated, your torment will last for a thousand years."
+"Quando sarai sconfitto, il tuo tormento durerà altri mille anni."
 %E
 %Cp Wiz 00062
-"After your downfall, %p, I shall devour %l
-for dessert!"
+"Dopo la tua dipartita, %p, divorerò %l per dessert!"
 %E
 %Cp Wiz 00063
+
 "Are you ready yet to beg for mercy?  I could be lenient..."
 %E
 %Cp Wiz 00064
