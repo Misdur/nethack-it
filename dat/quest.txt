@@ -3234,10 +3234,8 @@ ultimo incontro. Desideri ancora altra sofferenza?
 "Vieni! La tua anima, come %o, presto sarà sotto il mio controllo."
 %E
 %Cp Wiz 00052
-"Sono sicuro che la tua persevaranza sarà il soggetto di innumerevoli
-storie, ma , ho paura, che non sarai li a sentirle!"
-"I'm sure that your perseverance shall be the subject of innumerable
-ballads, but you shall not be around to hear them, I fear!"
+"Sono sicuro che la tua persevaranza sarà l'argomento di innumerevoli
+racconti, ma , ho paura, che non sarai li a sentirli!"
 %E
 %Cp Wiz 00053
 "Ladro! %o ora appartiene a me. Darò in pasto ai miei servitori la tua carne viva."
