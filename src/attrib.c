@@ -13,10 +13,10 @@
 	/* part of the output on gain or loss of attribute */
 static
 const char	* const plusattr[] = {
-	"strong", "smart", "wise", "agile", "tough", "charismatic"
+	"forte", "furbo", "saggio", "agile", "duro", "carismatico"
 },
 		* const minusattr[] = {
-	"weak", "stupid", "foolish", "clumsy", "fragile", "repulsive"
+	"debole", "stupido", "sciocco", "goffo", "fragile", "repellente"
 };
 
 
@@ -27,70 +27,70 @@ const struct innate {
 	const char *gainstr, *losestr;
 }	arc_abil[] = { {	 1, &(HStealth), "", "" },
 		     {   1, &(HFast), "", "" },
-		     {  10, &(HSearching), "perceptive", "" },
+		     {  10, &(HSearching), "percettivo", "" },
 		     {	 0, 0, 0, 0 } },
 
 	bar_abil[] = { {	 1, &(HPoison_resistance), "", "" },
-		     {   7, &(HFast), "quick", "slow" },
-		     {  15, &(HStealth), "stealthy", "" },
+		     {   7, &(HFast), "svelto", "lento" },
+		     {  15, &(HStealth), "furtivo", "" },
 		     {	 0, 0, 0, 0 } },
 
-	cav_abil[] = { {	 7, &(HFast), "quick", "slow" },
-		     {	15, &(HWarning), "sensitive", "" },
+	cav_abil[] = { {	 7, &(HFast), "svelto", "lento" },
+		     {	15, &(HWarning), "sensitivo", "" },
 		     {	 0, 0, 0, 0 } },
 
 	hea_abil[] = { {	 1, &(HPoison_resistance), "", "" },
-		     {	15, &(HWarning), "sensitive", "" },
+		     {	15, &(HWarning), "sensitivo", "" },
 		     {	 0, 0, 0, 0 } },
 
-	kni_abil[] = { {	 7, &(HFast), "quick", "slow" },
+	kni_abil[] = { {	 7, &(HFast), "svelto", "lento" },
 		     {	 0, 0, 0, 0 } },
 
 	mon_abil[] = { {   1, &(HFast), "", "" },
 		     {   1, &(HSleep_resistance), "", "" },
 		     {   1, &(HSee_invisible), "", "" },
-		     {   3, &(HPoison_resistance), "healthy", "" },
-		     {   5, &(HStealth), "stealthy", "" },
-		     {   7, &(HWarning), "sensitive", "" },
-		     {   9, &(HSearching), "perceptive", "unaware" },
-		     {  11, &(HFire_resistance), "cool", "warmer" },
-		     {  13, &(HCold_resistance), "warm", "cooler" },
-		     {  15, &(HShock_resistance), "insulated", "conductive" },
-		     {  17, &(HTeleport_control), "controlled","uncontrolled" },
+		     {   3, &(HPoison_resistance), "sano", "" },
+		     {   5, &(HStealth), "furtivo", "" },
+		     {   7, &(HWarning), "sensitivo", "" },
+		     {   9, &(HSearching), "percettivo", "ignaro" },
+		     {  11, &(HFire_resistance), "fresco", "piu` caldo" },
+		     {  13, &(HCold_resistance), "caldo", "piu` fresco" },
+		     {  15, &(HShock_resistance), "isolato", "conduttivo" },
+		     {  17, &(HTeleport_control), "controllato","incontrollato" },
 		     {   0, 0, 0, 0 } },
 
-	pri_abil[] = { {	15, &(HWarning), "sensitive", "" },
-		     {  20, &(HFire_resistance), "cool", "warmer" },
+	pri_abil[] = { {	15, &(HWarning), "sensitivo", "" },
+		     {  20, &(HFire_resistance), "fresco", "piu` caldo" },
 		     {	 0, 0, 0, 0 } },
 
 	ran_abil[] = { {   1, &(HSearching), "", "" },
-		     {	 7, &(HStealth), "stealthy", "" },
+		     {	 7, &(HStealth), "furtivo", "" },
 		     {	15, &(HSee_invisible), "", "" },
 		     {	 0, 0, 0, 0 } },
 
 	rog_abil[] = { {	 1, &(HStealth), "", ""  },
-		     {  10, &(HSearching), "perceptive", "" },
+		     {  10, &(HSearching), "percettivo", "" },
 		     {	 0, 0, 0, 0 } },
 
 	sam_abil[] = { {	 1, &(HFast), "", "" },
-		     {  15, &(HStealth), "stealthy", "" },
+		     {  15, &(HStealth), "furtivo", "" },
 		     {	 0, 0, 0, 0 } },
 
-	tou_abil[] = { {	10, &(HSearching), "perceptive", "" },
-		     {	20, &(HPoison_resistance), "hardy", "" },
+	tou_abil[] = { {	10, &(HSearching), "percettivo", "" },
+		     {	20, &(HPoison_resistance), "ardito", "" },
 		     {	 0, 0, 0, 0 } },
 
 	val_abil[] = { {	 1, &(HCold_resistance), "", "" },
 		     {	 1, &(HStealth), "", "" },
-		     {   7, &(HFast), "quick", "slow" },
+		     {   7, &(HFast), "svelto", "lento" },
 		     {	 0, 0, 0, 0 } },
 
-	wiz_abil[] = { {	15, &(HWarning), "sensitive", "" },
-		     {  17, &(HTeleport_control), "controlled","uncontrolled" },
+	wiz_abil[] = { {	15, &(HWarning), "sensitivo", "" },
+		     {  17, &(HTeleport_control), "controllato","incontrollato" },
 		     {	 0, 0, 0, 0 } },
 
 	/* Intrinsics conferred by race */
-	elf_abil[] = { {	4, &(HSleep_resistance), "awake", "tired" },
+	elf_abil[] = { {	4, &(HSleep_resistance), "sveglio", "stanco" },
 		     {	 0, 0, 0, 0 } },
 
 	orc_abil[] = { {	1, &(HPoison_resistance), "", "" },
