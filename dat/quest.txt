@@ -1357,209 +1357,201 @@ Realizzi che il %l necessita della tua assistenza!"
 "%d potrebbe essere con voi, %s."
 %E
 %Cp Mon 00010
-"Saluti, onorabile %r. E' buono vedervi dinuovo."
+"Saluti, onorabile %r. E' bello vedervi dinuovo."
 %E
 %Cp Mon 00011
 "Ah, %p! La nostra profonda gratitudine per il vostro aiuto."
 %E
 %Cp Mon 00012
-"Saluti, %s. Prenderai del tempo per meditare con noi?"
+"Saluti, %s. Prenderete del tempo per meditare con noi?"
 %E
 %Cp Mon 00013
-"With this test behind you, may %d bring you enlightenment."
+"Con questa prova dietro di te, potresti %d divenire illuminato."
 %E
 %Cp Mon 00014
-"May %d be with you, %s."
+"Potrei %d essere con te, %s."
 %E
 %Cc Mon 00015
-"Ah, %p, my %S.  You have returned to us at last.
-A great blow has befallen our order; perhaps you can help us.
-First, however, I must determine if you are prepared for this
-great challenge."
+"Ah, %p, mio %S.Sei ritornato da noi alla fine. 
+Un grande colpo ha colpito il nostro ordine;magari potresti aiutarci.
+Primo,in ogni modo,ho bisogno di capirese sei preparato per questa grande sfida."
 %E
 %Cp Mon 00016
-"Again, my %S, you stand before me.  Are you ready now to help us?"
+"Dinuovo, mio %S, stai dietro di me. Sei pronto adesso per aiutarci?"
 %E
 %Cp Mon 00017
-"Once more, %p, you stand within the sanctum.  Are you ready now?"
+"Ancora una volta, %p, ti trovi all'interno del santuario. Sei pronto?"
 %E
 %Cc Mon 00018
-"You are a heretic, %p!  How can you, %ra, deviate so from the
-teachings of %d?  Begone from this temple.  You are no longer
-%sa to this order.  We will pray to %d for other assistance,
+"Tu sei un eretico, %p! Come si puo', %ra,deviato dagli insegnamenti
+di %d? Vattene fuori da questo tempio. Non sei più %sa di questo
+ordine. Pregheremo per %d per altro aiuto, 
 as you have failed us utterly."
 %E
 %Cc Mon 00019
-"Alas, %p, it is not yet to be.  A mere %r could never
-withstand the might of %n.  Go forth, again into the world, and return
-when you have attained the post of %R."
+"Ahimè, %p ancora non c'è. Un semplice %r non potrebbe mai sopportare
+la forza di %n. Vai avanti dinuovo nel mondo, e raggiungi il posto
+dove hai trovato %R"
 %E
 %Cc Mon 00020
-"This is terrible, %p.  You have deviated from the true path!
-You know that %d requires the most strident devotion of this
-order.  The %shood must stand for utmost piety.
+"Questo è terribile,%p. Non hai seguito la retta via!
+Tu sai che %d richiede la più grande devozione a quest'ordine. Il
+%shood ti dirà con grande pietà:
 
-"Go from here, atone for your sins against %d.  Return only when
-you have purified yourself."
+"Via da qui, hai espiato i tuoi peccati contro %d. Ritorna solo quando hai
+purificato te stesso."
 %E
 %Cc Mon 00021
-"Yes, %p.  You are truly ready now.  Attend to me and I shall
-tell you of what has transpired:
+"Si , %p Sei veramente pronto adesso. Aspettami e io ti diro' ciò che
+è emerso:
 
-"During one of the Great Meditations a short time ago, %n and
-a legion of elementals invaded %H.  Many %gP were
-killed, including the one bearing %o.
+"Durante un importante Meditazione un pò di tempo fa, %n e una legione
+di elementali invase %H. Diversi %gP furono uccisi,anche quello che
+portava %o.
 
-Now, there are barely enough %gP left to keep the
-elementals at bay.
+Adesso, %gP sono a malapena sufficienti per mantenere gli invasori a bada.
 
-"We need you to find %i, then, from there, travel
-to %ns lair.  If you can manage to defeat %n
-and return %o here, we can then drive off the
-legions of elementals that slay our students.
+"Abbiamo bisogno di trovare %i, da qui,viaggeremo al %ns nascondiglio.
+Se riesci a sconfiggere %n e tornare %o quì,potremo allora cacciare la
+legione di elementali che uccidono i nostri studenti."
 
-"Go with %d as your guide, %p."
+"Segui %d, è la tua guida, %p."
 %E
 %Cp Mon 00025
-"You can prevail, if you rely on %d."
+"Puoi prevalere, se conti su %d."
 %E
 %Cp Mon 00026
-"Remember that %n has great magic at his command."
+"Ricorda che %n ha una grande potere al suo comando."
 %E
 %Cp Mon 00027
-"Be pure, my %S."
+"Sii puro , mio %S."
 %E
 %Cp Mon 00028
-"Beware, %i is surrounded by hordes of earth elementals."
+"Attenzione, %i è circondato da orde di elementali della terra."
 %E
 %Cp Mon 00029
-"Remember your studies, and you will prevail!"
+"Ricorda i tuoi studi, e vincerai!"
 %E
 %Cp Mon 00030
-"Acquire and wear %o if you can.  They will aid you
-against %n."
+"Acquista e indossa %o se puoi. Ti proteggerà contro %n."
 %E
 %Cp Mon 00031
-"Call upon %d when your need is greatest.  You will be answered."
+"Invoca %d quando il tuo bisogno è grande. Avrai una risposta."
 %E
 %Cp Mon 00032
-"Remember to use the elementals' strength against them!"
+"Ricordadi usare la forza degli elementali contro di loro!"
 %E
 %Cp Mon 00033
-"Do not lose faith, %p.  If you do so, %n will grow stronger."
+"Non perdere la fede, %p. Se lo farai, %n diventerà piu' forte."
 %E
 %Cp Mon 00034
-"Wear %o.  They will assist you in your efforts."
+"Indossa %o. Ti aiuterà nei tuoi sforzi."
 %E
 %Cc Mon 00035
-You remember the descriptions of %i, given to you
-by the %l.  It is ahead that you will find %n's trail.
+Ricorda la descrizione di %i , che ti ha dato il %l.
+Troverai subito le traccie di %n.
 %E
 %Cp Mon 00036
-Again, you stand before %i.
+Dinuovo, ti trovi davanti %i.
 %E
 %Cc Mon 00040
-The stench of brimstone is all about you, and the elementals close in
-from all sides!
+La puzza di zolfo è tutt'intorno a te, e si avverte la vicinanza degli 
+elementali!
 
-Ahead, there is a small clearing amidst the bubbling pits of lava...
+Davanti vi è una piccola isoletta in mezzo al ribbollire della lava...
+
 %E
 %Cp Mon 00041
-Again, you have invaded %ns domain.
+Ancora, hai invaso %ns dominio.
 %E
 %Cc Mon 00050
-"Ah, so %l has sent another %g to retrieve
-%o.
+"Ah, così %l ha inviato un'altro %g per trovare %o.
 
-"No, I see you are no %g.  Perhaps I shall have some fun today
-after all.  Prepare to die, %r!  You shall never regain
-%o."
+"No, vedo che non sei %g. Forse mi divertirò oggi dopo tutto
+Preparati a morire, %r! Non riconquisterai mai %o."
 %E
 %Cp Mon 00051
-"So, %r.  Again you challenge me."
+"Così, %r. Ancora tu mi sfidi."
 %E
 %Cp Mon 00052
-"Die now, %r.  %d has no power here to aid you."
+"Muori adesso, %r. %d quì non ha ilpotere di guarirti"
 %E
 %Cp Mon 00053
-"You shall die, %r, and I will have %o back."
+"Morirai, %r , e io avrò dinuovo %o."
 %E
 %Cp Mon 00060
-"Submit to my will, %c, and I shall spare you."
+"Invia alla mia volontà, %c,e ti risparmierò."
 %E
 %Cp Mon 00061
-"Your puny powers are no match for me, %c."
+"Il tuo debole potere non mi fà niente, %c."
 %E
 %Cp Mon 00062
-"I shall have you turned into a zombie for my pleasure!"
+"Ti trasformerò in zombie per il mio solo piacere!"
 %E
 %Cp Mon 00063
-"Despair now, %r.  %d cannot help you."
+"Disperati adesso, %r. %d non può aiutarti."
 %E
 %Cp Mon 00064
-"I shall feast upon your soul for many days, %c."
+"Festeggierò sulla tua anima per diversi giorni, %c."
 %E
 %Cp Mon 00065
-"Your death will be slow and painful.  That I promise!"
+"La tua morte sarà lenta e crudele. Come promesso!"
 %E
 %Cp Mon 00066
-"You cannot defeat %n, you fool.  I shall kill you now."
+"Non puoi sconfiggere %n, stupido. Ti ucciderò adesso."
 %E
 %Cp Mon 00067
-"Your precious %lt will be my next victim."
+"Il tuo caro %lt sarà la prossima vittima."
 %E
 %Cp Mon 00068
-"I feel your powers failing you, %r.  You shall die now."
+"Sento il tuo potere svanire, %r. Morirai adesso."
 %E
 %Cp Mon 00069
-"With %o, nothing can stand in my way."
+"Con %o, niente puo' intralciare la mia strada."
 %E
 %Cc Mon 00070
-As you pick up %o, you feel the essence of
-%d fill your soul.  You know now why %n stole them from
-%H, for with them, %ca of %d could
-easily defeat his plans.
-
-You sense a message from %d.  Though not verbal, you
-get the impression that you must return to %l as soon
-as possible.
+Prendi %o, sentirai l'essenza di %d che ti riempirà l'anima.
+Conosci adesso perche' %n hanno rubato %H, %ca di %d possono
+facilmente rovinare i suoi piani.
+ 
+Hai un messaggio da %d. Non verbale, dovrai ritornare a %l il prima possibile.
 %E
 %Cc Mon 00080
-%nC gasps:
+%nC rantoli:
 
-    "You have only defeated this mortal body.  Know this: my spirit
-    is strong.  I shall return and reclaim what is mine!"
+    "Hai solo battutto questo corpo mortale.Sappi: il mio spirito
+    è forte. Tornerò e rivendicherò quello che mi appartiene!"
 
-With that, %n expires.
+Con ciò, %n passano.
+
 %E
 %Cc Mon 00081
-"You have returned, %p.  And with %o, I see.
-Congratulations.
+"Sei tornato, %p. E con %o, ho visto. 
+Complimenti.
 
-"I have been in meditation, and have received direction from
-a minion of %d.  %d commands that you retain
-%o.  With them, you must recover the Amulet
-of Yendor.
+"Sono stato in meditazione,e ho ricevuto ordini da un servitore 
+di %d. Gli ordini di %d che ritieni %o. Con essi, Troverai l'Amuleto
+di Yendor.
 
-"Go forth, and let %d guide your steps."
+"Vai avanti,e lascia che %d guidi il tuo cammino."
 %E
 %Cc Mon 00082
-%lC studies %o for a moment,
-then returns his gaze to you.
 
-"%oC must remain with you.  Use them
-as you resume your search for the Amulet.
-%Z await your return through the magic portal
-that brought you here."
+%lC guarda %o per un momento,
+poi ritorna il suo sguardo a te.
+
+"%oC deve restare con te. Usalo per aiutarti nella ricerca
+dell'Amuleto.
+%Z aspetta il tuo ritorno dal magico portale che ti portò qui."
 %E
 %Cp Mon 00090
-"Welcome back, %p.  How is your quest for the Amulet going?"
+"Bentornato ,%p. Com'è andata la tua avventura alla ricerca dell'Amuleto?"
 %E
 %Cc Mon 00091
-"You have prevailed, %p!  %d is surely with you.  Now,
-you must take the amulet, and sacrifice it on %ds altar on
-the Astral plane.  I suspect that I shall never see you again in this
-life, but I hope to at %ds feet."
+"Hai vinto, %p! %d è sicuramente con te. Adesso,
+dovrai prendere l'amuleto e sacrificarlo sull'altare di %ds
+sul piano di Astral. Penso che non ti rivedro' più in questa vita,
+ma io spero ai piedi di %ds."
 %E
 #
 #	Priest
