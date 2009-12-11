@@ -1363,7 +1363,7 @@ Realizzi che il %l necessita della tua assistenza!"
 "Ah, %p! La nostra profonda gratitudine per il vostro aiuto."
 %E
 %Cp Mon 00012
-"Greetings, %s.  Perhaps you will take some time to meditate with us?"
+"Saluti, %s. Prenderai del tempo per meditare con noi?"
 %E
 %Cp Mon 00013
 "With this test behind you, may %d bring you enlightenment."
