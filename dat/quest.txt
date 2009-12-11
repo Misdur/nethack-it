@@ -3250,14 +3250,14 @@ racconti, ma , ho paura, che non sarai li a sentirli!"
 "Dopo la tua dipartita, %p, divorerò %l per dessert!"
 %E
 %Cp Wiz 00063
-
-"Are you ready yet to beg for mercy?  I could be lenient..."
+"Sei pronto a chiedermi ancora pietà? Potrei essere anche clemente..."
 %E
 %Cp Wiz 00064
-"Your soul shall join the enslaved multitude I command!"
+"La tua anima si unirà a quelle della moltitudine di schiavi sotto il
+mio comando."
 %E
 %Cp Wiz 00065
-"Your lack of will is evident, and you shall die as a result."
+"La tua scarsa forza è evidente, e il risultato sarà la tua morte."
 %E
 %Cp Wiz 00066
 "Your faith in %d is for naught!  Come, submit to me now!"
