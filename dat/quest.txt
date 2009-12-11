@@ -870,38 +870,36 @@ sono causate da microscopici organismi e non da cattivo umore?"
 %Cc Hea 00015
 Debolmente, %l alza la testa su di te.
 
-"It is good to see you again, %p.  I see the concern in your
-eyes, but do not worry for me.  I am not ready for Hades yet.  We have
-exhausted much of our healing powers holding off %n.
-I need your fresh strength to carry on our work.
+"E' bello vederti di nuovo, %p. Vedo preoccupazione nei tuoi occhi, ma
+non preoccuparti per me. Non sono ancora pronto per l'Ade. Abbiamo
+bisogno di nuove forze per proseguire il nostro lavoro."
 
-"Come closer and let me lay hands on you, and determine if you have
-the skills necessary to accomplish this mission."
+"Vieni più vicino e lasciami tendere le mani su di te, e verificare se
+hai le abilità necessarie per completare la missione."
 %E
 %Cp Hea 00016
-"Again you return to me, %p.  I sense that each trip back
-the pleurisy and maladies of our land begin to infect you.  Let us
-hope and pray to %d that you become ready for your task before
-you fall victim to the bad humors."
+"Torni di nuovo da me, %p. Sento che ogni viaggio di ritorno la
+pleurite e le malattie della nostra terra cominciano ad
+infettarvi. Speriamo e preghiamo %d che tu ti prepari per il tuo
+compito prima che diventi vittima di qualche cattivo umore."  
 %E
 %Cp Hea 00017
-"Chiron has fallen, Hermes has fallen, what else must I tell you to
-impress upon you the importance of your mission!  I hope that you
-have come prepared this time."
+"Chiron è caduto, Hermes è caduto, che altro devo dirti per
+impressionarti e farti capire l'importanza della tua missione! Spero
+che tu ti sia preparato questa volta."
 %E
 %Cc Hea 00018
-"You have failed us, %p.  You are a quack!  A charlatan!
+"Ci hai deluso, %p. Sei un buffone! Un ciarlatano!"
 
-"Hades will be happy to hear that you are once again practicing your
-arts on the unsuspecting."
+"Ade sarà contento di sentire che pratichi ancora la tua arte su ignari."
 %E
 %Cc Hea 00019
-"Alas, %p, you are yet too inexperienced to deal with the rigors
-of such a task.  You must be able to draw on the knowledge of botany,
-vetenary, and alchemy before I can send you on this quest with good
-conscience.
+"Ahimè, %p, sei ancora troppo inesperto per affrontare i rigori di
+tale compito. Devi essere in grado di attingere alle conoscenze della
+botanica, veterinaria, e alchimia prima che io possa mandarti in
+questa ricerca con buone conoscenze."
 
-"Return when you wear %Ra's caduceus."
+"Ritorna quando insossi il caduceo di %Ra."
 %E
 %Cc Hea 00020
 "You have learned much of the remedies that benefit, but you must also
