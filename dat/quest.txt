@@ -3260,16 +3260,16 @@ mio comando."
 "La tua scarsa forza è evidente, e il risultato sarà la tua morte."
 %E
 %Cp Wiz 00066
-"Your faith in %d is for naught!  Come, submit to me now!"
+"La tua fede in %d è mal riposta. Avanti, ora sottomettiti a me!"
 %E
 %Cp Wiz 00067
-"A mere %r is nothing compared to my skill!"
+"Un semplice %r è niente rispetto alla mia abilità!"
 %E
 %Cp Wiz 00068
-"So, you are the best hope of %l?  How droll."
+"Allora, sei la più grande speranza di %l? Sei dicertente."
 %E
 %Cp Wiz 00069
-"Feel my power, %c!  My victory is imminent!"
+"Senti la mia potenza, %c! La mia vittoria è imminente!"
 %E
 %Cc Wiz 00070
 As you touch %o, its comforting power infuses you
