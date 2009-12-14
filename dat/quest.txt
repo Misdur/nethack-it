@@ -3272,53 +3272,49 @@ mio comando."
 "Senti la mia potenza, %c! La mia vittoria è imminente!"
 %E
 %Cc Wiz 00070
-As you touch %o, its comforting power infuses you
-with new energy.  You feel as if you can detect others' thoughts flowing
-through it.  Although you yearn to wear %o
-and attack the Wizard of Yendor, you know you must return it to its
-rightful owner, %l.
+Come tocchi %o, senti che il suo potere confortante viene infuso in te con una
+nuova energia. Senti che puoi percepire i pensieri altrui attraverso di
+esso. Anche se tu brami di indossare %o e attaccare il Mago di Yendor,
+sai che deve ritornare al suo legittimo proprietario, %l.
 %E
 %Cc Wiz 00080
-%nC croaks out, as his body begins to shrivel up:
+%nC gracchia infine, prima che il suo corpo comincia a rinsecchirsi:
+    
+    Seguirò di nascosto i tuoi progressi fino alla fine dei
+    tempi. Maledico mille volte te e %l.
 
-    I shall haunt your progress until the end of time.  A thousand
-    curses on you and %l.
-
-Then, the body bursts into a cloud of choking dust, and blows away.
+Poi, il suo corpo esplode in una nuvola di fumo soffocante, e poi scompare.
 %E
 %Cc Wiz 00081
-%lC notices %o in your possession,
-beams at you and says:
+%lC nota %o che è in tuo possesso, ti sorride e dice: 
 
-    I knew you could defeat %n and retrieve
-    %o.  We shall never forget this
-    brave service.
-
-    Take %o with you in your quest for
-    the Amulet of Yendor.  I can sense that it has attuned
-    itself to you already.
-
-    May %d guide you in your quest, and keep you from harm.
+    Sapevo che avresti potuto sconfiggere %n e riportarmi %o. 
+    Non dimenticheremo mai il tuo coraggioso incarico.
+    
+    Porta con te %o nella tua ricerca dell'Amuleto di Yendor. Sento
+    che è gia in sintonia con te.
+    
+    Possa %d guidarti nella tua ricerca, e ti protegga dai pericoli.
 %E
 %Cc Wiz 00082
-"You are the keeper of %o now.  It is time to
-recover the /other/ Amulet.  %Z await your return through
-the magic portal which brought you here."
+"Ora sei il possessore di %o. Ora è il tempo di riportare /l'altro/
+Amuleto. %Z attende il tuo ritorno attraverso il portale magico che ti
+ha portato qua."
 %E
 %Cp Wiz 00090
-"Come near, my %S, and share your adventures with me.
-So, have you succeeded in your quest for the Amulet of Yendor?"
+"Avvicinati, mio %S, e condividi le tue avventure con me. Allora sei
+riuscito nella tua impresa per ricerca dell'Amuleto di Yendor?"
 %E
 %Cc Wiz 00091
-"Congratulations, %p.  I always knew that if anyone could succeed
-in defeating the Wizard of Yendor and his minions, it would be you.
+"Congratulazioni, %p. Ho sempre saputo che quel qualcuno che avrebbe
+potuto sconfiggere il Mago di Yendor ed i suoi seguaci, saresti stato tu.
 
-"Go now, and take the Amulet to the astral plane.  Once there, present
-the Amulet on the altar of %d.  Along the way you shall pass through the
-four elemental planes.  These planes are like nothing you have ever
-experienced before, so be prepared!
+"Vai ora, e riporta l'Amuleto nel piano astrale. Una volta li, riponi
+l'Amuleto sull'altare di %d. Lungo la strada dovrai attraversare i 
+quattro piani elementali. Questi piani sono qualcosa che non hai mai
+sperimentato fin ora, quindi preparati!
 
-"For this you were born, %s!  I am very proud of you."
+"Per questo sei nato, %s! Sono davvero orgoglioso di te."
 %E
 #
 #	General
