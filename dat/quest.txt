@@ -1333,7 +1333,7 @@ the planes of the elements, to achieve this goal.
 "Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
 si aggirano all'esterno di %H!
 
-Realizzi che il %l necessita della tua assistenza!"
+Realizzi che %l necessita della tua assistenza!"
 %E
 %Cp Mon 00002
 "Ancora una volta, ti trovi davanti %H."
@@ -1342,7 +1342,7 @@ Realizzi che il %l necessita della tua assistenza!"
 "Dinuovo %H. Intuisci che potrebbe essere l'ultima volta che vieni qui."
 %E
 %Cp Mon 00005
-"Saluti , onorabile %r. E' bello vederti."
+"Saluti, onorabile %r. E' bello vederti."
 %E
 %Cp Mon 00006
 "Ah, %p!  Sicuramente puoi aiutarci nel momento del bisogno."
@@ -1366,37 +1366,36 @@ Realizzi che il %l necessita della tua assistenza!"
 "Saluti, %s. Prenderete del tempo per meditare con noi?"
 %E
 %Cp Mon 00013
-"Con questa prova dietro di te, potresti %d divenire illuminato."
+"Ora che questa prova è alle spalle, possa %d portarti l'illuminazione."
 %E
 %Cp Mon 00014
 "Potrei %d essere con te, %s."
 %E
 %Cc Mon 00015
 "Ah, %p, mio %S.Sei ritornato da noi alla fine. 
-Un grande colpo ha colpito il nostro ordine;magari potresti aiutarci.
-Primo,in ogni modo,ho bisogno di capirese sei preparato per questa grande sfida."
+Un grande colpo ha subito il nostro ordine; magari potresti aiutarci.
+Prima, però, ho bisogno di capire se sei preparato per questa grande sfida."
 %E
 %Cp Mon 00016
-"Dinuovo, mio %S, stai dietro di me. Sei pronto adesso per aiutarci?"
+"Dinuovo, mio %S, sei dinanzi a me. Sei pronto adesso per aiutarci?"
 %E
 %Cp Mon 00017
 "Ancora una volta, %p, ti trovi all'interno del santuario. Sei pronto?"
 %E
 %Cc Mon 00018
-"Tu sei un eretico, %p! Come si puo', %ra,deviato dagli insegnamenti
+"Tu sei un eretico, %p! Come si puo', %ra, deviato dagli insegnamenti
 di %d? Vattene fuori da questo tempio. Non sei più %sa di questo
-ordine. Pregheremo per %d per altro aiuto, 
-as you have failed us utterly."
+ordine. Pregheremo per %d per altro aiuto, dato che hai fallito del tutto."
 %E
 %Cc Mon 00019
 "Ahimè, %p ancora non c'è. Un semplice %r non potrebbe mai sopportare
 la forza di %n. Vai avanti dinuovo nel mondo, e raggiungi il posto
-dove hai trovato %R"
+dove hai trovato %R."
 %E
 %Cc Mon 00020
 "Questo è terribile,%p. Non hai seguito la retta via!
 Tu sai che %d richiede la più grande devozione a quest'ordine. Il
-%shood ti dirà con grande pietà:
+%s hood ti dirà con grande pietà:
 
 "Via da qui, hai espiato i tuoi peccati contro %d. Ritorna solo quando hai
 purificato te stesso."
