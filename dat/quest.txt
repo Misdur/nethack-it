@@ -1348,7 +1348,7 @@ Realizzi che %l necessita della tua assistenza!"
 "Ah, %p! Sicuramente puoi aiutarci nel momento del bisogno."
 %E
 %Cp Mon 00007
-"Saluti, %s. %lC ha un gran bisogno del vostro aiuto."
+"Saluti, %s. %lC ha un grande bisogno del vostro aiuto."
 %E
 %Cp Mon 00008
 "Ahime', sembra che anche %d ci abbia abbandonato."
