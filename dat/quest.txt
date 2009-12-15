@@ -1330,7 +1330,7 @@ the planes of the elements, to achieve this goal.
 # to be treated as plural by messages which use %o.
 #
 %Cc Mon 000012
-"Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
+"Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto. Strane figure
 si aggirano all'esterno di %H!
 
 Realizzi che %l necessita della tua assistenza!"
@@ -1373,7 +1373,7 @@ Realizzi che %l necessita della tua assistenza!"
 %E
 %Cc Mon 00015
 "Ah, %p, mio %S.Sei ritornato da noi alla fine. 
-Un grande colpo ha subito il nostro ordine; magari potresti aiutarci.
+Il nostro ordine ha subito un duro colpo; magari potresti aiutarci.
 Prima, però, ho bisogno di capire se sei preparato per questa grande sfida."
 %E
 %Cp Mon 00016
@@ -1394,36 +1394,37 @@ dove hai trovato %R."
 %E
 %Cc Mon 00020
 "Questo è terribile,%p. Non hai seguito la retta via!
-Tu sai che %d richiede la più grande devozione a quest'ordine. Il
-%s hood ti dirà con grande pietà:
+Tu sai che %d richiede la più grande devozione a quest'ordine. La
+fratellanza deve mantenere una estrema abnegazione.
 
-"Via da qui, hai espiato i tuoi peccati contro %d. Ritorna solo quando hai
-purificato te stesso."
+"Via da qui, devi espiare i tuoi peccati commessi contro %d. Ritorna
+solo quando avrai purificato te stesso."
 %E
 %Cc Mon 00021
-"Si , %p Sei veramente pronto adesso. Aspettami e io ti diro' ciò che
-è emerso:
+"Si , %p. Sei veramente pronto adesso. Aspettami e ti diro' ciò che
+è accaduto:
 
-"Durante un importante Meditazione un pò di tempo fa, %n e una legione
+"Durante la Grande Meditazione un pò di tempo fa, %n e una legione
 di elementali invase %H. Diversi %gP furono uccisi,anche quello che
-portava %o.
+custodiva %o.
 
-Adesso, %gP sono a malapena sufficienti per mantenere gli invasori a bada.
+Adesso, %gP sono a malapena sufficienti per matenere a bada gli invasori.
 
-"Abbiamo bisogno di trovare %i, da qui,viaggeremo al %ns nascondiglio.
-Se riesci a sconfiggere %n e tornare %o quì,potremo allora cacciare la
-legione di elementali che uccidono i nostri studenti."
+"Abbiamo bisogno di voi trovare %i, poi da li,viaggeremo al
+nascodiglio di %ns.
+Se riesci a sconfiggere %n e riportare %o quì, potremo allora scacciare le
+legioni di elementali che trucidano i nostri studenti."
 
-"Segui %d, è la tua guida, %p."
+"Possa %d guidarti, %p."
 %E
 %Cp Mon 00025
-"Puoi prevalere, se conti su %d."
+"Puoi prevalere, se riponi la tua fede in %d."
 %E
 %Cp Mon 00026
-"Ricorda che %n ha una grande potere al suo comando."
+"Ricorda che %n ha un grande potere magico sotto il suo controllo."
 %E
 %Cp Mon 00027
-"Sii puro , mio %S."
+"Sii puro, mio %S."
 %E
 %Cp Mon 00028
 "Attenzione, %i è circondato da orde di elementali della terra."
@@ -1447,54 +1448,54 @@ legione di elementali che uccidono i nostri studenti."
 "Indossa %o. Ti aiuterà nei tuoi sforzi."
 %E
 %Cc Mon 00035
-Ricorda la descrizione di %i , che ti ha dato il %l.
+Ricorda la descrizione di %i, che ti ha dato %l.
 Troverai subito le traccie di %n.
 %E
 %Cp Mon 00036
 Dinuovo, ti trovi davanti %i.
 %E
 %Cc Mon 00040
-La puzza di zolfo è tutt'intorno a te, e si avverte la vicinanza degli 
+La puzza di zolfo ti circonda, e si avverte la vicinanza degli 
 elementali!
 
 Davanti vi è una piccola isoletta in mezzo al ribbollire della lava...
 
 %E
 %Cp Mon 00041
-Ancora, hai invaso %ns dominio.
+Ancora, hai invaso il dominio di %ns .
 %E
 %Cc Mon 00050
 "Ah, così %l ha inviato un'altro %g per trovare %o.
 
-"No, vedo che non sei %g. Forse mi divertirò oggi dopo tutto
+"No, vedo che non sei %g. Forse mi divertirò oggi dopo tutto.
 Preparati a morire, %r! Non riconquisterai mai %o."
 %E
 %Cp Mon 00051
-"Così, %r. Ancora tu mi sfidi."
+"Così, %r. Mi sfidi ancora."
 %E
 %Cp Mon 00052
-"Muori adesso, %r. %d quì non ha ilpotere di guarirti"
+"Muori adesso, %r. %d quì non ha il potere di guarirti"
 %E
 %Cp Mon 00053
-"Morirai, %r , e io avrò dinuovo %o."
+"Morirai, %r, e io riavrò %o."
 %E
 %Cp Mon 00060
-"Invia alla mia volontà, %c,e ti risparmierò."
+"Sottomettiti alla mia volontà, %c, e ti risparmierò."
 %E
 %Cp Mon 00061
 "Il tuo debole potere non mi fà niente, %c."
 %E
 %Cp Mon 00062
-"Ti trasformerò in zombie per il mio solo piacere!"
+"Ti trasformerò in uno zombie per il mio solo piacere!"
 %E
 %Cp Mon 00063
 "Disperati adesso, %r. %d non può aiutarti."
 %E
 %Cp Mon 00064
-"Festeggierò sulla tua anima per diversi giorni, %c."
+"Festeggerò sulla tua anima per molti giorni, %c."
 %E
 %Cp Mon 00065
-"La tua morte sarà lenta e crudele. Come promesso!"
+"La tua morte sarà lenta e dolorosa. Come promesso!"
 %E
 %Cp Mon 00066
 "Non puoi sconfiggere %n, stupido. Ti ucciderò adesso."
@@ -1510,18 +1511,19 @@ Preparati a morire, %r! Non riconquisterai mai %o."
 %E
 %Cc Mon 00070
 Prendi %o, sentirai l'essenza di %d che ti riempirà l'anima.
-Conosci adesso perche' %n hanno rubato %H, %ca di %d possono
+Adesso comprendi perche' %n ha rubato %H da loro, %ca di %d possono
 facilmente rovinare i suoi piani.
  
-Hai un messaggio da %d. Non verbale, dovrai ritornare a %l il prima possibile.
+Percepisci un messaggio da %d. Sebbene non sia verbale, capisci che
+dovrai ritornare da %l il prima possibile.
 %E
 %Cc Mon 00080
-%nC rantoli:
+%nC restando senza fiato:
 
-    "Hai solo battutto questo corpo mortale.Sappi: il mio spirito
-    è forte. Tornerò e rivendicherò quello che mi appartiene!"
+    "Hai solo battutto questo corpo mortale. Sappi: il mio spirito
+    è tenace. Tornerò e rivendicherò quello che mi appartiene!"
 
-Con ciò, %n passano.
+Con ciò, %n muore.
 
 %E
 %Cc Mon 00081
@@ -1529,15 +1531,15 @@ Con ciò, %n passano.
 Complimenti.
 
 "Sono stato in meditazione,e ho ricevuto ordini da un servitore 
-di %d. Gli ordini di %d che ritieni %o. Con essi, Troverai l'Amuleto
+di %d. Gli ordini di %d sono che conservi %o. Con esso, troverai l'Amuleto
 di Yendor.
 
-"Vai avanti,e lascia che %d guidi il tuo cammino."
+"Vai avanti, e lascia che %d guidi il tuo cammino."
 %E
 %Cc Mon 00082
 
 %lC guarda %o per un momento,
-poi ritorna il suo sguardo a te.
+poi ritorna a guardarti.
 
 "%oC deve restare con te. Usalo per aiutarti nella ricerca
 dell'Amuleto.
@@ -1549,8 +1551,8 @@ dell'Amuleto.
 %Cc Mon 00091
 "Hai vinto, %p! %d è sicuramente con te. Adesso,
 dovrai prendere l'amuleto e sacrificarlo sull'altare di %ds
-sul piano di Astral. Penso che non ti rivedro' più in questa vita,
-ma io spero ai piedi di %ds."
+nel piano di Astrale. Penso che non ti rivedro' più in questa vita,
+ma io spero di essere ai piedi di %ds."
 %E
 #
 #	Priest
