@@ -1345,7 +1345,7 @@ Realizzi che %l necessita della tua assistenza!"
 "Saluti, onorabile %r. E' bello vederti."
 %E
 %Cp Mon 00006
-"Ah, %p!  Sicuramente puoi aiutarci nel momento del bisogno."
+"Ah, %p! Sicuramente puoi aiutarci nel momento del bisogno."
 %E
 %Cp Mon 00007
 "Saluti, %s. %lC ha un gran bisogno del vostro aiuto."
