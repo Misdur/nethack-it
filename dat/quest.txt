@@ -290,7 +290,7 @@ Amulet on that altar to fulfill your destiny.
 "Remember, your path now should always be upwards."
 %E
 #
-#	Barbaro
+#	Barbarian
 #
 %Cc Bar 00001
 Cautamente esamini i dintorni, tutti i tuoi sensi sono in allerta per
@@ -302,7 +302,7 @@ Ma perchè, pensi, %l dovrebbe stare lì?
 Improvvisamente, i capelli sul tuo collo si rizzano mentre senti
 nell'aria l'aura di un mago malvagio.
 
-Senza pensarci, sguaini la tua arma, lamentandoti sottovoce:
+Senza pensarci, sguaini la tua arma, borbotti sottovoce:
 
     "%d, oggi verserò sangue."
 
@@ -319,19 +319,19 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna il terreno!"
 %E
 %Cp Bar 00006
-"Ricorda che la gloria devasta i nemici sotto i tuoi piedi"
+"Ricorda che la gloria devasta i nemici sotto i tuoi piedi."
 %E
 %Cp Bar 00007
-"Qui c'era un piccolo bottino da depredare, poichè l'orda è arrivata"
+"Qui c'era un piccolo bottino da depredare, poichè l'orda è arrivata."
 %E
 %Cp Bar 00008
-"La tribù è numerosa, ma hanno scarso coraggio"
+"La tribù è numerosa, ma hanno scarso coraggio."
 %E
 %Cp Bar 00009
 "%lC è un tipo strano, ma ci ha aiutato a difenderci."
 %E
 %Cp Bar 00010
-"Qui le battaglie sono andate bene -- il sangue dei nostri nemici bagna la terra!"
+"Qui le battaglie sono andate bene. Il sangue dei nostri nemici bagna la terra!"
 %E
 %Cp Bar 00011
 "Ricorda che la gloria devasta i nemici sotto i tuoi piedi!"
@@ -343,7 +343,7 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Hai conferito grande onore al tuo clan sconfiggendo %n."
 %E
 %Cp Bar 00014
-"Sarai il degno successore di %l"
+"Sarai il degno successore di %l."
 %E
 %Cc Bar 00015
 Ah, %p. Alla fine sei ritornato. Il mondo è nei guai e necessita del
@@ -359,7 +359,7 @@ tuo aiuto. C'è una grande missione che devi intraprendere."
 %E
 %Cc Bar 00018
 "Pah! Hai tradito gli dei, %p. Non raggiungerai mai la gloria a cui
-aspiri. Il tuo fallimento nel seguire la retta via ti ha precluso
+aspiri. Il tuo fallimento nel seguire la retta via ti ha costretto a 
 questo futuro.
 
 "Proteggerò queste persone al meglio delle mie capacità, ma presto %n
@@ -376,14 +376,15 @@ la tua anima. La tua, e la nostra, unica speranza giace nella tua
 purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 %E
 %Cc Bar 00021
-"Il mondo ha una gran necessità del tuo aiuto, %p."
+"Il mondo ha una gran necessità del tuo aiuto, %p.
 
 "Circa sei mesi fa, venni a conoscenza che un misterioso stregone,
-conosciuto come %n, ha cominciato a radunare intorno a se un gran gruppo di
-briganti e assassini."
+conosciuto come %n, ha cominciato a radunare intorno a se un grande numero di
+briganti e assassini.
 
-"At about the same time, these people you once rode with `liberated' a
-potent magical talisman, %o, from a Turanian caravan.
+"Circa nello stesso momento, queste persone, che un volta cavalcarono
+con te, 'liberarono' un potente talismano magico, %o, da una carovana
+Turaniana.
 
 "%nC e la sua orda oscura travolse %i e sconfisse le persone,
 conducendoli nel deserto. Prese %o, e cercò di piegarlo al suo
@@ -395,14 +396,14 @@ indistruttibile. Allora sarà in grado di assoggettare le menti degli
 uomini di tutto il mondo. Sei l'unica speranza. Gli dei ti sorridono,
 e con %d con te, da solo potrai sconfiggere %n."
 
-"Devi andare %i. Da lì, puoi rintracciare %n, sconfiggilo, e riportaci
+"Devi andare a %i. Da lì, puoi rintracciare %n, sconfiggilo, e riportaci
 %o. Solo allora il mondo sarà sicuro."
 %E
 %Cp Bar 00025
 "%nC è forte nelle arti oscure, ma non è immune al freddo acciaio."
 %E
 %Cp Bar 00026
-"Ricordo che %n è un grande stregone. E' vissuto al tempo di atlantide."
+"Ricordo che %n è un grande stregone. E' vissuto al tempo di Atlantide."
 %E
 %Cp Bar 00027
 "Se fallisci, %p, non sarò in grado di proteggere queste persone a lungo."
@@ -417,13 +418,13 @@ e con %d con te, da solo potrai sconfiggere %n."
 "Che %d ti protegga, e guidi i tuoi passi."
 %E
 %Cp Bar 00031
-"Se puoi mettere le mani su %o, per portare fortuna."
+"Se riesci a mettere le mani su %o, ti porterà fortuna."
 %E
 %Cp Bar 00032
 "Non posso resistere alla stregoneria %ns. %d ti aiuterà."
 %E
 %Cp Bar 00033
-"Non temere %n, So che puoi sconfiggerlo."
+"Non temere %n. So che puoi sconfiggerlo."
 %E
 %Cp Bar 00034
 "Hai una grande strada da percorrere, %p, ma solo dopo che sarai
@@ -436,11 +437,11 @@ La brezza del deserto ti porta il profumo dell'acqua. Sai che hai
 localizzato %i.
 %E
 %Cp Bar 00036
-Ancora una volta la possibilità di infiltrarti %i.
+Ancora una volta hai la possibilità di infiltrarti %i.
 %E
 %Cc Bar 00040
 I capelli sulla tua nuca si rizzano appena avverti un'energia
-nell'aria intorno a te. Stai lottando contro un panico primordiale che
+nell'aria intorno a te. Stai lottando contro un terrore primordiale che
 cerca di farti scappare. Questo è sicuramente il covo di %n.
 %E
 %Cp Bar 00041
@@ -468,13 +469,13 @@ uccisi molti prima di te. Potresti farmi fare un pò di sport."
 "Sei una scusa patetica per %ra."
 %E
 %Cp Bar 00062
-"Scappa finchè puoi, %c. La mia prossima magia sarà l'ultima."
+"Scappa finchè puoi, %c. La mia prossima magia segnerà la tua fine."
 %E
 %Cp Bar 00063
 "Potrei usare la tua pelle per fasciare il mio prossimo grimorio."
 %E
 %Cp Bar 00064
-"%d non posso proteggerti adesso. Morirai qui."
+"%d non può proteggerti ora. Qui morirai."
 %E
 %Cp Bar 00065
 "%a la tua natura ti rende debole. Non puoi sconfiggermi."
@@ -489,29 +490,31 @@ uccisi molti prima di te. Potresti farmi fare un pò di sport."
 "Combatti, %c, o sei impaurito dal possente %n?"
 %E
 %Cp Bar 00069
-"Hai fallito, %c. Ora, la mia vittoria è copleta."
+"Hai fallito, %c. Ora, la mia vittoria è completa."
 %E
 %Cc Bar 00070
-Appena raccogli %o, ssenti il suo potere fluire attraverso le tue
-mani. Ti sembra di stare i due o più posti contemporaneamente, anche
+Appena raccogli %o, senti il suo potere fluire attraverso le tue
+mani. Ti sembra di stare in due o più posti contemporaneamente, anche
 se lo stai solo tenendo in mano.
 %E
 %Cc Bar 00080
 %nC cade sul terreno, e scaglia la sua ultima maledizione su di
 te. Allora il suo corpo svanisce lentamente, come se si disperdesse
-nell'aria circostante. Lentamente ti rendi conto che l'opprimente aura
+nell'aria circostante. Lentamente ti rendi conto che la travolgente
+aura magica comincia a svanire nell'aria.
 %E
 %Cc Bar 00081
 Quando %l vede %o, sorride, e dice:
-    Ben fatto, %p. Hai salvato il mondo da una fine certa.
+
+    Ben fatto, %p. Hai salvato il mondo da una sicura distruzione .
     Cosa dovremmo fare ora con %o?
 
     Queste persone, così coraggiose, non possono sperare di
     proteggerlo da altri stregoni che lo cercheranno, così come ha
     fatto %n.
 
-    Porta %o con te, %p. Ti proteggerà nelle tue avventure, e ti
-    potrai proteggerlo meglio. Ti stai lanciando in un'impresa molto
+    Porta %o con te, %p. Ti proteggerà nelle tue avventure, e 
+    potrai proteggerlo meglio. Ti stai avventurando in un'impresa molto
     più grande di quello che pensi.
 
     Ricordati di me, %p, e ritorna quando avrai trionfato. Allora ti
@@ -521,7 +524,7 @@ Quando %l vede %o, sorride, e dice:
 %l lancia uno sguardo di riverenza a %o, e poi verso te.
 
 "Sarai il suo portatore adesso, ed è il momento di ricominciare la tua
-ricerca dell'amuleto. %Z aspetta il tuo ritorno attraverso il portale
+ricerca dell'Amuleto. %Z aspetta il tuo ritorno attraverso il portale
 magico che ti ha portato qui."
 %E
 %Cp Bar 00090
@@ -535,7 +538,7 @@ sei qui in possesso dell'Amuleto di Yendor!"
 via. Nel Libro di Skelos, ho trovato questo:
 
     %d provocherà la venuta di un bambino nel mondo. Questo bambino
-    sarà forgiato da battaglie e magie, per %d ha voluto così.
+    sarà forgiato da battaglie e magie, per il volere di %d.
     Si dice che il bambino di %d ritroverà l'Amuleto di Yendor che fu
     rubato al Creatore all'inizio dei tempi.
 
@@ -543,7 +546,7 @@ via. Nel Libro di Skelos, ho trovato questo:
 libro parli di te."
 
     Il bambino di %d prenderà l'amuleto, e partirà per il Piano
-    Astrale, dove troverà il Grande Tempio di %d. L'Amuleto sraà
+    Astrale, dove troverà il Grande Tempio di %d. L'Amuleto sarà
     sacrificato sull'altare di %d. Allora il bambino starà con %d come
     campione di tutti %cP per l'eternità.
 
