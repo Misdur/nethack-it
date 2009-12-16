@@ -810,7 +810,7 @@ casts its influence throughout our world.
 "Sacrifice the Amulet on the altar.  Thus shall %d become supreme!"
 %E
 #
-#	Guaritore
+#	Healer
 #
 %Cc Hea 00001
 Quale stregoneria ti ha riportato indietro a %H?La puzza di una fresca
