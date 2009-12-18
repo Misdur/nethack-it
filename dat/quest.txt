@@ -440,122 +440,118 @@ La brezza del deserto ti porta il profumo dell'acqua. Sai che hai
 localizzato %i.
 %E
 %Cp Bar 00036
-Yet again you have a chance to infiltrate %i.
+Ancora una volta la possibilità di infiltrarti %i.
 %E
 %Cc Bar 00040
-The hairs on the nape of your neck lift as you sense an energy in the
-very air around you.  You fight down a primordial panic that seeks to
-make you turn and run.  This is surely the lair of %n.
+I capelli sulla tua nuca si rizzano appena avverti un'energia
+nell'aria intorno a te. Stai lottando contro un panico primordiale che
+cerca di farti scappare. Questo è sicuramente il covo di %n.
 %E
 %Cp Bar 00041
-Yet again you feel the air around you heavy with malevolent magical energy.
+Senti di nuovo l'aria intorno a te pregna di una energia magica malefica.
 %E
 %Cc Bar 00050
-"So.  This is what that second rate sorcerer %l sends to do his bidding.
-I have slain many before you.  You shall give me little sport.
+"Così. Questo è quello che lo stregone %l manda per fare la sua offerta. Ne ho
+uccisi molti prima di te. Potresti farmi fare un pò di sport."
 
-"Prepare to die, %c."
+"Preparati a morire, %c."
 %E
 %Cp Bar 00051
-"I have wasted too much time on you already.  Now, you shall die."
+"Ho già sprecato troppo tempo con te. Ora, morirai."
 %E
 %Cp Bar 00052
-"You return yet again, %c!  Are you prepared for death now?"
+"Sei ritornato ancora, %c! Sei pronto a morire adesso?"
 %E
 %Cp Bar 00053
-"I shall have %o back, you pitiful excuse for %ca.
-And your life as well."
+"Posso riavere %o, le tue pietose scuse per %ca. E la tua vita."
 %E
 %Cp Bar 00060
-"My pets will dine on your carcass tonight!"
+"I miei animali ceneranno con la tua carcassa stanotte!"
 %E
 %Cp Bar 00061
-"You are a sorry excuse for %ra."
+"Sei una scusa patetica per %ra."
 %E
 %Cp Bar 00062
-"Run while you can, %c.  My next spell will be your last."
+"Scappa finchè puoi, %c. La mia prossima magia sarà l'ultima."
 %E
 %Cp Bar 00063
-"I shall use your very skin to bind my next grimoire."
+"Potrei usare la tua pelle per fasciare il mio prossimo grimorio."
 %E
 %Cp Bar 00064
-"%d cannot protect you now.  Here, you die."
+"%d non posso proteggerti adesso. Morirai qui."
 %E
 %Cp Bar 00065
-"Your %a nature makes you weak.  You cannot defeat me."
+"%a la tua natura ti rende debole. Non puoi sconfiggermi."
 %E
 %Cp Bar 00066
-"Come, %c.  I shall kill you, then unleash the horde on your tribe."
+"Vieni, %c. Ti ucciderò,, e allora sguinzaglierò l'orda sulla tua tribù."
 %E
 %Cp Bar 00067
-"Once you are dead, my horde shall finish off %l, and your tribe."
+"Una volta che sarai morto, la mia orda potrà finire %l, e la tua tribù."
 %E
 %Cp Bar 00068
-"Fight, %c, or are you afraid of the mighty %n?"
+"Combatti, %c, o sei impaurito dal possente %n?"
 %E
 %Cp Bar 00069
-"You have failed, %c.  Now, my victory is complete."
+"Hai fallito, %c. Ora, la mia vittoria è copleta."
 %E
 %Cc Bar 00070
-As you pick up %o, you feel the power of it
-flowing through your hands.  It seems to be in two or more places
-at once, even though you are holding it.
+Appena raccogli %o, ssenti il suo potere fluire attraverso le tue
+mani. Ti sembra di stare i due o più posti contemporaneamente, anche
+se lo stai solo tenendo in mano.
 %E
 %Cc Bar 00080
-%nC falls to the ground, and utters a last curse at you.  Then his
-body fades slowly, seemingly dispersing into the air around you.  You
-slowly become aware that the overpowering aura of magic in the air has
-begun to fade.
+%nC cade sul terreno, e scaglia la sua ultima maledizione su di
+te. Allora il suo corpo svanisce lentamente, come se si disperdesse
+nell'aria circostante. Lentamente ti rendi conto che l'opprimente aura
 %E
 %Cc Bar 00081
-When %l sees %o, he smiles, and says:
+Quando %l vede %o, sorride, e dice:
+    Ben fatto, %p. Hai salvato il mondo da una fine certa.
+    Cosa dovremmo fare ora con %o?
 
-    Well done, %p.  You have saved the world from certain doom.
-    What, now, should be done with %o?
+    Queste persone, così coraggiose, non possono sperare di
+    proteggerlo da altri stregoni che lo cercheranno, così come ha
+    fatto %n.
 
-    These people, brave as they are, cannot hope to guard it from
-    other sorcerers who will detect it, as surely as %n did.
+    Porta %o con te, %p. Ti proteggerà nelle tue avventure, e ti
+    potrai proteggerlo meglio. Ti stai lanciando in un'impresa molto
+    più grande di quello che pensi.
 
-    Take %o with you, %p.  It will guard you in
-    your adventures, and you can best guard it.  You embark on a
-    quest far greater than you realize.
-
-    Remember me, %p, and return when you have triumphed.  I
-    will tell you then of what you must do.  You will understand when the
-    time comes.
+    Ricordati di me, %p, e ritorna quando avrai trionfato. Allora ti
+    dirò quello che dovrai fare. Capirai da solo quando sarà giunto il momento.
 %E
 %Cc Bar 00082
-%l gazes reverently at %o, then back at you.
+%l lancia uno sguardo di riverenza a %o, e poi verso te.
 
-"You are its keeper now, and the time has come to resume your search
-for the Amulet.  %Z await your return through the
-magic portal which brought you here."
+"Sarai il suo portatore adesso, ed è il momento di ricominciare la tua
+ricerca dell'amuleto. %Z aspetta il tuo ritorno attraverso il portale
+magico che ti ha portato qui."
 %E
 %Cp Bar 00090
-"Tell us, %p, have you fared well on your great quest?"
+"Raccontaci, %p, te la sei cavata bene nella tua grande impresa?"
 %E
 %Cc Bar 00091
-"This is wondrous, %p.  I feared that you could not possibly
-succeed in your quest, but here you are in possession of the Amulet
-of Yendor!
+"E' meraviglioso, %p. Temevo che non riuscissi nella tua impresa, ma
+sei qui in possesso dell'Amuleto di Yendor!"
 
-"I have studied the texts of the magi constantly since you left.  In
-the Book of Skelos, I found this:
+"Ho studiato costantemente i testi di magia da quando sei andato
+via. Nel Libro di Skelos, ho trovato questo:
 
-    %d will cause a child to be sent into the world.  This child is to
-    be made strong by trial of battle and magic, for %d has willed it so.
-    It is said that the child of %d will recover the Amulet of Yendor
-    that was stolen from the Creator at the beginning of time.
+    %d provocherà la venuta di un bambino nel mondo. Questo bambino
+    sarà forgiato da battaglie e magie, per %d ha voluto così.
+    Si dice che il bambino di %d ritroverà l'Amuleto di Yendor che fu
+    rubato al Creatore all'inizio dei tempi.
 
-"As you now possess the amulet, %p, I suspect that the Book
-speaks of you.
+"Dal momento che sei il possessore dell'amuleto, %p, sospetto che il
+libro parli di te."
 
-    The child of %d will take the Amulet, and travel to the Astral
-    Plane, where the Great Temple of %d is to be found.  The Amulet
-    will be sacrificed to %d, there on His altar.  Then the child will
-    stand by %d as champion of all %cP for eternity.
+    Il bambino di %d prenderà l'amuleto, e partirà per il Piano
+    Astrale, dove troverà il Grande Tempio di %d. L'Amuleto sraà
+    sacrificato sull'altare di %d. Allora il bambino starà con %d come
+    campione di tutti %cP per l'eternità.
 
-"This is all I know, %p.  I hope it will help you."
+"Questo è tutto quello che so, %p. Spero che possa esserti d'aiuto."
 %E
 #
 #	Cave(wo)man
