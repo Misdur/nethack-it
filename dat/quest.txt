@@ -301,19 +301,19 @@ Cautamente esamini i dintorni, tutti i tuoi sensi sono in allerta per
 captare ogni possibile segnale di pericolo.In lontananza, conosci %x
 ombre familiari di %H 
 
-Ma perchè, pensi, %l dovrebbe stare lì?
+Ma perche`, pensi, %l dovrebbe stare li`?
 
 Improvvisamente, i capelli sul tuo collo si rizzano mentre senti
 nell'aria l'aura di un mago malvagio.
 
 Senza pensarci, sguaini la tua arma, borbotti sottovoce:
 
-    "%d, oggi verserò sangue."
+    "%d, oggi versero` sangue."
 
 %E
 %Cp Bar 00002
 Ancora una volta, vicino a %H. Conosci %l
-Aspetterà.
+Aspettera`.
 %E
 %Cp Bar 00003
 Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
@@ -326,13 +326,13 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Ricorda che la gloria devasta i nemici sotto i tuoi piedi."
 %E
 %Cp Bar 00007
-"Qui c'era un piccolo bottino da depredare, poichè l'orda è arrivata."
+"Qui c'era un piccolo bottino da depredare, poiche` l'orda e` arrivata."
 %E
 %Cp Bar 00008
-"La tribù è numerosa, ma hanno scarso coraggio."
+"La tribù e` numerosa, ma hanno scarso coraggio."
 %E
 %Cp Bar 00009
-"%lC è un tipo strano, ma ci ha aiutato a difenderci."
+"%lC e` un tipo strano, ma ci ha aiutato a difenderci."
 %E
 %Cp Bar 00010
 "Qui le battaglie sono andate bene. Il sangue dei nostri nemici bagna la terra!"
@@ -341,7 +341,7 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Ricorda che la gloria devasta i nemici sotto i tuoi piedi!"
 %E
 %Cp Bar 00012
-"I tempi saranno di nuovo buoni, ora l'orda è sconfitta."
+"I tempi saranno di nuovo buoni, ora l'orda e` sconfitta."
 %E
 %Cp Bar 00013
 "Hai conferito grande onore al tuo clan sconfiggendo %n."
@@ -350,8 +350,8 @@ Di nuovo, e possibilmente pensi per l'ultima volta, avvicinati
 "Sarai il degno successore di %l."
 %E
 %Cc Bar 00015
-Ah, %p. Alla fine sei ritornato. Il mondo è nei guai e necessita del
-tuo aiuto. C'è una grande missione che devi intraprendere."
+Ah, %p. Alla fine sei ritornato. Il mondo e` nei guai e necessita del
+tuo aiuto. C'e` una grande missione che devi intraprendere."
 
 "Ma prima, devo capire se sei pronto ad accettare questa sfida."
 %E
@@ -366,8 +366,8 @@ tuo aiuto. C'è una grande missione che devi intraprendere."
 aspiri. Il tuo fallimento nel seguire la retta via ti ha costretto a 
 questo futuro.
 
-"Proteggerò queste persone al meglio delle mie capacità, ma presto %n
-mi sconfiggerà e distruggerà tutti coloro che ti chiamano %s. Ora va!"
+"Proteggero` queste persone al meglio delle mie capacita`, ma presto %n
+mi sconfiggera` e distruggera` tutti coloro che ti chiamano %s. Ora va!"
 %E
 %Cc Bar 00019
 "%p, temo che tu sia ancora troppo inesperto per affrontare %n. Solo
@@ -375,12 +375,12 @@ mi sconfiggerà e distruggerà tutti coloro che ti chiamano %s. Ora va!"
 %E
 %Cc Bar 00020
 "%pC! Hai tradito il patto di %a!
-Se tenti di sconfiggere %n in questo stato, sicuramente renderà schiava
+Se tenti di sconfiggere %n in questo stato, sicuramente rendera` schiava
 la tua anima. La tua, e la nostra, unica speranza giace nella tua
 purificazione.Mettiti in viaggio, e torna quando ti sentirai pronto."
 %E
 %Cc Bar 00021
-"Il mondo ha una gran necessità del tuo aiuto, %p.
+"Il mondo ha una gran necessita` del tuo aiuto, %p.
 
 "Circa sei mesi fa, venni a conoscenza che un misterioso stregone,
 conosciuto come %n, ha cominciato a radunare intorno a se un grande numero di
@@ -391,29 +391,29 @@ con te, 'liberarono' un potente talismano magico, %o, da una carovana
 Turaniana.
 
 "%nC e la sua orda oscura travolse %i e sconfisse le persone,
-conducendoli nel deserto. Prese %o, e cercò di piegarlo al suo
+conducendoli nel deserto. Prese %o, e cerco` di piegarlo al suo
 volere. Percepii sottili cambiamenti nello scorrere del fato, e lo
 collegai a queste persone. Mandai avanti delle evocazioni per te."
 
 "Se %n potesse piegare %o al suo volere, diventerebbe quasi
-indistruttibile. Allora sarà in grado di assoggettare le menti degli
+indistruttibile. Allora sara` in grado di assoggettare le menti degli
 uomini di tutto il mondo. Sei l'unica speranza. Gli dei ti sorridono,
 e con %d con te, da solo potrai sconfiggere %n."
 
-"Devi andare a %i. Da lì, puoi rintracciare %n, sconfiggilo, e riportaci
-%o. Solo allora il mondo sarà sicuro."
+"Devi andare a %i. Da li`, puoi rintracciare %n, sconfiggilo, e riportaci
+%o. Solo allora il mondo sara` sicuro."
 %E
 %Cp Bar 00025
-"%nC è forte nelle arti oscure, ma non è immune al freddo acciaio."
+"%nC e` forte nelle arti oscure, ma non e` immune al freddo acciaio."
 %E
 %Cp Bar 00026
-"Ricordo che %n è un grande stregone. E' vissuto al tempo di Atlantide."
+"Ricordo che %n e` un grande stregone. E' vissuto al tempo di Atlantide."
 %E
 %Cp Bar 00027
-"Se fallisci, %p, non sarò in grado di proteggere queste persone a lungo."
+"Se fallisci, %p, non saro` in grado di proteggere queste persone a lungo."
 %E
 %Cp Bar 00028
-"%i per entrare, devi essere molto furtivo. L'orda sarà in guardia."
+"%i per entrare, devi essere molto furtivo. L'orda sara` in guardia."
 %E
 %Cp Bar 00029
 "Appellati a %d nel momento del bisogno."
@@ -422,10 +422,10 @@ e con %d con te, da solo potrai sconfiggere %n."
 "Che %d ti protegga, e guidi i tuoi passi."
 %E
 %Cp Bar 00031
-"Se riesci a mettere le mani su %o, ti porterà fortuna."
+"Se riesci a mettere le mani su %o, ti portera` fortuna."
 %E
 %Cp Bar 00032
-"Non posso resistere alla stregoneria %ns. %d ti aiuterà."
+"Non posso resistere alla stregoneria %ns. %d ti aiutera`."
 %E
 %Cp Bar 00033
 "Non temere %n. So che puoi sconfiggerlo."
@@ -441,24 +441,24 @@ La brezza del deserto ti porta il profumo dell'acqua. Sai che hai
 localizzato %i.
 %E
 %Cp Bar 00036
-Ancora una volta hai la possibilità di infiltrarti %i.
+Ancora una volta hai la possibilita` di infiltrarti %i.
 %E
 %Cc Bar 00040
 I capelli sulla tua nuca si rizzano appena avverti un'energia
 nell'aria intorno a te. Stai lottando contro un terrore primordiale che
-cerca di farti scappare. Questo è sicuramente il covo di %n.
+cerca di farti scappare. Questo e` sicuramente il covo di %n.
 %E
 %Cp Bar 00041
 Senti di nuovo l'aria intorno a te pregna di una energia magica malefica.
 %E
 %Cc Bar 00050
-"Così. Questo è quello che lo stregone %l manda per fare la sua offerta. Ne ho
-uccisi molti prima di te. Potresti farmi fare un pò di sport."
+"Cosi`. Questo e` quello che lo stregone %l manda per fare la sua offerta. Ne ho
+uccisi molti prima di te. Potresti farmi fare un po` di sport."
 
 "Preparati a morire, %c."
 %E
 %Cp Bar 00051
-"Ho già sprecato troppo tempo con te. Ora, morirai."
+"Ho gia` sprecato troppo tempo con te. Ora, morirai."
 %E
 %Cp Bar 00052
 "Sei ritornato ancora, %c! Sei pronto a morire adesso?"
@@ -473,28 +473,28 @@ uccisi molti prima di te. Potresti farmi fare un pò di sport."
 "Sei una scusa patetica per %ra."
 %E
 %Cp Bar 00062
-"Scappa finchè puoi, %c. La mia prossima magia segnerà la tua fine."
+"Scappa finche` puoi, %c. La mia prossima magia segnera` la tua fine."
 %E
 %Cp Bar 00063
 "Potrei usare la tua pelle per fasciare il mio prossimo grimorio."
 %E
 %Cp Bar 00064
-"%d non può proteggerti ora. Qui morirai."
+"%d non puo` proteggerti ora. Qui morirai."
 %E
 %Cp Bar 00065
 "%a la tua natura ti rende debole. Non puoi sconfiggermi."
 %E
 %Cp Bar 00066
-"Vieni, %c. Ti ucciderò,, e allora sguinzaglierò l'orda sulla tua tribù."
+"Vieni, %c. Ti uccidero`,, e allora sguinzagliero` l'orda sulla tua tribù."
 %E
 %Cp Bar 00067
-"Una volta che sarai morto, la mia orda potrà finire %l, e la tua tribù."
+"Una volta che sarai morto, la mia orda potra` finire %l, e la tua tribù."
 %E
 %Cp Bar 00068
 "Combatti, %c, o sei impaurito dal possente %n?"
 %E
 %Cp Bar 00069
-"Hai fallito, %c. Ora, la mia vittoria è completa."
+"Hai fallito, %c. Ora, la mia vittoria e` completa."
 %E
 %Cc Bar 00070
 Appena raccogli %o, senti il suo potere fluire attraverso le tue
@@ -513,21 +513,21 @@ Quando %l vede %o, sorride, e dice:
     Ben fatto, %p. Hai salvato il mondo da una sicura distruzione .
     Cosa dovremmo fare ora con %o?
 
-    Queste persone, così coraggiose, non possono sperare di
-    proteggerlo da altri stregoni che lo cercheranno, così come ha
+    Queste persone, cosi` coraggiose, non possono sperare di
+    proteggerlo da altri stregoni che lo cercheranno, cosi` come ha
     fatto %n.
 
-    Porta %o con te, %p. Ti proteggerà nelle tue avventure, e 
+    Porta %o con te, %p. Ti proteggera` nelle tue avventure, e 
     potrai proteggerlo meglio. Ti stai avventurando in un'impresa molto
     più grande di quello che pensi.
 
     Ricordati di me, %p, e ritorna quando avrai trionfato. Allora ti
-    dirò quello che dovrai fare. Capirai da solo quando sarà giunto il momento.
+    diro` quello che dovrai fare. Capirai da solo quando sara` giunto il momento.
 %E
 %Cc Bar 00082
 %l lancia uno sguardo di riverenza a %o, e poi verso te.
 
-"Sarai il suo portatore adesso, ed è il momento di ricominciare la tua
+"Sarai il suo portatore adesso, ed e` il momento di ricominciare la tua
 ricerca dell'Amuleto. %Z aspetta il tuo ritorno attraverso il portale
 magico che ti ha portato qui."
 %E
@@ -541,20 +541,20 @@ sei qui in possesso dell'Amuleto di Yendor!"
 "Ho studiato costantemente i testi di magia da quando sei andato
 via. Nel Libro di Skelos, ho trovato questo:
 
-    %d provocherà la venuta di un bambino nel mondo. Questo bambino
-    sarà forgiato da battaglie e magie, per il volere di %d.
-    Si dice che il bambino di %d ritroverà l'Amuleto di Yendor che fu
+    %d provochera` la venuta di un bambino nel mondo. Questo bambino
+    sara` forgiato da battaglie e magie, per il volere di %d.
+    Si dice che il bambino di %d ritrovera` l'Amuleto di Yendor che fu
     rubato al Creatore all'inizio dei tempi.
 
 "Dal momento che sei il possessore dell'amuleto, %p, sospetto che il
 libro parli di te."
 
-    Il bambino di %d prenderà l'amuleto, e partirà per il Piano
-    Astrale, dove troverà il Grande Tempio di %d. L'Amuleto sarà
-    sacrificato sull'altare di %d. Allora il bambino starà con %d come
-    campione di tutti %cP per l'eternità.
+    Il bambino di %d prendera` l'amuleto, e partira` per il Piano
+    Astrale, dove trovera` il Grande Tempio di %d. L'Amuleto sara`
+    sacrificato sull'altare di %d. Allora il bambino stara` con %d come
+    campione di tutti %cP per l'eternita`.
 
-"Questo è tutto quello che so, %p. Spero che possa esserti d'aiuto."
+"Questo e` tutto quello che so, %p. Spero che possa esserti d'aiuto."
 %E
 #
 #	Cave(wo)man
@@ -1331,7 +1331,7 @@ the planes of the elements, to achieve this goal.
 # to be treated as plural by messages which use %o.
 #
 %Cc Mon 00001
-Ti trovi davanti a %H. Qualcosa è sicuramente fuoriposto.Strane figure
+Ti trovi davanti a %H. Qualcosa e` sicuramente fuoriposto.Strane figure
 si aggirano all'esterno di %H!
 
 Realizzi che il %l necessita della tua assistenza!
