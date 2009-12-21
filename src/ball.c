@@ -17,7 +17,7 @@ ballfall()
 	gets_hit = (((uball->ox != u.ux) || (uball->oy != u.uy)) &&
 		    ((uwep == uball)? FALSE : (boolean)rn2(5)));
 	if (carried(uball)) {
-		pline("Startled, you drop the iron ball.");
+		pline("Sorpresa, fai cadere la palla di ferro.");
 		if (uwep == uball)
 			setuwep((struct obj *)0);
 		if (uswapwep == uball)
@@ -29,16 +29,16 @@ ballfall()
 	}
 	if(gets_hit){
 		int dmg = rn1(7,25);
-		pline_The("iron ball falls on your %s.",
+		pline("La palla di ferro ti cade sulla %s.",
 			body_part(HEAD));
 		if (uarmh) {
 		    if(is_metallic(uarmh)) {
-			pline("Fortunately, you are wearing a hard helmet.");
+			pline("Fortunatamente, indossi un elmo robusto.");
 			dmg = 3;
 		    } else if (flags.verbose)
-			Your("%s does not protect you.", xname(uarmh));
+			pline("%s non ti protegge.", xname(uarmh));
 		}
-		losehp(dmg, "crunched in the head by an iron ball",
+		losehp(dmg, "La tua testa e` incrinata da un palla di ferro",
 			NO_KILLER_PREFIX);
 	}
 }
@@ -99,7 +99,7 @@ void
 placebc()
 {
     if (!uchain || !uball) {
-	impossible("Where are your ball and chain?");
+	impossible("Dove sono la palla e la catena?");
 	return;
     }
 
@@ -159,7 +159,7 @@ bc_order()
 	if (obj == uchain) return BCPOS_CHAIN;
 	if (obj == uball) return BCPOS_BALL;
     }
-    impossible("bc_order:  ball&chain not in same location!");
+    impossible("bc_order:  palla&catena non sono nello stesso luogo!");
     return BCPOS_DIFFER;
 }
 
@@ -543,7 +543,7 @@ boolean allow_drag;
 		    *chainy = y;
 		    break;
 		
-		default: impossible("bad chain movement");
+		default: impossible("movimento della catena errato");
 		    break;
 	    }
 #undef SKIP_TO_DRAG
@@ -555,8 +555,8 @@ boolean allow_drag;
 drag:
 
 	if (near_capacity() > SLT_ENCUMBER && dist2(x, y, u.ux, u.uy) <= 2) {
-	    You("cannot %sdrag the heavy iron ball.",
-			    invent ? "carry all that and also " : "");
+	    pline("non puoi %strainare la pesante palla di ferro.",
+			    invent ? "trasportare tutto cio` ed addirittura " : "");
 	    nomul(0);
 	    return FALSE;
 	}
@@ -573,12 +573,12 @@ drag:
 			 t->ttyp == TRAPDOOR)) ) {
 
 	    if (Levitation) {
-		You_feel("a tug from the iron ball.");
+		Senti("uno strattone dalla palla di ferro.");
 		if (t) t->tseen = 1;
 	    } else {
 		struct monst *victim;
 
-		You("are jerked back by the iron ball!");
+		pline("Vieni strattonato indietro dalla palla di ferro!!");
 		if ((victim = m_at(uchain->ox, uchain->oy)) != 0) {
 		    int tmp;
 
@@ -651,16 +651,16 @@ xchar x, y;
 
     if (x != u.ux || y != u.uy) {
 	struct trap *t;
-	const char *pullmsg = "The ball pulls you out of the %s!";
+	const char *pullmsg = "La palla ti tira fuori dalla %s!";
 
 	if (u.utrap && u.utraptype != TT_INFLOOR) {
 	    switch(u.utraptype) {
 	    case TT_PIT:
-		pline(pullmsg, "pit");
+		pline(pullmsg, "buca");
 		break;
 	    case TT_WEB:
-		pline(pullmsg, "web");
-		pline_The("web is destroyed!");
+		pline(pullmsg, "ragnatela");
+		pline("La ragnatela viene distrutta!");
 		deltrap(t_at(u.ux,u.uy));
 		break;
 	    case TT_LAVA:
@@ -668,17 +668,17 @@ xchar x, y;
 		break;
 	    case TT_BEARTRAP: {
 		register long side = rn2(3) ? LEFT_SIDE : RIGHT_SIDE;
-		pline(pullmsg, "bear trap");
+		pline(pullmsg, "trappola per orsi");
 		set_wounded_legs(side, rn1(1000, 500));
 #ifdef STEED
 		if (!u.usteed)
 #endif
 		{
-		    Your("%s %s is severely damaged.",
-					(side == LEFT_SIDE) ? "left" : "right",
-					body_part(LEG));
-		    losehp(2, "leg damage from being pulled out of a bear trap",
-					KILLED_BY);
+		    pline("La tua %s %s e` gravemente ferita.",
+			  body_part(LEG),
+			  (side == LEFT_SIDE) ? "sinistra" : "destra");
+		    losehp(2, "ferita alla gamba causata dalla trappola per orsi",
+			   KILLED_BY);
 		}
 		break;
 	      }
@@ -734,8 +734,8 @@ litter()
 		nextobj = otmp->nobj;
 		if ((otmp != uball) && (rnd(capacity) <= (int)otmp->owt)) {
 			if (canletgo(otmp, "")) {
-				Your("%s you down the stairs.",
-				     aobjnam(otmp, "follow"));
+				pline("I tuoi %s ti seguono giu` per le scale.",
+				     aobjnam(otmp, "seguono"));
 				dropx(otmp);
 			}
 		}
@@ -761,25 +761,25 @@ drag_down()
 	forward = carried(uball) && (uwep == uball || !uwep || !rn2(3));
 
 	if (carried(uball))
-		You("lose your grip on the iron ball.");
+		pline("Perdi la presa sulla palla di ferro.");
 
 	if (forward) {
 		if(rn2(6)) {
-			pline_The("iron ball drags you downstairs!");
-			losehp(rnd(6), "dragged downstairs by an iron ball",
+			pline("La palla di ferro ti trascina giu`!");
+			losehp(rnd(6), "trascinato al piano inferiore dalla palla di ferro",
 				NO_KILLER_PREFIX);
 			litter();
 		}
 	} else {
 		if(rn2(2)) {
-			pline_The("iron ball smacks into you!");
-			losehp(rnd(20), "iron ball collision", KILLED_BY_AN);
+			pline("La palla di ferro ti copisce!");
+			losehp(rnd(20), "collisione con una palla di ferro", KILLED_BY_AN);
 			exercise(A_STR, FALSE);
 			dragchance -= 2;
 		}
 		if( (int) dragchance >= rnd(6)) {
-			pline_The("iron ball drags you downstairs!");
-			losehp(rnd(3), "dragged downstairs by an iron ball",
+			pline("La palla di ferro ti trascina al piano inferiore!");
+			losehp(rnd(3), "trascinato al piano inferiore dalla palla di ferro",
 				NO_KILLER_PREFIX);
 			exercise(A_STR, FALSE);
 			litter();
