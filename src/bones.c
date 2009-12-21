@@ -210,9 +210,9 @@ struct obj *corpse;
 		compress_bonesfile();
 #ifdef WIZARD
 		if (wizard) {
-		    if (yn("Bones file already exists.  Replace it?") == 'y') {
+		    if (yn("Lo scheletro esiste. Sostituirlo?") == 'y') {
 			if (delete_bonesfile(&u.uz)) goto make_bones;
-			else pline("Cannot unlink old bones.");
+			else pline("Impossibile separare le vecchie ossa.");
 		    }
 		}
 #endif
@@ -280,7 +280,7 @@ struct obj *corpse;
 		}
 		mtmp = christen_monst(mtmp, plname);
 		newsym(u.ux, u.uy);
-		Your("body rises from the dead as %s...",
+		plname("Il tuo corpo ritorna dalla morte come %s...",
 			an(mons[u.ugrave_arise].mname));
 		display_nhwindow(WIN_MESSAGE, FALSE);
 		drop_upon_death(mtmp, (struct obj *)0);
@@ -324,7 +324,7 @@ struct obj *corpse;
 		/* bones file creation problems are silent to the player.
 		 * Keep it that way, but place a clue into the paniclog.
 		 */
-		paniclog("savebones", whynot);
+		paniclog("salvaossa", whynot);
 		return;
 	}
 	c = (char) (strlen(bonesid) + 1);
@@ -350,7 +350,7 @@ struct obj *corpse;
 	    if (bytes_counted > freediskspace(bones)) { /* not enough room */
 # ifdef WIZARD
 		if (wizard)
-			pline("Insufficient space to create bones file.");
+			pline("Spazio insufficiente per creare un file delle ossa.");
 # endif
 		(void) close(fd);
 		cancel_bonesfile();
@@ -395,11 +395,11 @@ getbones()
 #ifdef WIZARD
 	    if (!wizard)
 #endif
-		pline("Discarding unuseable bones; no need to panic...");
+		pline("Rimosse le ossa inutilizzabili; nulla di cui preoccuparsi...");
 	} else {
 #ifdef WIZARD
 		if(wizard)  {
-			if(yn("Get bones?") == 'n') {
+			if(yn("Prese le ossa?") == 'n') {
 				(void) close(fd);
 				compress_bonesfile();
 				return(0);
@@ -411,7 +411,7 @@ getbones()
 		if (strcmp(bonesid, oldbonesid) != 0) {
 			char errbuf[BUFSZ];
 
-			Sprintf(errbuf, "This is bones level '%s', not '%s'!",
+			Sprintf(errbuf, "Questo e` il livello delle ossa '%s', non '%s'!",
 				oldbonesid, bonesid);
 #ifdef WIZARD
 			if (wizard) {
@@ -436,7 +436,7 @@ getbones()
 			    if (mtmp->mhpmax == DEFUNCT_MONSTER) {
 #if defined(DEBUG) && defined(WIZARD)
 				if (wizard)
-				    pline("Removing defunct monster %s from bones.",
+				    pline("Rimosso $s del mostro morto dalle ossa.",
 					mtmp->data->mname);
 #endif
 				mongone(mtmp);
@@ -452,7 +452,7 @@ getbones()
 
 #ifdef WIZARD
 	if(wizard) {
-		if(yn("Unlink bones?") == 'n') {
+		if(yn("Separare le ossa?") == 'n') {
 			compress_bonesfile();
 			return(ok);
 		}
