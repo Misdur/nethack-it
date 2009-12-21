@@ -111,14 +111,14 @@ adjattrib(ndx, incr, msgflg)
 	if ((ndx == A_INT || ndx == A_WIS)
 				&& uarmh && uarmh->otyp == DUNCE_CAP) {
 		if (msgflg == 0)
-		    Your("cap constricts briefly, then relaxes again.");
+		  pline("Il tuo copricapo si restringe per poco, poi si allenta di nuovo.");
 		return FALSE;
 	}
 
 	if (incr > 0) {
 	    if ((AMAX(ndx) >= ATTRMAX(ndx)) && (ACURR(ndx) >= AMAX(ndx))) {
 		if (msgflg == 0 && flags.verbose)
-		    pline("You're already as %s as you can get.",
+		    pline("Sei gia` %s di quanto puoi.",
 			  plusattr[ndx]);
 		ABASE(ndx) = AMAX(ndx) = ATTRMAX(ndx); /* just in case */
 		return FALSE;
@@ -135,8 +135,8 @@ adjattrib(ndx, incr, msgflg)
 	} else {
 	    if (ABASE(ndx) <= ATTRMIN(ndx)) {
 		if (msgflg == 0 && flags.verbose)
-		    pline("You're already as %s as you can get.",
-			  minusattr[ndx]);
+		  pline("Sei gia` %s di quanto puoi.",
+			minusattr[ndx]);
 		ABASE(ndx) = ATTRMIN(ndx); /* just in case */
 		return FALSE;
 	    }
@@ -151,8 +151,8 @@ adjattrib(ndx, incr, msgflg)
 	    }
 	}
 	if (msgflg <= 0)
-	    You_feel("%s%s!",
-		  (incr > 1 || incr < -1) ? "very ": "",
+	    Ti_senti("%s%s!",
+		  (incr > 1 || incr < -1) ? "veramente ": "",
 		  (incr > 0) ? plusattr[ndx] : minusattr[ndx]);
 	flags.botl = 1;
 	if (moves > 1 && (ndx == A_STR || ndx == A_CON))
@@ -265,7 +265,7 @@ int	i;
 boolean	inc_or_dec;
 {
 #ifdef DEBUG
-	pline("Exercise:");
+	pline("Esercizio:");
 #endif
 	if (i == A_INT || i == A_CHA) return;	/* can't exercise these */
 
@@ -419,21 +419,21 @@ exerchk()
 		    AEXE(i) = 0;
 		    /* then print an explanation */
 		    switch(i) {
-		    case A_STR: You((mod_val >0) ?
-				    "must have been exercising." :
-				    "must have been abusing your body.");
+		    case A_STR: pline((mod_val >0) ?
+				    "Devi esserti esercitato." :
+				    "Devi aver stressato il tuo corpo.");
 				break;
-		    case A_WIS: You((mod_val >0) ?
-				    "must have been very observant." :
-				    "haven't been paying attention.");
+		    case A_WIS: pline((mod_val >0) ?
+				    "Devi essere stato molto attento." :
+				    "Non sei stato molto attento.");
 				break;
-		    case A_DEX: You((mod_val >0) ?
-				    "must have been working on your reflexes." :
-				    "haven't been working on reflexes lately.");
+		    case A_DEX: pline((mod_val >0) ?
+				    "Devi aver lavorato sui tuoi riflessi." :
+				    "Hai lavorato poco sui tuoi riflessi ultimamente.");
 				break;
-		    case A_CON: You((mod_val >0) ?
-				    "must be leading a healthy life-style." :
-				    "haven't been watching your health.");
+		    case A_CON: pline((mod_val >0) ?
+				    "Devi aver condotto una vita da salutista." :
+				    "Non hai badato alla tua salute.");
 				break;
 		    }
 		}
@@ -592,15 +592,15 @@ int oldlevel, newlevel;
 				*(abil->ability) |= mask;
 			if(!(*(abil->ability) & INTRINSIC & ~mask)) {
 			    if(*(abil->gainstr))
-				You_feel("%s!", abil->gainstr);
+				Ti_senti("%s!", abil->gainstr);
 			}
 		} else if (oldlevel >= abil->ulevel && newlevel < abil->ulevel) {
 			*(abil->ability) &= ~mask;
 			if(!(*(abil->ability) & INTRINSIC)) {
 			    if(*(abil->losestr))
-				You_feel("%s!", abil->losestr);
+				Ti_senti("%s!", abil->losestr);
 			    else if(*(abil->gainstr))
-				You_feel("less %s!", abil->gainstr);
+				Ti_senti("meno %s!", abil->gainstr);
 			}
 		}
 	    if (prevabil != *(abil->ability))	/* it changed */
