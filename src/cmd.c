@@ -308,9 +308,9 @@ doextlist()	/* here after #? - now list all full-word commands */
 
 	datawin = create_nhwindow(NHW_TEXT);
 	putstr(datawin, 0, "");
-	putstr(datawin, 0, "            Extended Commands List");
+	putstr(datawin, 0, "            Lista Comandi Estesa");
 	putstr(datawin, 0, "");
-	putstr(datawin, 0, "    Press '#', then type:");
+	putstr(datawin, 0, "    Premi '#', poi digita:");
 	putstr(datawin, 0, "");
 
 	for(efp = extcmdlist; efp->ef_txt; efp++) {
@@ -460,18 +460,18 @@ domonability()
 	    if(IS_FOUNTAIN(levl[u.ux][u.uy].typ)) {
 		if (split_mon(&youmonst, (struct monst *)0))
 		    dryup(u.ux, u.uy, TRUE);
-	    } else There("is no fountain here.");
+	    } else pline("Non c'e` alcuna fontana qui.");
 	} else if (is_unicorn(youmonst.data)) {
 	    use_unicorn_horn((struct obj *)0);
 	    return 1;
 	} else if (youmonst.data->msound == MS_SHRIEK) {
-	    You("shriek.");
+	    pline("Strilli.");
 	    if(u.uburied)
-		pline("Unfortunately sound does not carry well through rock.");
+		pline("Sfortunatamente il suono non si propaga bene attraverso la roccia.");
 	    else aggravate();
 	} else if (Upolyd)
-		pline("Any special ability you may have is purely reflexive.");
-	else You("don't have a special ability in your normal form!");
+		pline("Qualsiasi tua abilita` speciale e` puramente riflessiva.");
+	else pline("Non hai alcuna abilita` speciale nella tua forma normale!");
 	return 0;
 }
 
@@ -479,15 +479,15 @@ STATIC_PTR int
 enter_explore_mode()
 {
 	if(!discover && !wizard) {
-		pline("Beware!  From explore mode there will be no return to normal game.");
-		if (yn("Do you want to enter explore mode?") == 'y') {
+		pline("Attenzione! Dalla modalita` esplorazione non potrai tornare alla modalita` normale.");
+		if (yn("Vuoi accedere alla modalita` esplorazione?") == 'y') {
 			clear_nhwindow(WIN_MESSAGE);
-			You("are now in non-scoring explore mode.");
+			pline("Sei in modalita` esplorazione. Non accumulerai punteggio.");
 			discover = TRUE;
 		}
 		else {
 			clear_nhwindow(WIN_MESSAGE);
-			pline("Resuming normal game.");
+			pline("Ritorno alla modalita` normale.");
 		}
 	}
 	return 0;
@@ -507,7 +507,7 @@ wiz_wish()	/* Unlimited wishes for debug mode by Paul Polderman */
 	    flags.verbose = save_verbose;
 	    (void) encumber_msg();
 	} else
-	    pline("Unavailable command '^W'.");
+	    pline("Nessun comando '^W'.");
 	return 0;
 }
 
@@ -516,7 +516,7 @@ STATIC_PTR int
 wiz_identify()
 {
 	if (wizard)	identify_pack(0);
-	else		pline("Unavailable command '^I'.");
+	else		pline("Nessun comand '^I'.");
 	return 0;
 }
 
@@ -538,7 +538,7 @@ wiz_map()
 	    HConfusion = save_Hconf;
 	    HHallucination = save_Hhallu;
 	} else
-	    pline("Unavailable command '^F'.");
+	    pline("Nessun comando '^F'.");
 	return 0;
 }
 
@@ -547,7 +547,7 @@ STATIC_PTR int
 wiz_genesis()
 {
 	if (wizard)	(void) create_particular();
-	else		pline("Unavailable command '^G'.");
+	else		pline("Nessun comando '^G'.");
 	return 0;
 }
 
@@ -556,7 +556,7 @@ STATIC_PTR int
 wiz_where()
 {
 	if (wizard) (void) print_dungeon(FALSE, (schar *)0, (xchar *)0);
-	else	    pline("Unavailable command '^O'.");
+	else	    pline("Nessun commando '^O'.");
 	return 0;
 }
 
@@ -565,7 +565,7 @@ STATIC_PTR int
 wiz_detect()
 {
 	if(wizard)  (void) findit();
-	else	    pline("Unavailable command '^E'.");
+	else	    pline("Nessun commando '^E'.");
 	return 0;
 }
 
@@ -574,7 +574,7 @@ STATIC_PTR int
 wiz_level_tele()
 {
 	if (wizard)	level_tele();
-	else		pline("Unavailable command '^V'.");
+	else		pline("Nessun commando '^V'.");
 	return 0;
 }
 
@@ -583,8 +583,8 @@ STATIC_PTR int
 wiz_mon_polycontrol()
 {
     iflags.mon_polycontrol = !iflags.mon_polycontrol;
-    pline("Monster polymorph control is %s.",
-	  iflags.mon_polycontrol ? "on" : "off");
+    pline("Il controllo polimorfo del mostro e` %s.",
+	  iflags.mon_polycontrol ? "attivato" : "disattivato");
     return 0;
 }
 
