@@ -9,11 +9,11 @@ extern const char *hu_stat[];	/* defined in eat.c */
 
 const char * const enc_stat[] = {
 	"",
-	"Burdened",
-	"Stressed",
-	"Strained",
-	"Overtaxed",
-	"Overloaded"
+	"Appesantito",
+	"Stressato",
+	"Affaticato",
+	"Molto provato",
+	"Sovraccaricato"
 };
 
 STATIC_DCL void NDECL(bot1);
@@ -88,7 +88,7 @@ rank_of(lev, monnum, female)
 	/* Try the role name, instead */
 	if (female && role->name.f) return (role->name.f);
 	else if (role->name.m) return (role->name.m);
-	return ("Player");
+	return ("Giocatore");
 }
 
 
@@ -209,8 +209,8 @@ bot1()
 	Sprintf(nb = eos(nb),
 		"Dx:%-1d Co:%-1d In:%-1d Wi:%-1d Ch:%-1d",
 		ACURR(A_DEX), ACURR(A_CON), ACURR(A_INT), ACURR(A_WIS), ACURR(A_CHA));
-	Sprintf(nb = eos(nb), (u.ualign.type == A_CHAOTIC) ? "  Chaotic" :
-			(u.ualign.type == A_NEUTRAL) ? "  Neutral" : "  Lawful");
+	Sprintf(nb = eos(nb), (u.ualign.type == A_CHAOTIC) ? "  Caotico" :
+			(u.ualign.type == A_NEUTRAL) ? "  Neutrale" : "  Giusto");
 #ifdef SCORE_ON_BOTL
 	if (flags.showscore)
 	    Sprintf(nb = eos(nb), " S:%ld", botl_score());
@@ -230,10 +230,10 @@ char *buf;
 	if (Is_knox(&u.uz))
 		Sprintf(buf, "%s ", dungeons[u.uz.dnum].dname);
 	else if (In_quest(&u.uz))
-		Sprintf(buf, "Home %d ", dunlev(&u.uz));
+		Sprintf(buf, "Casa %d ", dunlev(&u.uz));
 	else if (In_endgame(&u.uz))
 		Sprintf(buf,
-			Is_astralevel(&u.uz) ? "Astral Plane " : "End Game ");
+			Is_astralevel(&u.uz) ? "Piano Astrale " : "Fine del gioco ");
 	else {
 		/* ports with more room may expand this one */
 		Sprintf(buf, "Dlvl:%-2d ", depth(&u.uz));
