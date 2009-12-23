@@ -3383,27 +3383,30 @@ localizzare l'Amuleto di Yendor."
 #	Demonic maledictions.
 #
 %Cp - 00030
-"I first mistook thee for a statue, when I regarded thy head of stone."
+"Prima ti ho scambiato per una stauta, quando ho cosiderato la tua
+testa di pietra."
 %E
 %Cp - 00031
-"Come here often?"
+"Vieni qui spesso?"
 %E
 %Cp - 00032
-"Doth pain excite thee?  Wouldst thou prefer the whip?"
+"Non ti eccita il dolore? Preferiresti forse la frusta?"
 %E
 %Cp - 00033
+"Credi che strapparti i polmoni ti faccia il solletico?"
 "Thinkest thou it shall tickle as I rip out thy lungs?"
 %E
 %Cp - 00034
-"Eat slime and die!"
+"Mangia melma e muori!"
 %E
 %Cp - 00035
-"Go ahead, fetch thy mama!  I shall wait."
+"Fai pure, porta tua madre! Posso aspettare." 
 %E
 %Cp - 00036
-"Go play leapfrog with a herd of unicorns!"
+"Vai a giocare alla cavallina con una mandria di unicorni!"
 %E
 %Cp - 00037
+"Hai per caso bevuto, oppure sei sempre cosi` maldestro?"
 "Hast thou been drinking, or art thou always so clumsy?"
 %E
 %Cp - 00038
@@ -3421,7 +3424,8 @@ localizzare l'Amuleto di Yendor."
 %Cp - 00042
 "Run away!  Live to flee another day!"
 %E
-%Cp - 00043
+0%1
+3311Cp - 00043
 "Thou hadst best fight better than thou canst dress!"
 %E
 %Cp - 00044
