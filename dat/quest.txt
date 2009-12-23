@@ -1812,7 +1812,7 @@ Something is wrong, though.  Surrounding the grove are centaurs!
 And they've noticed you!
 %E
 %Cp Ran 00002
-Once again, you stand before %H.
+Ancora una volta, sei di fronte a %H.
 %E
 %Cp Ran 00003
 You have the oddest feeling that this may be the last time you
