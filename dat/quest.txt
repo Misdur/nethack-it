@@ -3351,34 +3351,34 @@ essential in locating the Amulet of Yendor."
 #	Angelic maledictions.
 #
 %Cp - 00010
-"Repent, and thou shalt be saved!"
+"Pentiti,e sarai salvato!"
 %E
 %Cp - 00011
-"Thou shalt pay for thine insolence!"
+"Pagherai per la tua insolenza!"
 %E
 %Cp - 00012
-"Very soon, my child, thou shalt meet thy maker."
+"Molto presto, figlio mio, incontrerai il creatore."
 %E
 %Cp - 00013
-"The great %D has sent me to make you pay for your sins!"
+"Il grande %D mi ha mandato affinche` paghiate per i vostri peccati!"
 %E
 %Cp - 00014
-"The wrath of %D is now upon you!"
+"L'ira di %D e` ora su di te!"
 %E
 %Cp - 00015
-"Thy life belongs to %D now!"
+"La tua vita ora appartiene a %D!"
 %E
 %Cp - 00016
-"Dost thou wish to receive thy final blessing?"
+"Vuoi ricevere la tua benedizione finale?"
 %E
 %Cp - 00017
-"Thou art but a godless void."
+"Sei nulla senza Dio."
 %E
 %Cp - 00018
-"Thou art not worthy to seek the Amulet."
+"Non sei degno di cercare l'Amuleto."
 %E
 %Cp - 00019
-"No one expects the Spanish Inquisition!"
+"Nessuno si aspetta l'Inquisizione Spagnola!"
 %E
 #
 #	Demonic maledictions.
