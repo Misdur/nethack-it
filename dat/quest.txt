@@ -3451,7 +3451,7 @@ fatto una volta. La mia fedelta` a %d viene prima di tutto e non posso perdonare
 o accettare quello che hai fatto.
 
 Lascia questo luogo. Non mettere mai piu` piede ad %H.
-Quello che cerchi è ormai perduto per sempre, senza le Bell of
+Quello che cerchi è ormai perduto per sempre, senza la Bell of
 Opening, non sarai in grado di entrare nel luogo dove risiede l'Amuleto.
 
 Vai ora! Sei bandito da questo luogo."
