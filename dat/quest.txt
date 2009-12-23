@@ -3345,8 +3345,6 @@ Ancora una volta perpepisci che %l esige il tuo intervento.
 %Cp - 00005
 "Il campanello d'argento custodito da %n sara` fondamentale per
 localizzare l'Amuleto di Yendor."
-"The silver bell which was hoarded by %n will be
-essential in locating the Amulet of Yendor."
 %E
 #
 #	Angelic maledictions.
