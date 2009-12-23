@@ -1805,11 +1805,11 @@ life, but I hope to at %ds feet."
 #	Ranger
 #
 %Cc Ran 00001
-You arrive in familiar surroundings.  In the distance, you %x the
-ancient forest grove, the place of worship to %d.
+Arrivi in un luogo familiare. In lontananza, %x l'antica foresta,
+il luogo di culto di %d.
 
-Something is wrong, though.  Surrounding the grove are centaurs!
-And they've noticed you!
+Eppure, qualcosa non va. Nei pressi della foresta ci sono dei
+centauri. E ti hanno visto!
 %E
 %Cp Ran 00002
 Ancora una volta, sei di fronte a %H.
