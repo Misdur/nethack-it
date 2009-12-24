@@ -3450,22 +3450,15 @@ testa di pietra."
 #	Banishment message (for converted hero)
 #
 %Cc - 00060
-<<<<<<< HEAD:dat/quest.txt
-"Hai tradito tutti coloro che hanno giurato fedelta` a %d, come ho
-=======
 "Hai tradito tutti coloro che hanno giurato fedelta` a %d, come tu hai
->>>>>>> 941ba69612c4d2aae236974920c3304afcb1da8c:dat/quest.txt
 fatto una volta. La mia fedelta` a %d viene prima di tutto e non posso perdonare
 o accettare quello che hai fatto.
 
 Lascia questo luogo. Non mettere mai piu` piede ad %H.
-<<<<<<< HEAD:dat/quest.txt
 Quello che cerchi è ormai perduto per sempre, senza la Bell of
 Opening, non sarai in grado di entrare nel luogo dove risiede l'Amuleto.
-=======
 Quello che cerchi e` ormai perduto per sempre, senza la Bell of
 Opening, non sarai mai in grado di entrare nel luogo dove risiede l'Amuleto.
->>>>>>> 941ba69612c4d2aae236974920c3304afcb1da8c:dat/quest.txt
 
 Vai ora! Sei bandito da questo luogo."
 %E
