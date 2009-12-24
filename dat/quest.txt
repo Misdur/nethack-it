@@ -1983,41 +1983,41 @@ Ancora una volta, entri nel distorto castello di %n.
 "Ancora qui, eh? Bene, un povero %r non e` una minaccia per me! Muori, %c!"
 %E
 %Cp Ran 00052
-"You haven't learned your lesson, %c.  You can't kill me!  You shall die now."
+"Non hai imparato la lezione, %c. Non puoi uccidermi! Morirai adesso."
 %E
 %Cp Ran 00053
-"I shall have %o from you, %r.  Then I shall
-kill you."
+"Avro` %o da te, %r. Poi ti uccidero`."
 %E
 %Cp Ran 00060
-"Your %d is nothing, %c.  You are mine now!"
+"Il tuo %d e` nulla, %c. Sei mio adesso!"
 %E
 %Cp Ran 00061
-"Run away little %c!  You can never hope to defeat %n!"
+"Scappa via piccolo %c! Non potrai mai sperare di sconfiggere %n!"
 %E
 %Cp Ran 00062
-"My servants will rip you to shreds!"
+"I miei servi tu ridurranno a brandelli!"
 %E
 %Cp Ran 00063
-"I shall display your head as a trophy.  What do you think about that wall?"
+"Mostrero` la tua testa come un trofeo. Cosa ne pensi di sistemarla
+sulla parete?"
 %E
 %Cp Ran 00064
-"I shall break your %ls grove, and destroy all the %gP!"
+"Irrompero` nel tuo $ls bosco e distruggero` tutto il %gP!"
 %E
 %Cp Ran 00065
-"%d has abandoned you, %c.  You are doomed."
+"$d ti ha abbandonato, %c. Sei spacciato."
 %E
 %Cp Ran 00066
-"%rA?  %lC sends a mere %r against me?  Hah!"
+"%rA?  %lC invia un povero %r contro di me? Hah!"
 %E
 %Cp Ran 00067
-"%lC has failed, %c.  %oC will never leave here."
+"%lC ha fallito, %c. %oC non lascera` mai questo posto."
 %E
 %Cp Ran 00068
-"You really think you can defeat me, eh %c?  You are wrong!"
+"Pensi veramente di potermi sconfiggere, eh %c? Ti sbagli!"
 %E
 %Cp Ran 00069
-"You weaken, %c.  I shall kill you now."
+"Ti indebolisci, %c. Dovrei ucciderti adesso."
 %E
 %Cc Ran 00070
 As you pick up %o, it seems to glow, and a warmth
