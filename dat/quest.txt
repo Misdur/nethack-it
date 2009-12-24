@@ -3447,7 +3447,7 @@ eh, servo?"
 %E
 %Cp - 00048
 "Aspetta! Mi trasformero` in un grid bug per darvi una possibilita` di
-vittoria"""
+vittoria!"
 %E
 %Cp - 00049
 "Perche` cerchi l'Amuleto? Lo perderai, cretino"
