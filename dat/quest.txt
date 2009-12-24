@@ -3440,16 +3440,17 @@ volta non sara` cosi`."
 eh, servo?"
 %E
 %Cp - 00046
-"Up thy nose with a rubber hose!"
+"Sul tuo naso con un tubo di gomma!"
 %E
 %Cp - 00047
-"Verily, thy corpse could not smell worse!"
+"In verita`, il tuo corpo non poteva avere un odore peggiore!"
 %E
 %Cp - 00048
-"Wait!  I shall polymorph into a grid bug to give thee a fighting chance!"
+"Aspetta! Mi trasformero` in un grid bug per darvi una possibilita` di
+vittoria"""
 %E
 %Cp - 00049
-"Why search for the Amulet?  Thou wouldst but lose it, cretin."
+"Perche` cerchi l'Amuleto? Lo perderai, cretino"
 %E
 #
 #	Banishment message (for converted hero)
