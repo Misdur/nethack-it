@@ -3394,10 +3394,6 @@ testa di pietra."
 %E
 %Cp - 00033
 "Credi che strapparti i polmoni ti faccia il solletico?"
-<<<<<<< HEAD:dat/quest.txt
-"Thinkest thou it shall tickle as I rip out thy lungs?"
-=======
->>>>>>> dem_maledictions:dat/quest.txt
 %E
 %Cp - 00034
 "Mangia melma e muori!"
@@ -3410,10 +3406,6 @@ testa di pietra."
 %E
 %Cp - 00037
 "Hai per caso bevuto, oppure sei sempre cosi` maldestro?"
-<<<<<<< HEAD:dat/quest.txt
-"Hast thou been drinking, or art thou always so clumsy?"
-=======
->>>>>>> dem_maledictions:dat/quest.txt
 %E
 %Cp - 00038
 "Questa volta ti lascio andare con una sculacciata, ma la prossima
@@ -3431,13 +3423,8 @@ volta non sara` cosi`."
 %Cp - 00042
 "Fuggi! Vivi per un altro giorno!"
 %E
-0%1
-3311Cp - 00043
-<<<<<<< HEAD:dat/quest.txt
-"Thou hadst best fight better than thou canst dress!"
-=======
+%Cp - 00043
 "Devi combattere meglio di come ti vesti!"
->>>>>>> dem_maledictions:dat/quest.txt
 %E
 %Cp - 00044
 "Tra te e tua cugina, Medusa e` la piu` bella."
