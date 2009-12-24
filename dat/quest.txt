@@ -2318,40 +2318,39 @@ show you what to do with it.  Once that's done, we will be invincible!"
 #	Samurai
 #
 %Cc Sam 00001
-Even before your senses adjust, you recognize the kami of
-%H.
+Anora prima che i tuoi sensi s adattino, riconosci il kami di %H.
 
-You %x the standard of your teki, %n, flying above
-the town.  How could such a thing have happened?  Why are ninja
-wandering freely; where are the samurai of your daimyo, %l?
+"Tu %x lo stendardo del tuo teki, %n, sorvola la citta`. Come puo`
+essere successa una cosa del genere? Perche` i ninja vagano liberi;
+dove sono i samurai del tuo daimyo, %l?
 
-You quickly say a prayer to Izanagi and Izanami and walk towards
-town.
+Rapidamente facciamo una preghiera a Izanagi e Izanam e camminiamo
+verso la citta`."
 %E
 %Cp Sam 00002
-Once again, you are back at %H.
+Ancora una volta sei tornato a %H.
 %E
 %Cp Sam 00003
-You are back at %H.
+Sei tornato a %H.
 
-Instantly you sense a subtle change in your karma.  You seem to know that
-if you do not succeed in your quest, %n will have destroyed
-the kami of %H before you return again.
+Istantaneamente percepisci un sottile cambiamento nel tuo
+karma. Sai che se non avrai successo nella tua missione, %n avra`
+distrutto il kami %H prima del tuo ritorno.
 %E
 %Cp Sam 00005
-"To succeed, you must walk like a butterfly on the wind."
+"Per avere successo, devi camminare come una farfalla nel vento."
 %E
 %Cp Sam 00006
 "Ikaga desu ka?"
 %E
 %Cp Sam 00007
-"I fear for The Land of The Gods."
+"Temo per la Terra degli Dei."
 %E
 %Cp Sam 00008
-"%nC has hired the Ninja -- be careful."
+"%nC ha assunto un Ninja -- state attenti."
 %E
 %Cp Sam 00009
-"If %o is not returned, we will all be ninja."
+"Se %o non viene restituito, diventeremo tutti ninja."
 %E
 %Cp Sam 00010
 "Come, join us in celebrating with some sake."
