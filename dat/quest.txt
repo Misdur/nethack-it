@@ -3399,7 +3399,6 @@ testa di pietra."
 %E
 %Cp - 00033
 "Credi che strapparti i polmoni ti faccia il solletico?"
-"Thinkest thou it shall tickle as I rip out thy lungs?"
 %E
 %Cp - 00034
 "Mangia melma e muori!"
@@ -3412,29 +3411,31 @@ testa di pietra."
 %E
 %Cp - 00037
 "Hai per caso bevuto, oppure sei sempre cosi` maldestro?"
-"Hast thou been drinking, or art thou always so clumsy?"
 %E
 %Cp - 00038
-"This time I shall let thee off with a spanking, but let it not happen again."
+"Questa volta ti lascio andare con una sculacciata, ma la prossima
+volta non sara` cosi`."
 %E
 %Cp - 00039
+"Ho incontrato intelligenti (e belle) macchie d'acido."
 "I've met smarter (and prettier) acid blobs."
 %E
 %Cp - 00040
-"Look!  Thy bootlace is undone!"
+"Guarda! il tuo laccio e` sciolto!"
 %E
 %Cp - 00041
-"Mercy!  Dost thou wish me to die of laughter?"
+"Pieta`! Mi vuoi far morire dal ridere?"
 %E
 %Cp - 00042
-"Run away!  Live to flee another day!"
+"Fuggi! Vivi per un altro giorno!"
 %E
 0%1
 3311Cp - 00043
+"Devi combattere meglio di come ti vesti!"
 "Thou hadst best fight better than thou canst dress!"
 %E
 %Cp - 00044
-"Twixt thy cousin and thee, Medusa is the prettier."
+"Tra te e tua cugina, Medusa e` la piu` bella."
 %E
 %Cp - 00045
 "Methinks thou wert unnaturally stirred by yon corpse back there, eh, varlet?"
