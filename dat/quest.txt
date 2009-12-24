@@ -1815,69 +1815,74 @@ centauri. E ti hanno visto!
 Ancora una volta, sei di fronte a %H.
 %E
 %Cp Ran 00003
-You have the oddest feeling that this may be the last time you
-are to enter %H.
+Hai la stranissima sensazione che questa sia l'ultima volta
+che entri in %H.
 %E
 %Cp Ran 00005
-"%pC!  I have not seen you in many moons.  How do you fare?"
+"%pC! Non ti si vede da molte lune. Come te la passi?"
 %E
 %Cp Ran 00006
-"%nC continues to threaten the grove.  But we hold fast."
+"%nC continua a minacciare il bosco. Ma noi teniamo duro."
 %E
 %Cp Ran 00007
-"%lC is growing weak.  The magic required to defend the grove drains us."
+"%lC cresce debole. La magia necessaria per didendere il bosco sfinisce."
 %E
 %Cp Ran 00008
-"Remember %i is hard to enter.  Beware the
-distraction of leatherwings."
+"Ricorda e` difficil entrare in %i. Attenzione
+alle distrazioni di leatherwings."
 %E
 %Cp Ran 00009
-"We must regain %o.  Without it we will be overrun."
+"Dobbiamo riconquistare %o. Senza saremo sopraffatti."
 %E
 %Cp Ran 00010
-"%pC!  I have not seen you in many moons.  How do you fare?"
+"%pC! Non ti si vede da molte lune. Come te la passi?"
 %E
 %Cp Ran 00011
-"Birdsong has returned to the grove, surely this means you have defeated %n."
+"Il canto degli uccelli risuona nuovamente nel bosco,
+questo significa che hai sconfitto %n."
 %E
 %Cp Ran 00012
-"%lC seems to have regained some of his strength."
+"%lC sembra che abbia riacquistato parte della sua forza."
 %E
 %Cp Ran 00013
-"So, tell us how you entered %i, in case some new evil arises there."
+"Allora, raccontaci come sei entrato in %i,
+nel caso altra malvagita` nasca in quei luoghi."
 %E
 %Cp Ran 00014
-"Is that truely %o that I see you carrying?"
+"E` veramente %o cio` che trasporti?"
 %E
 %Cc Ran 00015
-"%pC!  You have returned!  Thank %d.
+"%pC! Sei tornato! Grazie %d."
 
-"We have great need of you.  But first, I must see if you have the
-required abilities to take on this responsibility."
+"Abbiamo estremo bisogno di te. Ma prima,
+devo accertarmi che tu abbia le necessarie abilita`
+per assumerti questa responsabilita`."
 %E
 %Cp Ran 00016
-"Once again, %p, you stand in our midst.  Are you ready now?"
+"Ancora una volta, %p, sei qui. Sei pronto adesso?"
 %E
 %Cp Ran 00017
-"Ah, you are here again, %p.  Allow me to determine your readiness..."
+"Ah, sei di nuovo qui, $p. Permettimi di capire quanto tu sia pronto..."
 %E
 %Cc Ran 00018
-"%pC!  You have doomed us all.  You fairly radiate %L influences
-and weaken the power we have raised in this grove as a result!
+"%pC! Ci hai condannati tutti. Diffondi le influenze di %L e
+come risultato indebolisci il potere che abbiamo costruito
+nel bosco."
 
-"Begone!  We renounce your %shood with us!  You are an outcast now!"
+"Vattene! Rinunciamo alla tua %s con noi! Sei un reietto ora!"
 %E
 %Cc Ran 00019
-"%p, you are yet too inexperienced to withstand the demands of that
-which we need you to do.  %RA might just be able to do this thing.
+"%p, sei ancora troppo inesperto per portare a termine
+i compiti che ti chiediamo. %RA potrebbe essere in grado
+di fare questa cosa.
 
-"Return to us when you have learned more, my %S."
+"Torna da noi quando avrai imparato di piu`, mio %S."
 %E
 %Cc Ran 00020
-"You have strayed, %p!  You know that %d requires that
-we maintain a pure devotion to things %a!
+"Ti sei perso, %p! Sai che %d richiede che noi
+manteniamo una devozione pura alle cose %a!"
 
-"You must go from us.  Return when you have purified yourself."
+"Devi allontanarti da noi. Torna quando ti sarai purificato."
 %E
 %Cc Ran 00021
 "You are indeed ready, %p.  I shall tell you what has transpired,
