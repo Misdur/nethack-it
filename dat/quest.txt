@@ -2379,9 +2379,6 @@ grado di essere il mio vassallo?"
 "Inizia testandomi matsu, %p-san.
 Se non riesco a determinare cosa voglio in un samurai, come posso
 contare su di te se tu non hai cio` che cerco da un samurai?"
-"You begin to test my matsu, %p-san.
-If you cannot determine what I want in a samurai, how can I rely on you
-to figure out what I need from a samurai?"
 %E
 %Cc Sam 00018
 "Tu non sei piu` il mio samurai, %p.
