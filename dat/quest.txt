@@ -3428,12 +3428,7 @@ volta non sara` cosi`."
 %Cp - 00042
 "Fuggi! Vivi per un altro giorno!"
 %E
-<<<<<<< HEAD:dat/quest.txt
 %Cp - 00043
-=======
-0%1
-3311Cp - 00043
->>>>>>> b467fc619ccf15c341a653d66e31e54904f44694:dat/quest.txt
 "Devi combattere meglio di come ti vesti!"
 %E
 %Cp - 00044
