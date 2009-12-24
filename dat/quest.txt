@@ -1859,28 +1859,30 @@ devo accertarmi che tu abbia le necessarie abilita`
 per assumerti questa responsabilita`."
 %E
 %Cp Ran 00016
-"Once again, %p, you stand in our midst.  Are you ready now?"
+"Ancora una volta, %p, sei qui. Sei pronto adesso?"
 %E
 %Cp Ran 00017
-"Ah, you are here again, %p.  Allow me to determine your readiness..."
+"Ah, sei di nuovo qui, $p. Permettimi di capire quanto tu sia pronto..."
 %E
 %Cc Ran 00018
-"%pC!  You have doomed us all.  You fairly radiate %L influences
-and weaken the power we have raised in this grove as a result!
+"%pC! Ci hai condannati tutti. Diffondi le influenze di %L e
+come risultato indebolisci il potere che abbiamo costruito
+nel bosco."
 
-"Begone!  We renounce your %shood with us!  You are an outcast now!"
+"Vattene! Rinunciamo alla tua %s con noi! Sei un reietto ora!"
 %E
 %Cc Ran 00019
-"%p, you are yet too inexperienced to withstand the demands of that
-which we need you to do.  %RA might just be able to do this thing.
+"%p, sei ancora troppo inesperto per portare a termine
+i compiti che ti chiediamo. %RA potrebbe essere in grado
+di fare questa cosa.
 
-"Return to us when you have learned more, my %S."
+"Torna da noi quando avrai imparato di piu`, mio %S."
 %E
 %Cc Ran 00020
-"You have strayed, %p!  You know that %d requires that
-we maintain a pure devotion to things %a!
+"Ti sei perso, %p! Sai che %d richiede che noi
+manteniamo una devozione pura alle cose %a!"
 
-"You must go from us.  Return when you have purified yourself."
+"Devi allontanarti da noi. Torna quando ti sarai purificato."
 %E
 %Cc Ran 00021
 "You are indeed ready, %p.  I shall tell you what has transpired,
