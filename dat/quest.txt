@@ -3412,8 +3412,7 @@ testa di pietra."
 volta non sara` cosi`."
 %E
 %Cp - 00039
-"Ho incontrato intelligenti (e belle) macchie d'acido."
-"I've met smarter (and prettier) acid blobs."
+"Ho incontrato macchie d'acido piu` intelligenti e piu` belle."
 %E
 %Cp - 00040
 "Guarda! il tuo laccio e` sciolto!"
@@ -3427,7 +3426,6 @@ volta non sara` cosi`."
 0%1
 3311Cp - 00043
 "Devi combattere meglio di come ti vesti!"
-"Thou hadst best fight better than thou canst dress!"
 %E
 %Cp - 00044
 "Tra te e tua cugina, Medusa e` la piu` bella."
