@@ -1908,75 +1908,79 @@ custodira` li`."
 "Recupera %o per no, %p! Solo allora %d sara` al sicuro."
 %E
 %Cp Ran 00025
-"It is rumored that the Forest and Mountain Centaurs have resolved
-their ancient feud and now band together against us."
+"Si mormoreggia che i centauri della Foresta e quelli
+della Montagna abbiano risolto la loro antica faida
+e adesso si siano uniti contro di noi."
 %E
 %Cp Ran 00026
-"%nC is strong, and very smart."
+"%nC e` forte ed anche molto furbo."
 %E
 %Cp Ran 00027
-"Use %o, when you find it.  It will help you survive
-to reach us."
+"Usa %o, quando lo trovi. Ti aiutera` a sopravvivere
+e raggiungerci."
 %E
 %Cp Ran 00028
-"Remember, let %d be your guide."
+"Ricorda, lasciati guidare da $d."
 %E
 %Cp Ran 00029
-"Call upon %d when you face %n.
-The very act of doing so will infuriate him, and give you advantage."
+"Invoca %d quando affronti %n."
+Il solo fare questo lo fara` infuriare e ti dara` un vantaggio."
 %E
 %Cp Ran 00030
-"%n and his kind have always hated us."
+"%n e la sua specie ci hanno sempre odiato."
 %E
 %Cp Ran 00031
-"We cannot hold the grove much longer, %p.  Hurry!"
+"Non riusciremo a tenere il bosco ancora a lungo, %p. Affrettati!"
 %E
 %Cp Ran 00032
-"To infiltrate %i, you must be very stealthy."
+"Per infiltrarti in %i, dovrai essere molto furtivo."
 %E
 %Cp Ran 00033
-"Remember that %n is a braggart.  Trust not what he says."
+"Ricorda che %n e` uno millantatore. Non credere a cio` che dice."
 %E
 %Cp Ran 00034
-"You can triumph, %p, if you trust in %d."
+"Puoi trionfare, %p, se ti fiderai di %d."
 %E
 %Cc Ran 00035
-This must be %i.
+Deve essere %i.
 
-You are in a cave built of many different rooms, all interconnected
-by tunnels.  Your quest is to find and shoot the evil wumpus that
-resides elsewhere in the cave without running into any bottomless
-pits or using up your limited supply of arrows.  Good luck.
+Sei in una caverna costituita da molto ambienti,
+tutti interconnessi da gallerie. La tua missione e` di trovare
+e colpire il wumpus del male che risiede altrove nella caverna
+senza cadere in un pozzo senza fondo o senza esaurire la tue
+freccie. Buona fortuna.
 
-You are in room 9 of the cave.  There are tunnels to rooms
-5, 8, and 10.
-*rustle* *rustle* (must be bats nearby)
-*sniff* (I can smell the evil wumpus nearby!)
+Sei nella sala 9 della caverna. Ci sono gallerie per le
+sale 5, 8 e 10.
+
+*fruscio* *fruscio* (devono esserci dei pipistrelli in giro)
+*sniff* (riesco a sentire l'odore del wumpus del male qui intorno!)
 %E
 %Cc Ran 00036
-Once again, you descend into %i.
+Ancora una volta, scendi nel %i.
 
-*whoosh* (I feel a draft from some pits).
-*rustle* *rustle* (must be bats nearby)
+*whoosh* (sento una corrente d'aria da qualche cavita`).
+*fruscio* *fruscio* (devono esserci dei pipistrelli in giro)
 %E
 %Cc Ran 00040
-You descend into a weird place, in which roughly cut cave-like walls
-join with smooth, finished ones, as if someone was in the midst of
-finishing off the construction of a subterranean complex.
+Scendi in uno strano luogo, in cui le pareti rocciose della caverna
+si uniscono ad altre perfettamente lisce, come se qualcuno fosse
+nel bel mezzo del completamento della costruzione di un complesso
+sotterraneo.
 
-Off in the distance, you hear a sound like the clattering of many
-hooves on rock.
+In lontanza, odi un suono simile ad una moltitudine
+di zoccoli sulle rocce.
 %E
 %Cp Ran 00041
-Once again, you enter the distorted castle of %n.
+Ancora una volta, entri nel distorto castello di %n.
 %E
 %Cc Ran 00050
-"So, %c.  %lC has sent you to recover %o.
+"Allora, %c.  %lC ti ha inviato a recuperare %o."
 
-"Well, I shall keep that bauble.  It pleases me.  You, %c, shall die."
+"Be', terro` quel gingillo. Mi piace. Tu, %c, morirai."
 %E
 %Cp Ran 00051
-"Back again, eh?  Well, a mere %r is no threat to me!  Die, %c!"
+"Ancora qui, eh? Bene, un povero %r non e` una minaccia per me! Muori, %c!"
 %E
 %Cp Ran 00052
 "You haven't learned your lesson, %c.  You can't kill me!  You shall die now."
