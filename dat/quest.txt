@@ -1908,15 +1908,16 @@ custodira` li`."
 "Recupera %o per no, %p! Solo allora %d sara` al sicuro."
 %E
 %Cp Ran 00025
-"It is rumored that the Forest and Mountain Centaurs have resolved
-their ancient feud and now band together against us."
+"Si mormoreggia che i centauri della Foresta e quelli
+della Montagna abbiano risolto la loro antica faida
+e adesso si siano uniti contro di noi."
 %E
 %Cp Ran 00026
-"%nC is strong, and very smart."
+"%nC e` forte ed anche molto furbo."
 %E
 %Cp Ran 00027
-"Use %o, when you find it.  It will help you survive
-to reach us."
+"Usa %o, quando lo trovi. Ti aiutera` a sopravvivere
+e raggiungerci."
 %E
 %Cp Ran 00028
 "Remember, let %d be your guide."
