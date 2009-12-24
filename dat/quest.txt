@@ -2353,49 +2353,52 @@ distrutto il kami %H prima del tuo ritorno.
 "Se %o non viene restituito, diventeremo tutti ninja."
 %E
 %Cp Sam 00010
-"Come, join us in celebrating with some sake."
+"Vieni, festeggia con noi con po` di sake."
 %E
 %Cp Sam 00011
 "Ikaga desu ka?"
 %E
 %Cp Sam 00012
-"You have brought our clan and %l much honor."
+"Hai portato molto onore al nostro clan e a %l."
 %E
 %Cp Sam 00013
-"Please %r, sit for a while and tell us how you overcame the Ninja."
+"Per favore %r, siediti per un po` e raccontarci come hai sconfitto il Ninja."
 %E
 %Cp Sam 00014
-"%lC still lives!  You have saved us from becoming ronin."
+"%lC vive ancora! Lo hai salvato dal diventare ronin."
 %E
 %Cc Sam 00015
-"Ah, %p-san, it is good to see you again.  I need someone who can
-lead my samurai against %n.  If you are ready, you will be
-that person."
+"Ah, %p-san, sono felice di reincontrarti. Ho bisogno che qualcuno
+guidi il mio samurai contro %n. Se sei pronto, tu sarai questa persona."
 %E
 %Cp Sam 00016
-"Once again, %p-san, you kneel before me.  Are you yet capable of
-being my vassal?"
+"Ancora una volta, %p-san, inginocchiati davanti a me. Sei ancora in
+grado di essere il mio vassallo?"
 %E
 %Cp Sam 00017
+"Inizia testandomi matsu, %p-san.
+Se non riesco a determinare cosa voglio in un samurai, come posso
+contare su di te se tu non hai cio` che cerco da un samurai?"
 "You begin to test my matsu, %p-san.
 If you cannot determine what I want in a samurai, how can I rely on you
 to figure out what I need from a samurai?"
 %E
 %Cc Sam 00018
-"You are no longer my samurai, %p.
+"Tu non sei piu` il mio samurai, %p.
 
-"Hara-kiri is denied.  You are ordered to shave your head and then to
-become a monk.  Your fief and family are forfeit.  Wakarimasu?"
+"L'hara-kiri non ti e` concesso. Ti ordino di raderti il capo e diventare
+un monaco. Il tuo feudo e la tua famiglia sono sequestrati. Wakarimasu?"
 %E
 %Cc Sam 00019
-"%p-san, you have learned well and honored your family.
-I require the skills of %Ra in order to defeat %n.
-Go and seek out teachers.  Learn what they have learned.  When you
-are ready, return to me."
+"%p-san, hai imparato bene e hai onorato la tua famiglia. Richiedo le
+abilita` di %Ra per sconfiggere %n. Vai e cerca i maestri. Apprendi
+cio` che loro hanno imparato. Quando sarai pronto, ritorna da me."
 %E
 %Cc Sam 00020
-"%p-san, you would do better to join the kyokaku.
+"%p-san, faresti meglio ad aderire al kyokaku."
 
+"Possiedi le abilita`, ma fin quando non sarai in grado di richiamare il
+bushido e come e quando usarlo tu non sarai un samurai."
 "You have skills, but until you can call upon the bushido to know when and
 how to use them you are not samurai.  When you can think %a and
 act %a then return."
