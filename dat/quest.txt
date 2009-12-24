@@ -2020,55 +2020,58 @@ sulla parete?"
 "Ti indebolisci, %c. Dovrei ucciderti adesso."
 %E
 %Cc Ran 00070
-As you pick up %o, it seems to glow, and a warmth
-fills you completely.  You realize that its power is what has protected
-your %sp against their enemies for so long.
+Appena sollevi %o, esso sembra ardere e un calore
+ti ricopre completamente. Capisci che il suo potere
+e` cio` che ti ha protetto il tuo %sp contro i loro
+nemici per cosi` lungo tempo.
 
-You must now return it to %l without delay -- their lives depend
-on your speed.
+Devi restituirlo a %l prima possibile -- le loro vite
+dipendono dalla tua velocita`.
 %E
 %Cc Ran 00080
-%nC collapses to the ground, cursing you and %l, then says:
+%nC crolla a terra, maledicendo te e %l, poi aggiunge:
 
-    You have defeated me, %r!  But I curse you one final time, with my
-    dying breath!  You shall die before you leave my castle!
+    Mi hai sconfitto, %r! Ma io ti maledico un'ultima volta,
+    con il mio ultimo alito di vita. Morirai prima di lasciare
+    il mio castello!
 %E
 %Cc Ran 00081
-"%pC!  You have succeeded!  I feared it was not possible!
+"%pC! Ce l'hai fatta! Temevo che non fosse possibile!"
 
-"You have returned with %o!
+"Sei tornato con %o!"
 
-"I fear, now, that the Centaurs will regroup and plot yet another raid.
-This will take some time, but if you can recover the Amulet of Yendor
-for %d before that happens, we will be eternally safe.
+"Ora temo che i Centauri si raggrupperanno e pianificheranno un
+nuovo attacco. Ci vorra` del tempo, ma se riuscirai a recuperare
+l'Amuleto di Yendor per %d prima che cio` accada, saremo al sicuro
+per sempre."
 
-"Take %o with you.  It will aid in your quest for
-the Amulet."
+"Porta %o con te. Ti aiutera` nella tua missione per l'Amuleto."
 %E
 # assumes The Longbow of Diana
 %Cc Ran 00082
-%l flexs %o reverently.
+l% si inchina a %o con riverenza.
 
-"With this wondrous bow, one need never run out of arrows.
-You are its keeper now, and the time has come to resume your
-search for the Amulet.  %Z await your return
-through the magic portal that brought you here."
+"Con questo meraviglioso arco, non esaurirai mai le frecce."
+Sei il suo custode ora, e e` tempo di riprendere la tua ricerca
+dell'Amuleto. %Z attendono il tuo ritorno attraverso il portale
+magico che ti ha portato qui.
 %E
 %Cp Ran 00090
-"Welcome, %p.  How have you fared on your quest for the Amulet
-of Yendor?"
+"Benvenuto, %p. Come te la sei cavata nella tua missione
+alla ricerca dell'Amuleto di Yendor?"
 %E
 %Cc Ran 00091
-"You have it!  You have recovered the Amulet of Yendor!
-Now attend to me, %p, and I will tell you what must be done:
+"Ce l'hai! Hai recuperato l'Amuleto di Yendor!
+Adesso ascoltami, %p, e ti diro` cosa deve essere fatto:"
 
-"The Amulet has within it magic, the capability to transport you to
-the Astral Plane, where the primary circle of %d resides.
+"L'Amuleto e` magico, ha la capacita` di trasportarti
+nel Piano Astrale, dove risiede il primo cerchio di %d."
 
-"To activate this magic, you must travel upwards as far as you can.
-When you reach the temple, sacrifice the Amulet to %d.
 
-"Thus will you fulfill your destiny."
+"Per attivare la magia, devi viaggiare verso l'alto, piu` lontano
+che puoi. Quando raggiungi il tempio, sacrifica l'Amuleto a %d."
+
+"Cosi` compirai il tuo destino."
 %E
 #
 #	Rogue (with apologies to all Norsk speakers -dean)
