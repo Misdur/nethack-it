@@ -3435,7 +3435,8 @@ volta non sara` cosi`."
 "Tra te e tua cugina, Medusa e` la piu` bella."
 %E
 %Cp - 00045
-"Methinks thou wert unnaturally stirred by yon corpse back there, eh, varlet?"
+"A mio parere sei rimasto un po` scioccato da quel cadavere laggiu`,
+eh, servo?"
 %E
 %Cp - 00046
 "Up thy nose with a rubber hose!"
