@@ -2392,62 +2392,59 @@ abilita` di %Ra per sconfiggere %n. Vai e cerca i maestri. Apprendi
 cio` che loro hanno imparato. Quando sarai pronto, ritorna da me."
 %E
 %Cc Sam 00020
-"%p-san, faresti meglio ad aderire al kyokaku."
+"%p-san, faresti meglio ad aderire al kyokaku.
 
-"Possiedi le abilita`, ma fin quando non sarai in grado di richiamare il
-bushido e come e quando usarlo tu non sarai un samurai."
-"You have skills, but until you can call upon the bushido to know when and
-how to use them you are not samurai.  When you can think %a and
-act %a then return."
+"Possiedi le abilita`, ma fin quando non sarai in grado di invocare il
+bushido per sapere come e quando usarle tu non sarai un
+samurai. Ritorna quando saprai pensare %a e agire %a."
 %E
 %Cc Sam 00021
-"Domo %p-san, indeed you are ready.  I can now tell you what
-it is that I require of you.
+"Domo %p-san, sei davvero pronto. Ti diro` perche` ho bisogno di te. "
 
-"The daimyo, %n, has betrayed us.  He has stolen from us
-%o and taken it to his donjon deep within
-%i.
+"Il daimyo, %n, ci ha traditi. Ci ha rubato %o e l'ha portato nel suo
+profondo donjon in %i.
 
-"If I cannot show the emperor %o when he comes
-for the festival he will know that I have failed in my duty, and
-request that I commit seppuku.
+"Se non posso mostrare %o all'imperatore quando sara` tornato dalla
+cerimonia egli sapra` che ho fallito il mio compito, e mi ordinera` di
+commettere seppuku.
 
-"You must gain entrance to %i and retrieve the
-emperor's property.  Be quick!  The emperor will be here for the
-cha-no-you in 5 sticks.
+"E` necessario ottenere l'ingresso a %i e recuperare la proprieta`
+dell'imperatore. Fai presto! L'imperatore sara` qui per la cha-no-you
+in 5 bacchette."
 
 "Wakarimasu?"
 %E
 %Cp Sam 00025
-"To defeat %n you must overcome the seven emotions:
-hate, adoration, joy, anxiety, anger, grief, and fear."
+"Per sconfiggere %n devi possedere le sette emozoni:
+odio, adorazione, gioia, ansia, rabbia, dolore e paura."
 %E
 %Cp Sam 00026
-"Remember your honor is my honor, you perform in my name."
+"Ricorda, il tuo onore e` il mio onore, opera nel mio nome."
 %E
 %Cp Sam 00027
-"I will go to the temple and burn incense for your safe return."
+"Voglio andare al tempio e accendere incenso perche` tu possa
+ritornare sano e salvo."
 %E
 %Cp Sam 00028
 "Sayonara."
 %E
 %Cp Sam 00029
-"There can be honor in defeat, but no gain."
+"Ci puo` essere onore nella sconfitta, ma non guadagno."
 %E
 %Cp Sam 00030
-"Your kami must be strong in order to succeed."
+"Il tuo kami deve essere forte per avere successo."
 %E
 %Cp Sam 00031
-"You are indeed a worthy %R, but now you must be a worthy samurai."
+"Sei davvero un degno %R, ma ora e` necessario essere un degno samurai."
 %E
 %Cp Sam 00032
-"If you fail, %n will be like a tai-fun on the land."
+"Se fallisci, %n sara` come un tai-fun sulla terra."
 %E
 %Cp Sam 00033
-"If you are truly %a, %d will listen."
+"Se siete veramente %a, %d vi ascoltera`."
 %E
 %Cp Sam 00034
-"Sharpen your swords and your wits for the task before you."
+"Affila la tua spada e la tua intelligenza per il compito che ti attende."
 %E
 %Cc Sam 00035
 You instinctively reach for your swords.  You do not recognize the
