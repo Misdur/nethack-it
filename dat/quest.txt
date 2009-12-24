@@ -1828,7 +1828,7 @@ che entri in %H.
 "%lC cresce debole. La magia necessaria per didendere il bosco sfinisce."
 %E
 %Cp Ran 00008
-"Ricorda e` difficil entrare in %i. Attenzione
+"Ricorda e` difficile entrare in %i. Attenzione
 alle distrazioni di leatherwings."
 %E
 %Cp Ran 00009
