@@ -2467,11 +2467,11 @@ Come arrivi ancora una volta a casa di %n, i tuoi pensieri si dirigono
 solo verso %o.
 %E
 %Cc Sam 00050
-"Ah, quindi sei tu, %p-san. Ti offro seppuku. Potrei essere il tuo
-secondo se tu me lo permetti."
+"Ah, quindi sei tu, %p-san. Ti offro il seppuku. Potrei aiutarti se me
+lo vuoi."
 %E
 %Cp Sam 00051
-"Ti ho offerto una onorevole uscita. Ora avro` la tua testa da plebeo
+"Ti ho offerto una onorevole uscita. Ora avro` la tua testa sporca
 da inviare a %l."
 %E
 %Cp Sam 00052
@@ -2491,7 +2491,7 @@ grado di riportare %o a %H."
 "Lo sai che non posso riporre la mia spada non prima che loro abbiano ucciso."
 %E
 %Cp Sam 00063
-"La tua sola presenza peggiora il disonore di %l a non venire egl stesso."
+"La tua sola presenza peggiora il disonore di %l a non venire egli stesso."
 %E
 %Cp Sam 00064
 "Faro` il tea con tuoi capelli e lo serviro` ad %l."
@@ -2506,8 +2506,8 @@ grado di riportare %o a %H."
 "Se non mi obbedisci, morirai."
 %E
 %Cp Sam 00068
-"Ora inginocchiati e fai due tagli d'onore. Ti diro` il tuo %sp
-per la tua morte onorevole."
+"Ora inginocchiati e infliggiti due tagli d'onore. Ti diro` il tuo %sp
+della tua onorabile morte."
 %E
 %Cp Sam 00069
 "Il tuo maestro e` uno scarso insegnante. Pagherai per i suoi errori
@@ -2523,7 +2523,7 @@ Le tue abilita` guaritrici ti dicono che le ferite di %ns sono mortali.
 
 Sai che il bushido ti dice che devi finirlo e lasciare che il suo kami
 muoia con onore, ma pensi alla moltitudine di samurai che sono morti
-disonorati da quest'uomo ti impedsce di dare il colpo finale. 
+disonorati da quest'uomo e cio` ti impedsce di dare il colpo finale. 
 
 Ordini che la sua testa sia data in pasto ai corvi e il suo corpo
 gettato in mare.
@@ -2531,42 +2531,38 @@ gettato in mare.
 %Cc Sam 00081
 Come ti inchini di fronte a %l, egli ti da` il benvenuto:
     
-    Hai portato grande onore alla ta famiglia, %p-sama.  
+    Hai portato grande onore alla tua famiglia, %p-sama.  
 
-    Quando sei andato via, i condiglieri dell'imperatore hanno
-    scoperto, nei test antichi, che il karma dei samurai che cerca di
-    recuperare l'Amuleto e il karma di %o sono legati tra loro come le
-    stagioni che si uniscono per formare un anno. 
+    Quando sei andato via, i consiglieri dell'imperatore hanno
+    scoperto, nei testi antichi, che il karma dei samurai, che cerca di
+    recuperare l'Amuleto, e il karma di %o sono legati tra loro come le
+    stagioni si uniscono per formare un anno. 
     
     Dato che hai dimostrato la tua immensa fedelta`, l'imperatore ti
-    ordina che metti da parte tutti i tuoi impegni presi
-    Because you have shown such fidelity, the emperor requests
-    that you take leave of other obligations and continue on the
-    road that fate has set your feet upon.  I would consider it
-    an honor if you would allow me to watch your household until
-    you return with the amulet.
+    ordina che metti da parte tutti i tuoi impegni presi e continui la
+    strada che il destino ti ha riservato. Sarebbe un onore per me
+    se potessi proteggere la tua famigli fino a quando non riporterai
+    l'Amuleto.
 
-With that, %l bows, and places his sword atop
-%o.
+Con questo, %l si inchina, e ripone la sua spada in cima %o.    
 %E
 %Cc Sam 00082
-%l holds %o tightly for a moment, then returns
-his gaze to you.
+%l stringe saldamente %o per un momento, poi il suo sguardo torna su te.
 
-"The time is ripe to recover the Amulet.  Return to %Z
-through the magic portal that transported you here so that you may
-achieve the destiny which awaits you."
+"Il tempo di recuperare l'Amuleto e` venuto. Riportalo a %Z
+attraversando il portale magico che ti ha trasportato fin qui per
+realizzare il destino che ti aspetta."
 %E
 %Cp Sam 00090
-%lC bows.  "%p-sama, tell us of your search for the Amulet."
+%lC si inchina. "%p-sama, dimmi della tua ricerca dell'Amuleto."
 %E
 %Cc Sam 00091
-"Ah, %p-sama.  You have wasted your efforts returning home.
-Now that you are in possession of the Amulet, you are honor-bound to
-finish the quest you have undertaken.  There will be plenty of time
-for saki and stories when you have finished.
+"Ah, %p-sama. Hai sprecato le tue ultime forze per tornare a casa. Ora
+sei tu il possessore dell'Amuleto, sei obbligato dal tuo onore a
+completare l'impresa che tu hai cominciato. Ci sara` un sacco di tempo
+per il saki e per le storie quando avrei finito.
 
-"Go now, and may our prayers be a wind at your back."
+"Vai ora, e le nostre preghiere saranno un vento che ti riporteranno indietro."
 %E
 #
 #	Tourist
