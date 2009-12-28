@@ -2560,7 +2560,7 @@ realizzare il destino che ti aspetta."
 "Ah, %p-sama. Hai sprecato le tue ultime forze per tornare a casa. Ora
 sei tu il possessore dell'Amuleto, sei obbligato dal tuo onore a
 completare l'impresa che tu hai cominciato. Ci sara` un sacco di tempo
-per il saki e per le storie quando avrei finito.
+per il saki e per le storie quando avrai finito.
 
 "Vai ora, e le nostre preghiere saranno un vento che ti riporteranno indietro."
 %E
