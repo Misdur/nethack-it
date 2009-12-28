@@ -2447,98 +2447,99 @@ ritornare sano e salvo."
 "Affila la tua spada e la tua intelligenza per il compito che ti attende."
 %E
 %Cc Sam 00035
-You instinctively reach for your swords.  You do not recognize the
-lay of this land, but you know that your teki are everywhere.
+Istintivamente impugni la tua spada. Non riesci a riconoscere la
+configurazione di questa terra, ma sai che il suo teki e` ovunque. 
 %E
 %Cp Sam 00036
-Thankful that your %sp at %H cannot see
-your fear, you prepare again to advance.
+Grazie al tuo %sp a %H non puo` vedere la tua paura, ti prepari per
+avanzare di nuovo.
 %E
 %Cc Sam 00040
-In your mind, you hear the taunts of %n.
+Senti le beffe di %n, nella tua testa.
 
-You become like the rice plant and bend to the ground, offering a
-prayer to %d.  But when the wind has passed, you stand
-proudly again.  Putting your kami in the hands of fate, you advance.
+Diventi come una pianta di riso piegata a terra, offrendo una preghiera a
+%d. Quando il vento e` passato, ti rialzi con un nuovo
+orgoglio. Riponi il tuo kami nelle mani del destino, e continui per la
+tua strada.
 %E
 %Cp Sam 00041
-As you arrive once again at the home of %n, your thoughts
-turn only to %o.
+Come arrivi ancora una volta a casa di %n, i tuoi pensieri si dirigono
+solo verso %o.
 %E
 %Cc Sam 00050
-"Ah, so it is to be you, %p-san.  I offer you seppuku.
-I will be your second if you wish."
+"Ah, quindi sei tu, %p-san. Ti offro seppuku. Potrei essere il tuo
+secondo se tu me lo permetti."
 %E
 %Cp Sam 00051
-"I have offered you the honorable exit.  Now I will have your
-head to send unwashed to %l."
+"Ti ho offerto una onorevole uscita. Ora avro` la tua testa da plebeo
+da inviare a %l."
 %E
 %Cp Sam 00052
-"After I have dispatched you, I will curse your kami."
+"Dopo essermi sbarazzato di te, malediro` il tuo kami."
 %E
 %Cp Sam 00053
-"You have fought my samurai; surely you must know that you
-will not be able to take %o back to
-%H."
+"Hai combattuto mio samurai; certamente saprai che non sarai piu` in
+grado di riportare %o a %H."
 %E
 %Cp Sam 00060
-"Ahh, I finally meet the daimyo of the kyokaku!"
+"Ahh, finalmete conosco il daymo del kyokaku!"
 %E
 %Cp Sam 00061
-"There is no honor for me in your death."
+"Non c'e` onore per me nella tua morte."
 %E
 %Cp Sam 00062
-"You know that I cannot resash my swords until they have killed."
+"Lo sai che non posso riporre la mia spada non prima che loro abbiano ucciso."
 %E
 %Cp Sam 00063
-"Your presence only compounds the dishonor of %l in not coming himself."
+"La tua sola presenza peggiora il disonore di %l a non venire egl stesso."
 %E
 %Cp Sam 00064
-"I will make tea with your hair and serve it to %l."
+"Faro` il tea con tuoi capelli e lo serviro` ad %l."
 %E
 %Cp Sam 00065
-"Your fear shows in your eyes, coward!"
+"I tuoi occhi mostrano la tua paura, vigliacco!"
 %E
 %Cp Sam 00066
-"I have not heard of you, %p-san; has your life been that unworthy?"
+"Non ho sentito parlare di te, %p-san; la tua vita e` stata cosi` ignobile?"
 %E
 %Cp Sam 00067
-"If you will not obey me, you will die."
+"Se non mi obbedisci, morirai."
 %E
 %Cp Sam 00068
-"Kneel now and make the two cuts of honor.  I will tell your %sp
-of your honorable death."
+"Ora inginocchiati e fai due tagli d'onore. Ti diro` il tuo %sp
+per la tua morte onorevole."
 %E
 %Cp Sam 00069
-"Your master was a poor teacher.  You will pay for his mistakes in
-your teaching."
+"Il tuo maestro e` uno scarso insegnante. Pagherai per i suoi errori
+di insegnamento. "
 %E
 %Cc Sam 00070
-As you pick up %o, you feel the strength of its karma.
-You realize at once why so many good samurai had to die to defend it.
-You are humbled knowing that you hold one of the artifacts of the
-sun goddess.
+Come noti %o, senti la forza del suo karma. Ti rendi conto, allora,
+perche` sono morti tanti buoni samurai per difenderlo. Ti sei umiliato
+sapendo che sei in possesso di uno degli artefatti della Dea del Sole.
 %E
 %Cc Sam 00080
-Your healing skills tell you that %ns wounds are mortal.
+Le tue abilita` guaritrici ti dicono che le ferite di %ns sono mortali.
 
-You know that the bushido tells you to finish him and let his kami
-die with honor, but the thought of so many samurai dead due to this
-man's dishonor prevents you from giving the final blow.
+Sai che il bushido ti dice che devi finirlo e lasciare che il suo kami
+muoia con onore, ma pensi alla moltitudine di samurai che sono morti
+disonorati da quest'uomo ti impedsce di dare il colpo finale. 
 
-You order that his unwashed head be given to the crows and his body
-thrown into the sea.
+Ordini che la sua testa sia data in pasto ai corvi e il suo corpo
+gettato in mare.
 %E
 %Cc Sam 00081
-As you bow before %l, he welcomes you:
+Come ti inchini di fronte a %l, egli ti da` il benvenuto:
+    
+    Hai portato grande onore alla ta famiglia, %p-sama.  
 
-    You have brought your family great honor, %p-sama.
-
-    While you have been gone the emperor's advisors have discovered in
-    the ancient texts that the karma of the samurai who seeks to recover
-    the amulet and the karma of %o are joined
-    as the seasons join to make a year.
-
+    Quando sei andato via, i condiglieri dell'imperatore hanno
+    scoperto, nei test antichi, che il karma dei samurai che cerca di
+    recuperare l'Amuleto e il karma di %o sono legati tra loro come le
+    stagioni che si uniscono per formare un anno. 
+    
+    Dato che hai dimostrato la tua immensa fedelta`, l'imperatore ti
+    ordina che metti da parte tutti i tuoi impegni presi
     Because you have shown such fidelity, the emperor requests
     that you take leave of other obligations and continue on the
     road that fate has set your feet upon.  I would consider it
