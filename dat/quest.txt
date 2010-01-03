@@ -2888,58 +2888,60 @@ Vai via da qui e non fare piu` ritorno. Tutti sanno che non potrai
 mai farcela in questa vita e Valhalla ti e` proibita.
 %E
 %Cc Val 00019
-"I see you and %n fighting, %p.  But you are not prepared and
-shall die at %ns hand if you proceed.  No.  This will not do.
-Go back out into the world, and grow more experienced at the ways of
-war.  Only when you have returned %Ra will you be able to defeat
-%n."
+"Ho vedo te e %n combattere, %p. Ma non sei preparato e
+morirai sotto i colpi di %n se prosegui. No. Non accadra`.
+Ricomincia a girare il mondo e accresci la tua esperienza
+nell'arte della guerra. Solo quando sarai tornato %Ra saria
+in grado di sconfiggere %n."
 %E
 %Cc Val 00020
-"NO!  This is terrible.  I see you becoming an ally of %n, and
-leading his armies in the final great battles.  This must not come to
-pass!  You have strayed from the %a path.  You must purge yourself,
-and return here only when you have regained a state of purity."
+"NO! E` terribile. Vedo te che diventi un alleato di %n e
+che guidi i suoi eserciti nella grande battaglia finale.
+Cio` non deve avverarsi! Sei uscito dal sentiero %a.
+Devi purificarti e ritornare qui solo quando avrai
+riguadagnato il tuo stato di purezza."
 %E
 %Cc Val 00021
-"It is not clear, %p, for my sight is limited without
-%o.  But it is now likely that you can defeat %n,
-and recover %o.
+"Non e` chiaro, %p. La mia visione e` limitata senza %o."
+Ma ora e` probabile che tu possa sconfiggere %n e
+recuperare %o.
 
-"A short time ago, %n and his minions attacked this place.  They
-opened the huge volcanic vents you %x about the hill, and attacked.
-I knew that this was to come to pass, and had asked %d for a group
-of %gP to help defend this place.  The few you %x here are the
-mightiest of Valhalla's own, and are all that are left of one hundred
-%d sent.
+"Non molto tempo fa, %n e i suoi tirapiedi attaccarono questo
+posto. Aprirono le enormi voragini vulcaniche che tu %x nella
+collina e attaccarono."
+Sapevo che sarebbe accaduto e chiesi ad %d un gruppo di %gP
+per aiutarci a difendere questo luogo. Voi pochi %x qui siete
+i piu` potenti di Valhalla e siente gli unici rimasti dei
+cento che %d invio`.
 
-"Despite the great and glorious battle we fought, %n managed at last
-to steal %o.  This has upset the balance of the universe, and
-unless %o is returned into my care, %n may start Ragnarok.
+"Nonostante la grande e gloriosa battaglia che abbiamo combattuto,
+%n alla fine e` riuscito a rubare %o. Cio` ha incrinato l'equilibrio
+dell'universo e se %o non ritorna nelle mie mani, %n puo` dare
+inio al Ragnarok."
 
-"You must find the entrance to %i.  Travel downward
-from there and you will find %ns lair.  Defeat him and
-return %o to me."
+"Devi trovare l'entrata per %i. Scendi da li` e troverai il covo
+di %n. Sconfiggilo e riportami %o."
 %E
 %Cp Val 00025
-"Go with the blessings of %d."
+"Vai con la benedizione di %d."
 %E
 %Cp Val 00026
-"Call upon %d when you are in need."
+"Affidati a %d quando ne avrai bisogno."
 %E
 %Cp Val 00027
-"Use %o if you can.  It will protect you."
+"Usa %o se puoi. Ti potreggera`."
 %E
 %Cp Val 00028
-"Magical cold is very effective against %n."
+"La magia dei ghiacci e` molto efficace contro %n."
 %E
 %Cp Val 00029
-"To face %n, you will need to be immune to fire."
+"Per affrontare %n, dovrai essere immune al fuoco."
 %E
 %Cp Val 00030
-"May %d strengthen your sword-arm."
+"Possa %d rafforzare il tuo graccio armato."
 %E
 %Cp Val 00031
-"Trust in %d.  He will not desert you."
+"Fidati di %d. Non ti abbandonera`."
 %E
 %Cp Val 00032
 "It becomes more likely that Ragnarok will come with every passing moment.
