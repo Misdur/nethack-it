@@ -2853,39 +2853,39 @@ volta che verrai qui.
 ma %d me lo proibisce."
 %E
 %Cp Val 00010
-"Hail, and well met, brave %c."
+"Salve, e benvenuto, impavido $c"
 %E
 %Cp Val 00011
-"May %d guide your steps, %p."
+"Possa %d guidare i tuoi passi, %p."
 %E
 %Cp Val 00012
-"%lC told us you had succeeded!"
+"%lC ci ha detto che hai avuto successo!"
 %E
 %Cp Val 00013
-"You recovered %o just in time, %p."
+"Hai recuperato %o appena in tempo, %p."
 %E
 %Cp Val 00014
-"Hail %d, for delivering %o back to us."
+"Grazie %d, per averci riportato %o."
 %E
 %Cc Val 00015
-"Ah, %p, my %S.  You have returned to %H
-at last.  We are in dire need of your aid, but I must determine if you
-are yet ready for such an undertaking.
+"Oh, %p, mio %S. Alla fine sei tornato a %H."
+Abbiamo terribilmente bisogno del tuo aiuto, ma devo prima capire
+se sei pronto per una tale impresa.
 
-"Let me read your fate..."
+"Lasciami leggere il tuo destino..."
 %E
 %Cp Val 00016
-"Let me read the future for you now, %p, perhaps you have managed to
-change it enough..."
+"Lasciami leggere il tuo futuro, %p, forse sarai in grado di cambiarlo
+quanto basta..."
 %E
 %Cp Val 00017
-"Again, I shall read your fate, my %S.  Let us both hope that you have
-made changes to become ready for this task..."
+"Leggero` il tuo destino ancora una volta, mio %S. Speriamo che tu
+sia cambiato abbastanza per essere pronto per questo compito..."
 %E
 %Cc Val 00018
-"No, %p.  Your fate is sealed.  I must cast about for another
-champion.  Begone from my presence, and never return.  Know this, that
-you shall never succeed in this life, and Valhalla is denied to you."
+"No, %p. Il tuo destino segnato. Devo optare per un altro vincitore."
+Vai via da qui e non fare piu` ritorno. Tutti sanno che non potrai
+mai farcela in questa vita e Valhalla ti e` proibita.
 %E
 %Cc Val 00019
 "I see you and %n fighting, %p.  But you are not prepared and
