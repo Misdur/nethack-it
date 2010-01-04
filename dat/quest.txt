@@ -2568,9 +2568,13 @@ per il saki e per le storie quando avrai finito.
 #	Tourist
 #
 %Cc Tou 00001
-You breathe a sigh of relief as you find yourself back in the familiar
-surroundings of %H.
+Tiri un sospiro di sollievo quando quando ritorni dai tuoi familiari
+nei dintorni di %H.
 
+Ti accorgi subito che le cose non sono come le hai laciate quando te
+me sei andato. La citta` e` oscura e silenziosa. Non ci sono rumori
+che provengono da dietro le mura della citta`, e nessun falo` che
+brucia nei campi.  
 You quickly notice that things do not appear the way they did when you
 left.  The town is dark and quiet.  There are no sounds coming from
 behind the town walls, and no campfires burning in the fields.  As a
