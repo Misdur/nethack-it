@@ -2318,7 +2318,7 @@ show you what to do with it.  Once that's done, we will be invincible!"
 #	Samurai
 #
 %Cc Sam 00001
-Anora prima che i tuoi sensi s adattino, riconosci il kami di %H.
+Ancora prima che i tuoi sensi si adattino, riconosci il kami di %H.
 
 "Tu %x lo stendardo del tuo teki, %n, sorvola la citta`. Come puo`
 essere successa una cosa del genere? Perche` i ninja vagano liberi;
@@ -2822,244 +2822,250 @@ be spoken by the %gP with awe.  You are truly an inspiration to your
 #	Valkyrie
 #
 %Cc Val 00001
-You materialize at the base of a snowy hill.  Atop the hill sits
-a place you know well, %H.  You immediately realize
-that something here is very wrong!
+Ti materializzi alla baste di una collina innevata. In cima alla
+collina giace un luogo a te be noto, %H. Immediatamente capisci
+che qualcosa non va!
 
-In places, the snow and ice have been melted into steaming pools of
-water.  Fumaroles and pools of bubbling lava surround the hill.
-The stench of sulphur is carried through the air, and you %x creatures
-that should not be able to live in this environment moving towards you.
+La neve ed il ghiaccio sono stati fusi in pozze di acqua fumante.
+Fumarole e pozze di lava gorgogliante circondano la collina.
+
+Il fetore di zolfo si sparge nell'aria, e tu %x creature che non
+dovrebbero vivere in questo ambiente avanzare verso di te.
 %E
 %Cp Val 00002
-Once again, you are near the abode of %l.
+Ancora una volta, sei nei pressi della dimora di %l.
 %E
 %Cp Val 00003
-Again you materialize near %ls abode.  You have a nagging feeling
-that this may be the last time you come here.
+Ti materializzi nuovamente nei pressi della dimora di %l.
+Hai la fastidiosa sensazione che questa possa essere l'ultima
+volta che verrai qui.
 %E
 %Cp Val 00005
-"Hail, and well met, brave %c."
+"Salve, e benvenuto, impavido $c"
 %E
 %Cp Val 00006
-"May %d guide your steps, %p."
+"Possa %d guidare i tuoi passi, %p."
 %E
 %Cp Val 00007
-"%lC weakens.  Without %o, her foresight is dim."
+"%lC si indebolisce. Senza %o, la sua preveggenza e` offuscata."
 %E
 %Cp Val 00008
-"You must hurry, %p, else Ragnarok may well come."
+"Devi fare in fretta, %p, anche Ragnarok puo` arrivare."
 %E
 %Cp Val 00009
-"I would deal with this foul %n myself, but %d forbids it."
+"Mi accorderei personalmente con questo schifoso %n,
+ma %d me lo proibisce."
 %E
 %Cp Val 00010
-"Hail, and well met, brave %c."
+"Salve, e benvenuto, impavido $c"
 %E
 %Cp Val 00011
-"May %d guide your steps, %p."
+"Possa %d guidare i tuoi passi, %p."
 %E
 %Cp Val 00012
-"%lC told us you had succeeded!"
+"%lC ci ha detto che hai avuto successo!"
 %E
 %Cp Val 00013
-"You recovered %o just in time, %p."
+"Hai recuperato %o appena in tempo, %p."
 %E
 %Cp Val 00014
-"Hail %d, for delivering %o back to us."
+"Grazie %d, per averci riportato %o."
 %E
 %Cc Val 00015
-"Ah, %p, my %S.  You have returned to %H
-at last.  We are in dire need of your aid, but I must determine if you
-are yet ready for such an undertaking.
+"Oh, %p, mio %S. Alla fine sei tornato a %H."
+Abbiamo terribilmente bisogno del tuo aiuto, ma devo prima capire
+se sei pronto per una tale impresa.
 
-"Let me read your fate..."
+"Lasciami leggere il tuo destino..."
 %E
 %Cp Val 00016
-"Let me read the future for you now, %p, perhaps you have managed to
-change it enough..."
+"Lasciami leggere il tuo futuro, %p, forse sarai in grado di cambiarlo
+quanto basta..."
 %E
 %Cp Val 00017
-"Again, I shall read your fate, my %S.  Let us both hope that you have
-made changes to become ready for this task..."
+"Leggero` il tuo destino ancora una volta, mio %S. Speriamo che tu
+sia cambiato abbastanza per essere pronto per questo compito..."
 %E
 %Cc Val 00018
-"No, %p.  Your fate is sealed.  I must cast about for another
-champion.  Begone from my presence, and never return.  Know this, that
-you shall never succeed in this life, and Valhalla is denied to you."
+"No, %p. Il tuo destino segnato. Devo optare per un altro vincitore."
+Vai via da qui e non fare piu` ritorno. Tutti sanno che non potrai
+mai farcela in questa vita e Valhalla ti e` proibita.
 %E
 %Cc Val 00019
-"I see you and %n fighting, %p.  But you are not prepared and
-shall die at %ns hand if you proceed.  No.  This will not do.
-Go back out into the world, and grow more experienced at the ways of
-war.  Only when you have returned %Ra will you be able to defeat
-%n."
+"Ho vedo te e %n combattere, %p. Ma non sei preparato e
+morirai sotto i colpi di %n se prosegui. No. Non accadra`.
+Ricomincia a girare il mondo e accresci la tua esperienza
+nell'arte della guerra. Solo quando sarai tornato %Ra saria
+in grado di sconfiggere %n."
 %E
 %Cc Val 00020
-"NO!  This is terrible.  I see you becoming an ally of %n, and
-leading his armies in the final great battles.  This must not come to
-pass!  You have strayed from the %a path.  You must purge yourself,
-and return here only when you have regained a state of purity."
+"NO! E` terribile. Vedo te che diventi un alleato di %n e
+che guidi i suoi eserciti nella grande battaglia finale.
+Cio` non deve avverarsi! Sei uscito dal sentiero %a.
+Devi purificarti e ritornare qui solo quando avrai
+riguadagnato il tuo stato di purezza."
 %E
 %Cc Val 00021
-"It is not clear, %p, for my sight is limited without
-%o.  But it is now likely that you can defeat %n,
-and recover %o.
+"Non e` chiaro, %p. La mia visione e` limitata senza %o."
+Ma ora e` probabile che tu possa sconfiggere %n e
+recuperare %o.
 
-"A short time ago, %n and his minions attacked this place.  They
-opened the huge volcanic vents you %x about the hill, and attacked.
-I knew that this was to come to pass, and had asked %d for a group
-of %gP to help defend this place.  The few you %x here are the
-mightiest of Valhalla's own, and are all that are left of one hundred
-%d sent.
+"Non molto tempo fa, %n e i suoi tirapiedi attaccarono questo
+posto. Aprirono le enormi voragini vulcaniche che tu %x nella
+collina e attaccarono."
+Sapevo che sarebbe accaduto e chiesi ad %d un gruppo di %gP
+per aiutarci a difendere questo luogo. Voi pochi %x qui siete
+i piu` potenti di Valhalla e siente gli unici rimasti dei
+cento che %d invio`.
 
-"Despite the great and glorious battle we fought, %n managed at last
-to steal %o.  This has upset the balance of the universe, and
-unless %o is returned into my care, %n may start Ragnarok.
+"Nonostante la grande e gloriosa battaglia che abbiamo combattuto,
+%n alla fine e` riuscito a rubare %o. Cio` ha incrinato l'equilibrio
+dell'universo e se %o non ritorna nelle mie mani, %n puo` dare
+inio al Ragnarok."
 
-"You must find the entrance to %i.  Travel downward
-from there and you will find %ns lair.  Defeat him and
-return %o to me."
+"Devi trovare l'entrata per %i. Scendi da li` e troverai il covo
+di %n. Sconfiggilo e riportami %o."
 %E
 %Cp Val 00025
-"Go with the blessings of %d."
+"Vai con la benedizione di %d."
 %E
 %Cp Val 00026
-"Call upon %d when you are in need."
+"Affidati a %d quando ne avrai bisogno."
 %E
 %Cp Val 00027
-"Use %o if you can.  It will protect you."
+"Usa %o se puoi. Ti potreggera`."
 %E
 %Cp Val 00028
-"Magical cold is very effective against %n."
+"La magia dei ghiacci e` molto efficace contro %n."
 %E
 %Cp Val 00029
-"To face %n, you will need to be immune to fire."
+"Per affrontare %n, dovrai essere immune al fuoco."
 %E
 %Cp Val 00030
-"May %d strengthen your sword-arm."
+"Possa %d rafforzare il tuo graccio armato."
 %E
 %Cp Val 00031
-"Trust in %d.  He will not desert you."
+"Fidati di %d. Non ti abbandonera`."
 %E
 %Cp Val 00032
-"It becomes more likely that Ragnarok will come with every passing moment.
-You must hurry, %p."
+"Il Ragnarok potrebbe arrivare da un momento all'altro.
+Devi fare in fretta, %p."
 %E
 %Cp Val 00033
-"If %n can master %o, he will be powerful enough to
-face %d far earlier than is fated.  This must not be!"
+"Se %n puo` controllare %o, sara` sufficientemente potente
+da affrontare %d prima del previsto. Non deve accadere!"
 %E
 %Cp Val 00034
-"Remember your training, %p.  You can succeed."
+"Ricorda il tuo addestramento, %p. Fuoi farcela."
 %E
 %Cc Val 00035
-The ice and snow gives way to a valley floor.  You %x ahead of you
-a huge round hill surrounded by pools of lava.  This then is the entrance
-to %i.  It looks like you're not going to get in without
-a fight though.
+Il ghiaccio e la neve fanno spazio alla vallata. Tu %x davanti a
+te una enorme collina circondata da bacini di lava. Questa e`
+l'entrata per %i. Sembra proprio che dovrai lottare per accedere.
 %E
 %Cp Val 00036
-Once again, you stand before the entrance to %i.
+Sei di nuovo dinanzi l'entradata per %i.
 %E
 %Cc Val 00040
-Through clouds of sulphurous gasses, you %x a rock palisade
-surrounded with a moat of bubbling lava.  You remember the description
-from something that %l said.  This is the lair of %n.
+Attraverso nuvole di gas sulfurei, tu %x una palizzata di roccia
+circondata da un fossato di lava gorgogliante. Ricordi la sua
+descrizione accennatati da %l. E` il covo di %n.
 %E
 %Cp Val 00041
-Once again, you stand in sight of %ns lair.
+Sei di nuovo dinanzi al covo di %n.
 %E
 %Cc Val 00050
-"So!  %lC has finally sent %ca to challenge me!
+"Allora! %lC ha finalmente inviato %ca a sfidarmi!"
 
-"I thought that mastering %o would enable me to challenge %d,
-but it has shown me that first I must kill you!
-So come, little %s.  Once I defeat you, I can at last begin
-the final battle with %d."
+"Pensavo che possedendo %o sarei stato in grado di
+sfidare %d, ho scoperto che prima devo uccidere te!"
+Fatti sotto, piccolo %s. Una volta che ti avro` sconfitto,
+potro` finalmente iniziare la battaglia finale contro %d.
 %E
 %Cp Val 00051
-"Again you challenge me, %r.  Good.  I will kill you now."
+"Mi sfidi ancora, %r. Bene. Questa volta ti uccidero`."
 %E
 %Cp Val 00052
-"Have you not learned yet?  You cannot defeat %n!"
+"Ancora non hai imparato la lezione? Non puoi sconfiggere %n!"
 %E
 %Cp Val 00053
-"I will kill you, %c, and wrest %o from your mangled hands."
+"Ti uccidero`, %c, e strappero` %o dalle tue folli mani."
 %E
 %Cp Val 00060
-"I am your death, %c."
+"Saro` la tua morte, %c."
 %E
 %Cp Val 00061
-"You cannot prevail, %r.  I have foreseen your every move."
+"Non riuscirai a sopraffarmi, %r. Ho previsto ogni tua mossa."
 %E
 %Cp Val 00062
-"With you out of the way, Valhalla will be mine for the taking."
+"Con te fuori gioco, Valhalla sara` mia."
 %E
 %Cp Val 00063
-"I killed scores of %ds best when I took %o.
-Do you really think that one %c can stand against me?"
+"Ho ucciso i migliori di %d quando ho preso %o."
+Credi veramente che un %c possa farmi paura?"
 %E
 %Cp Val 00064
-"Who bears the souls of %cP to Valhalla, %r?"
+"Chi genera le anime dei %cP di Valhalla, %r?"
 %E
 %Cp Val 00065
-"No, %d cannot help you here."
+"No, %d non puo` aiutasti."
 %E
 %Cp Val 00066
-"Some instrument of %d you are, %p.  You are a weakling!"
+"Sei uno strumento di %d, %p. Sei un debole!"
 %E
 %Cp Val 00067
-"Never have I seen %ca so clumsy in battle."
+"Non ho mai visto %ca cosi` goffo in battaglia."
 %E
 %Cp Val 00068
-"You die now, little %s."
+"Muori, piccolo %s."
 %E
 %Cp Val 00069
-"Your body I destroy now, your soul when my hordes overrun Valhalla!"
+"Faro` a pezzi il tuo corpo ora e la tua anima quando le mie
+orde invaderanno Valhalla!"
 %E
 %Cc Val 00070
-As you pick up %o, your mind is suddenly filled with images,
-and you perceive all of the possibilities of each potential choice you
-could make.  As you begin to control and channel your thoughts, you
-realize that you must return %o to %lC immediately.
+Appena sollevi %o, la tua mente e` improvvisamente invasa
+da immagini e percepisci tutte le possibilita` di ogni potenziale
+scelta che puoi fare. Appena riprendi il controllo dei tuoi pensieri,
+realizzi che devi riportare %o a %lC immediatamente.
 %E
 %Cc Val 00080
-A look of surprise and horror appears on %ns face.
+Sorpresa e terrore appaioso sul volto di %n.
 
-    No!!!  %o has lied to me!  I have been misled!
+    No!!!  %o mi ha mentito!  Sono stato raggirato!
 
-Suddenly, %n grasps his head and screams in agony, then dies.
+Improvvisamente, %n afferra la sua testa e urla di dolore,
+agonizzante, prima di morire.
 %E
 %Cc Val 00081
-As you approach, %lC rises and touches %o.
+Mentre di avvicini, %lC si alza e tocca %o.
 
-"You may take %o with you, %p.  I have removed from
-it the power to foretell the future, for that power no mortal should
-have.  Its other abilities, however, you have at your disposal.
+"Puoi portare %o con te, %p. L'ho privato del potere di predire
+il futuro. Nessun mortale dovrebbe avere quel potere. Puoi comunque
+usare le sue altre abilita`."
 
-"You must now begin in %ds name to search for the Amulet of Yendor.
-May your steps be guided by %d, my %S."
+"Adesso devi cominciare la ricerca dell'Amuleto di Yendor,
+nel nome di %d. Possano i tuoi passi essere guidate da %d, mio %S."
 %E
 # assumes Orb of Fate (glass object)
 %Cc Val 00082
-"Careful, %p!  %oC might break, and that would be
-a tragic loss.  You are its keeper now, and the time has come to
-resume your search for the Amulet.  %Z await your
-return through the magic portal that brought you here."
+"Attento, %p! %oC potrebbe rompersi e sarebbe una perdita tragica.
+Sei il suo custode adesso ed e` giunto il tempo di riprendere la
+ricerca dell'Amuleto. %Z attende il tuo ritorno attraverso il
+portale magino che ti ha condotto fin qui."
 %E
 %Cp Val 00090
-"Greetings, %p.  I have not been able to pay as much attention to
-your search for the Amulet as I have wished.  How do you fare?"
+"Salve, %p. Non sono riuscito a tenermi aggiornato
+sui progressi della tua ricerca dell'Amuleto. A che punto sei?"
 %E
 %Cc Val 00091
-"Excellent, %p.  I see you have recovered the Amulet!
+"Eccellente, %p. Vedo che hai recuperato l'Amuleto!"
 
-"You must take the Amulet to the Great Temple of %d, on the Astral
-plane.  There you must offer the Amulet to %d.
+"Devi portare l'Amuleto al Grande Tempio di %d, nel Piano Astrale.
+Li` dovrai offrire l'Amuleto a %d."
 
-"Go now, my %S.  I cannot tell you your fate, as the power of the
-Amulet interferes with mine.  I hope for your success."
+"Continua, mio %S. Non posso anticiparti il tuo destino. Il potere
+dell'Amuleto interferisce col mio. Spero che tu ce la faccia."
 %E
 #
 #	Wizard
