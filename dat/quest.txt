@@ -2574,7 +2574,7 @@ nei dintorni di %H.
 Ti accorgi subito che le cose non sono come le hai laciate quando te
 me sei andato. La citta` e` oscura e silenziosa. Non ci sono rumori
 che provengono da dietro le mura della citta`, e nessun falo` che
-brucia nei campi. fatti non si %x nessun movimento nei loro campi, e i
+brucia nei campi. Infatti non si %x nessun movimento nei loro campi, e i
 raccolti sembrano essere stati trascurati per diverse settimane.
 %E
 %Cp Tou 00002
