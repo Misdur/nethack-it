@@ -2574,29 +2574,26 @@ nei dintorni di %H.
 Ti accorgi subito che le cose non sono come le hai laciate quando te
 me sei andato. La citta` e` oscura e silenziosa. Non ci sono rumori
 che provengono da dietro le mura della citta`, e nessun falo` che
-brucia nei campi.  
-You quickly notice that things do not appear the way they did when you
-left.  The town is dark and quiet.  There are no sounds coming from
-behind the town walls, and no campfires burning in the fields.  As a
-matter of fact, you do not %x any movement in the fields at all, and
-the crops look as though they have been untended for many weeks.
+brucia nei campi. fatti non si %x nessun movimento nei loro campi, e i
+raccolti sembrano essere stati trascurati per diverse settimane.
 %E
 %Cp Tou 00002
-Once again, you are back at %H.
+Ancora una volta, sei ritornato a %H.
 %E
 %Cp Tou 00003
-You are back at %H.
-Things appear to have become so bad that you fear that soon
-%H will not be here to return to.
+Sei tornato a %H.
+
+Le cose sembrano essere davvero andate male ad %H che hai paura che
+non si possa tornare piu` indietro.
 %E
 %Cp Tou 00005
-"Gehennom on 5 zorkmids a day -- more like 500 a day if you ask me."
+"Un Gehennom a 5 zorkmids al giorno -- anziche` 500 al giorno se mi chiederai."
 %E
 %Cp Tou 00006
-"Do you know where I could find some nice postcards of The Gnomish Mines?"
+"Sai dove trovare qualche bella cartolina delle Gnomish Mines?"
 %E
 %Cp Tou 00007
-"Have you tried the weird toilets?"
+"Hai provato i bagni bizzarri?"
 %E
 %Cp Tou 00008
 "Don't stay at the Inn, I hear the food is terrible and it has rats."
